@@ -1,0 +1,11 @@
+version: "3"
+services:
+    proxy:
+       build: ./haproxy
+       command: haproxy -f /usr/local/etc/haproxy/haproxy.cfg
+       ports:
+                - "8083:8083"
+ 
+    wsgigateway:
+        build: ./uwsgi
+        command: uwsgi --http :8081 --wsgi-file run.py --callable app --master --processes 2
