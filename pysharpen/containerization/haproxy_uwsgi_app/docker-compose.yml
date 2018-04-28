@@ -4,8 +4,11 @@ services:
        build: ./haproxy
        command: haproxy -f /usr/local/etc/haproxy/haproxy.cfg
        ports:
-                - "8083:8083"
+                - "${HA_PROXY_BIND_PORT}:${HA_PROXY_BIND_PORT}"
  
     wsgigateway:
-        build: ./uwsgi
-        command: uwsgi --http :8081 --wsgi-file run.py --callable app --master --processes 2
+        build: 
+            context: ./uwsgi
+            args:
+                - WSGI_PORT=${WSGI_PORT}
+        command: uwsgi --http :${WSGI_PORT} --wsgi-file run.py --callable app --master --processes 2
