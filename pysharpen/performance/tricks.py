@@ -3,6 +3,7 @@ Different tricks for optimizing performance
 """
 import timeit
 from memory_profiler import memory_usage
+from operator import itemgetter
 # import dis
 
 # Name caching
@@ -10,6 +11,7 @@ from memory_profiler import memory_usage
 numbers = []
 p1 = None
 p2 = None
+tasks = []
 
 
 class config:
@@ -88,6 +90,14 @@ def allocate_points(cls, num):
     return [cls(1, 1) for _ in range(num)]
 
 
+def sort_lambda(tasks):
+    return sorted(tasks, key=lambda t: t[1])
+
+
+def sort_builtin(tasks):
+    return sorted(tasks, key=itemgetter(1))
+
+
 # Functions to test code performance and
 # output results
 def test_normalize():
@@ -147,11 +157,24 @@ def test_slots():
           format(musage_spoint[0],
                  musage_spoint[-1] - musage_spoint[0]))
 
+def test_builtin():
+    global tasks
+    tasks = [("task({0})".format(i), i) for i in range(10000)]
+    print("Sort with lambda: {0}".format(
+        timeit.timeit("sort_lambda(tasks)",
+                      "from __main__ import sort_lambda, tasks",
+                      number=1000)))
+    print("Sort with builtin: {0}".format(
+        timeit.timeit("sort_builtin(tasks)",
+                      "from __main__ import sort_builtin, tasks",
+                      number=1000)))
+ 
 
 if __name__ == "__main__":
     test_normalize()
     test_fix_num()
     test_property_access()
     test_slots()
+    test_builtin()
     # print(dis.dis(normalize))
     # print(dis.dis(normalize_cached))
