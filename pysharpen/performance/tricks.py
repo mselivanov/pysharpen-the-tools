@@ -98,6 +98,14 @@ def sort_builtin(tasks):
     return sorted(tasks, key=itemgetter(1))
 
 
+def alloc_compreh(size):
+    return [0 for _ in range(size)]
+
+
+def alloc_multipl(size):
+    return [0]*size
+
+
 # Functions to test code performance and
 # output results
 def test_normalize():
@@ -157,6 +165,7 @@ def test_slots():
           format(musage_spoint[0],
                  musage_spoint[-1] - musage_spoint[0]))
 
+
 def test_builtin():
     global tasks
     tasks = [("task({0})".format(i), i) for i in range(10000)]
@@ -168,7 +177,23 @@ def test_builtin():
         timeit.timeit("sort_builtin(tasks)",
                       "from __main__ import sort_builtin, tasks",
                       number=1000)))
- 
+
+
+def test_alloc():
+    print("Alloc with comprehensions: {0}".format(
+        timeit.timeit("alloc_compreh(10000)",
+                      "from __main__ import alloc_compreh",
+                      number=100)))
+    print("Alloc with multiplication: {0}".format(
+        timeit.timeit("alloc_multipl(10000)",
+                      "from __main__ import alloc_multipl",
+                      number=100)))
+    print("Alloc with numpy: {0}".format(
+        timeit.timeit("np.zeros(10000)",
+                      "import numpy as np",
+                      number=100)))
+
+
 
 if __name__ == "__main__":
     test_normalize()
@@ -176,5 +201,6 @@ if __name__ == "__main__":
     test_property_access()
     test_slots()
     test_builtin()
+    test_alloc()
     # print(dis.dis(normalize))
     # print(dis.dis(normalize_cached))
