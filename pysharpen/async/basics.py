@@ -16,7 +16,7 @@ def print_exec_time(f):
         start_time = perf_counter_ns()
         result = f(*args, **kwargs)
         duration = perf_counter_ns() - start_time
-        print(f"{f.__name__} executed in {duration} nanos")
+        print(f"{f.__name__} executed in: {duration:15} nanos")
         return result
     return measure_time
 
@@ -39,12 +39,23 @@ def download_flag(country_code):
         save_file(flag, os.path.join(DOWNLOAD_DIR, file_name))
 
 @print_exec_time
-def multiprocess_example(number_flags):
+def multithreaded_example(number_flags):
     with futures.ThreadPoolExecutor(MAX_WORKERS) as executor:
         res = executor.map(download_flag, COUNTRY_CODES[:number_flags])
 
+
+@print_exec_time
+def multiprocess_example(number_flags):
+    to_do = []
+    with futures.ProcessPoolExecutor() as executor:
+        for country_code in COUNTRY_CODES[:number_flags]:
+            future = executor.submit(download_flag, country_code)
+            to_do.append(future)
+        done_iter = futures.as_completed(to_do)
+
 def main():
     single_thread_example(len(COUNTRY_CODES))
+    multithreaded_example(len(COUNTRY_CODES))
     multiprocess_example(len(COUNTRY_CODES))
 
 if __name__ == '__main__':
