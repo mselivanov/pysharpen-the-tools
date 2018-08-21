@@ -1,5 +1,4 @@
 """
-Example of a trie algorithm.
 https://en.wikipedia.org/wiki/Trie
 """
 
@@ -7,16 +6,18 @@ import random
 from time import perf_counter
 from collections import defaultdict
 
+import sys
+
 class Node2:
-    def __init__(self, num_bits)
+    def __init__(self, num_bits):
         self._zero_node = None
         self._one_node = None
         self._num_bits = num_bits
-        self._zero_indices = defaultdict(list) 
-        self._one_indices = defaultdict(list) 
+        self._zero_indices = defaultdict(list)
+        self._one_indices = defaultdict(list)
 
     def is_range_in_index(self, index, start, end):
-        for idx in range(start, end+1):
+        for idx in range(start, end + 1):
             if idx in index:
                 return True
         return False
@@ -50,16 +51,17 @@ class Node2:
             else:
                 current_node = self.insert_zero(current_node, num, index)
             current_num = self.shift(current_num)
-    
+
     def max_xor(self, num, start, end, bits_left):
         if self.is_msb_set(num):
             if self.is_range_in_index(self._zero_indices, start, end):
-                return self._zero_node[]
-                return self._zero_node.max_xor(self.shift(num), start, end, bits_left-1) 
+                return self._zero_node.max_xor(
+                    self.shift(num), start, end, bits_left - 1)
             else:
                 pass
         else:
             pass
+
 
 class Node:
     def __init__(self, num_bits):
@@ -77,7 +79,7 @@ class Node:
         s += f"One node exists: {self._one_node != None}{chr(10)}"
         s += f"Values: {self._values_on_path}{chr(10)}"
         s += f"Values size: {self._values_size}{chr(10)}"
-        return s 
+        return s
 
     def insert_zero(self, parent_node, num):
         if not parent_node._zero_node:
@@ -137,34 +139,41 @@ class Node:
         else:
             raise ValueError("Trie is in inconsistent state")
 
+
 def max_xor_trie(x, queries):
     result = []
     for query in queries:
         node = Node(16)
         a, l, r = query
-        for x_val in x[l-1:r]:
+        for x_val in x[l - 1:r]:
             node.insert(x_val)
         result.append(node.max_xor(a))
     return result
+
 
 def max_xor(x, queries):
     result = []
     for query in queries:
         a, l, r = query
-        result.append(max(a^xj for xj in x[l-1:r]))
+        result.append(max(a ^ xj for xj in x[l - 1:r]))
     return result
+
 
 def generate_x(num, min_value, max_value):
     return [random.randint(min_value, max_value) for _ in range(num_x)]
 
+
 def generate_queries(num_x, num_queries, a_min_value, a_max_value):
-    starts = [random.randint(1, num_x-1) for _ in range(num_queries)]
-    return [[random.randint(a_min_value, a_max_value), s, random.randint(s+1, num_x)] for s in starts]
+    starts = [random.randint(1, num_x - 1) for _ in range(num_queries)]
+    return [[
+        random.randint(a_min_value, a_max_value), s,
+        random.randint(s + 1, num_x)
+    ] for s in starts]
 
 
 if __name__ == "__main__":
     num_x = 10
-    num_queries = 5 
+    num_queries = 5
     x = generate_x(num_x, 1, 32768)
     q = generate_queries(num_x, num_queries, 1, 32768)
     print(x)
@@ -175,7 +184,7 @@ if __name__ == "__main__":
     print("Duration (list): {0}".format(duration))
     print(res)
     start_time = perf_counter()
-    res = max_xor_trie(x, q) 
+    res = max_xor_trie(x, q)
     duration = perf_counter() - start_time
     print("Duration (trie): {0}".format(duration))
     print(res)

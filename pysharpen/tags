@@ -1,0 +1,1203 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ABC	.\patterns\behavioral\interpreter.py	/^from abc import ABC, abstractmethod$/;"	i
+ABC	.\patterns\behavioral\templatemethod.py	/^from abc import ABC, abstractmethod$/;"	i
+AbstractExpression	.\patterns\behavioral\interpreter.py	/^class AbstractExpression(object):$/;"	c
+AbstractRussianDoll	.\patterns\structural\composite.py	/^class AbstractRussianDoll(object):$/;"	c
+AttributeDict	.\metaprogramming\basics.py	/^class AttributeDict:$/;"	c
+AttributeDictTest	.\metaprogramming\basics.py	/^class AttributeDictTest(unittest.TestCase):$/;"	c
+BASE	.\performance\cysqrt.c	195;"	d	file:
+BASE_URL	.\async\basics.py	/^BASE_URL = 'http:\/\/localhost\/flags\/'$/;"	v
+BankDeposit	.\patterns\behavioral\templatemethod.py	/^class BankDeposit(ABC):$/;"	c
+Borg	.\patterns\creational\singleton.py	/^class Borg(object):$/;"	c
+Bottle	.\patterns\structural\bridge.py	/^class Bottle(object):$/;"	c
+BreakEgg	.\patterns\behavioral\command.py	/^class BreakEgg(Command):$/;"	c
+Builder	.\patterns\creational\builder.py	/^class Builder(object):$/;"	c
+CONFERENCE	.\metaprogramming\basics.py	/^CONFERENCE = "conference.115"$/;"	v
+COUNTRY_CODES	.\async\basics.py	/^COUNTRY_CODES = ['ad','ae','af','ag','ai','al','am','an','ao','aq','ar','as','at','au','aw','ax','az','ba','bb','bd','be','bf','bg','bh','bi','bj','bl','bm','bn','bo','bq','br','bs','bt','bv','bw','by','bz','ca','cc','cd','cf','cg','ch','ci','ck','cl','cm','cn','co','cr','cu','cv','cw','cx','cy','cz','de','dj','dk','dm','do','dz','ec','ee','eg','eh','er','es','et','eu','fi','fj','fk','fm','fo','fr','ga','gb-eng','gb-nir','gb-sct','gb-wls','gb','gd','ge','gf','gg','gh','gi','gl','gm','gn','gp','gq','gr','gs','gt','gu','gw','gy','hk','hm','hn','hr','ht','hu','id','ie','il','im','in','io','iq','ir','is','it','je','jm','jo','jp','ke','kg','kh','ki','km','kn','kp','kr','kw','ky','kz','la','lb','lc','li','lk','lr','ls','lt','lu','lv','ly','ma','mc','md','me','mf','mg','mh','mk','ml','mm','mn','mo','mp','mq','mr','ms','mt','mu','mv','mw','mx','my','mz','na','nc','ne','nf','ng','ni','nl','no','np','nr','nu','nz','om','pa','pe','pf','pg','ph','pk','pl','pm','pn','pr','ps','pt','pw','py','qa','re','ro','rs','ru','rw','sa','sb','sc','sd','se','sg','sh','si','sj','sk','sl','sm','sn','so','sr','ss','st','sv','sx','sy','sz','tc','td','tf','tg','th','tj','tk','tl','tm','tn','to','tr','tt','tv','tw','tz','ua','ug','um','us','uy','uz','va','vc','ve','vg','vi','vn','vu','web','wf','ws','xk','ye','yt','za','zm','zw']$/;"	v
+CYTHON_ABI	.\performance\cysqrt.c	22;"	d	file:
+CYTHON_ASSUME_SAFE_MACROS	.\performance\cysqrt.c	117;"	d	file:
+CYTHON_ASSUME_SAFE_MACROS	.\performance\cysqrt.c	171;"	d	file:
+CYTHON_ASSUME_SAFE_MACROS	.\performance\cysqrt.c	81;"	d	file:
+CYTHON_ASSUME_SAFE_MACROS	.\performance\cysqrt.c	82;"	d	file:
+CYTHON_AVOID_BORROWED_REFS	.\performance\cysqrt.c	114;"	d	file:
+CYTHON_AVOID_BORROWED_REFS	.\performance\cysqrt.c	168;"	d	file:
+CYTHON_AVOID_BORROWED_REFS	.\performance\cysqrt.c	79;"	d	file:
+CYTHON_AVOID_BORROWED_REFS	.\performance\cysqrt.c	80;"	d	file:
+CYTHON_COMPILING_IN_CPYTHON	.\performance\cysqrt.c	133;"	d	file:
+CYTHON_COMPILING_IN_CPYTHON	.\performance\cysqrt.c	60;"	d	file:
+CYTHON_COMPILING_IN_CPYTHON	.\performance\cysqrt.c	96;"	d	file:
+CYTHON_COMPILING_IN_PYPY	.\performance\cysqrt.c	131;"	d	file:
+CYTHON_COMPILING_IN_PYPY	.\performance\cysqrt.c	58;"	d	file:
+CYTHON_COMPILING_IN_PYPY	.\performance\cysqrt.c	94;"	d	file:
+CYTHON_COMPILING_IN_PYSTON	.\performance\cysqrt.c	132;"	d	file:
+CYTHON_COMPILING_IN_PYSTON	.\performance\cysqrt.c	59;"	d	file:
+CYTHON_COMPILING_IN_PYSTON	.\performance\cysqrt.c	95;"	d	file:
+CYTHON_FALLTHROUGH	.\performance\cysqrt.c	259;"	d	file:
+CYTHON_FALLTHROUGH	.\performance\cysqrt.c	261;"	d	file:
+CYTHON_FALLTHROUGH	.\performance\cysqrt.c	263;"	d	file:
+CYTHON_FALLTHROUGH	.\performance\cysqrt.c	268;"	d	file:
+CYTHON_FALLTHROUGH	.\performance\cysqrt.c	270;"	d	file:
+CYTHON_FALLTHROUGH	.\performance\cysqrt.c	275;"	d	file:
+CYTHON_FALLTHROUGH	.\performance\cysqrt.c	276;"	d	file:
+CYTHON_FAST_PYCALL	.\performance\cysqrt.c	124;"	d	file:
+CYTHON_FAST_PYCALL	.\performance\cysqrt.c	125;"	d	file:
+CYTHON_FAST_PYCALL	.\performance\cysqrt.c	180;"	d	file:
+CYTHON_FAST_PYCALL	.\performance\cysqrt.c	87;"	d	file:
+CYTHON_FAST_PYCALL	.\performance\cysqrt.c	88;"	d	file:
+CYTHON_FAST_PYCCALL	.\performance\cysqrt.c	190;"	d	file:
+CYTHON_FAST_THREAD_STATE	.\performance\cysqrt.c	122;"	d	file:
+CYTHON_FAST_THREAD_STATE	.\performance\cysqrt.c	123;"	d	file:
+CYTHON_FAST_THREAD_STATE	.\performance\cysqrt.c	177;"	d	file:
+CYTHON_FAST_THREAD_STATE	.\performance\cysqrt.c	85;"	d	file:
+CYTHON_FAST_THREAD_STATE	.\performance\cysqrt.c	86;"	d	file:
+CYTHON_FORMAT_SSIZE_T	.\performance\cysqrt.c	299;"	d	file:
+CYTHON_FUTURE_DIVISION	.\performance\cysqrt.c	23;"	d	file:
+CYTHON_INLINE	.\performance\cysqrt.c	283;"	d	file:
+CYTHON_INLINE	.\performance\cysqrt.c	285;"	d	file:
+CYTHON_INLINE	.\performance\cysqrt.c	287;"	d	file:
+CYTHON_INLINE	.\performance\cysqrt.c	289;"	d	file:
+CYTHON_INLINE	.\performance\cysqrt.c	291;"	d	file:
+CYTHON_MAYBE_UNUSED_VAR	.\performance\cysqrt.c	/^     template<class T> void CYTHON_MAYBE_UNUSED_VAR( const T& ) { }$/;"	f
+CYTHON_MAYBE_UNUSED_VAR	.\performance\cysqrt.c	232;"	d	file:
+CYTHON_NCP_UNUSED	.\performance\cysqrt.c	237;"	d	file:
+CYTHON_NCP_UNUSED	.\performance\cysqrt.c	239;"	d	file:
+CYTHON_PEP393_ENABLED	.\performance\cysqrt.c	409;"	d	file:
+CYTHON_PEP393_ENABLED	.\performance\cysqrt.c	421;"	d	file:
+CYTHON_PEP489_MULTI_PHASE_INIT	.\performance\cysqrt.c	126;"	d	file:
+CYTHON_PEP489_MULTI_PHASE_INIT	.\performance\cysqrt.c	127;"	d	file:
+CYTHON_PEP489_MULTI_PHASE_INIT	.\performance\cysqrt.c	183;"	d	file:
+CYTHON_PEP489_MULTI_PHASE_INIT	.\performance\cysqrt.c	89;"	d	file:
+CYTHON_PEP489_MULTI_PHASE_INIT	.\performance\cysqrt.c	90;"	d	file:
+CYTHON_REFNANNY	.\performance\cysqrt.c	787;"	d	file:
+CYTHON_RESTRICT	.\performance\cysqrt.c	206;"	d	file:
+CYTHON_RESTRICT	.\performance\cysqrt.c	208;"	d	file:
+CYTHON_RESTRICT	.\performance\cysqrt.c	210;"	d	file:
+CYTHON_RESTRICT	.\performance\cysqrt.c	212;"	d	file:
+CYTHON_SMALL_CODE	.\performance\cysqrt.c	1292;"	d	file:
+CYTHON_SMALL_CODE	.\performance\cysqrt.c	1294;"	d	file:
+CYTHON_SMALL_CODE	.\performance\cysqrt.c	1296;"	d	file:
+CYTHON_UNPACK_METHODS	.\performance\cysqrt.c	120;"	d	file:
+CYTHON_UNPACK_METHODS	.\performance\cysqrt.c	174;"	d	file:
+CYTHON_UNPACK_METHODS	.\performance\cysqrt.c	83;"	d	file:
+CYTHON_UNPACK_METHODS	.\performance\cysqrt.c	84;"	d	file:
+CYTHON_UNUSED	.\performance\cysqrt.c	218;"	d	file:
+CYTHON_UNUSED	.\performance\cysqrt.c	220;"	d	file:
+CYTHON_UNUSED	.\performance\cysqrt.c	223;"	d	file:
+CYTHON_UNUSED	.\performance\cysqrt.c	225;"	d	file:
+CYTHON_USE_ASYNC_SLOTS	.\performance\cysqrt.c	102;"	d	file:
+CYTHON_USE_ASYNC_SLOTS	.\performance\cysqrt.c	103;"	d	file:
+CYTHON_USE_ASYNC_SLOTS	.\performance\cysqrt.c	144;"	d	file:
+CYTHON_USE_ASYNC_SLOTS	.\performance\cysqrt.c	145;"	d	file:
+CYTHON_USE_ASYNC_SLOTS	.\performance\cysqrt.c	147;"	d	file:
+CYTHON_USE_ASYNC_SLOTS	.\performance\cysqrt.c	66;"	d	file:
+CYTHON_USE_ASYNC_SLOTS	.\performance\cysqrt.c	67;"	d	file:
+CYTHON_USE_ASYNC_SLOTS	.\performance\cysqrt.c	69;"	d	file:
+CYTHON_USE_PYLIST_INTERNALS	.\performance\cysqrt.c	104;"	d	file:
+CYTHON_USE_PYLIST_INTERNALS	.\performance\cysqrt.c	105;"	d	file:
+CYTHON_USE_PYLIST_INTERNALS	.\performance\cysqrt.c	156;"	d	file:
+CYTHON_USE_PYLIST_INTERNALS	.\performance\cysqrt.c	71;"	d	file:
+CYTHON_USE_PYLIST_INTERNALS	.\performance\cysqrt.c	72;"	d	file:
+CYTHON_USE_PYLONG_INTERNALS	.\performance\cysqrt.c	111;"	d	file:
+CYTHON_USE_PYLONG_INTERNALS	.\performance\cysqrt.c	112;"	d	file:
+CYTHON_USE_PYLONG_INTERNALS	.\performance\cysqrt.c	150;"	d	file:
+CYTHON_USE_PYLONG_INTERNALS	.\performance\cysqrt.c	151;"	d	file:
+CYTHON_USE_PYLONG_INTERNALS	.\performance\cysqrt.c	153;"	d	file:
+CYTHON_USE_PYLONG_INTERNALS	.\performance\cysqrt.c	77;"	d	file:
+CYTHON_USE_PYLONG_INTERNALS	.\performance\cysqrt.c	78;"	d	file:
+CYTHON_USE_PYTYPE_LOOKUP	.\performance\cysqrt.c	100;"	d	file:
+CYTHON_USE_PYTYPE_LOOKUP	.\performance\cysqrt.c	101;"	d	file:
+CYTHON_USE_PYTYPE_LOOKUP	.\performance\cysqrt.c	138;"	d	file:
+CYTHON_USE_PYTYPE_LOOKUP	.\performance\cysqrt.c	139;"	d	file:
+CYTHON_USE_PYTYPE_LOOKUP	.\performance\cysqrt.c	141;"	d	file:
+CYTHON_USE_PYTYPE_LOOKUP	.\performance\cysqrt.c	63;"	d	file:
+CYTHON_USE_PYTYPE_LOOKUP	.\performance\cysqrt.c	64;"	d	file:
+CYTHON_USE_TP_FINALIZE	.\performance\cysqrt.c	128;"	d	file:
+CYTHON_USE_TP_FINALIZE	.\performance\cysqrt.c	129;"	d	file:
+CYTHON_USE_TP_FINALIZE	.\performance\cysqrt.c	186;"	d	file:
+CYTHON_USE_TP_FINALIZE	.\performance\cysqrt.c	91;"	d	file:
+CYTHON_USE_TP_FINALIZE	.\performance\cysqrt.c	92;"	d	file:
+CYTHON_USE_TYPE_SLOTS	.\performance\cysqrt.c	135;"	d	file:
+CYTHON_USE_TYPE_SLOTS	.\performance\cysqrt.c	61;"	d	file:
+CYTHON_USE_TYPE_SLOTS	.\performance\cysqrt.c	62;"	d	file:
+CYTHON_USE_TYPE_SLOTS	.\performance\cysqrt.c	98;"	d	file:
+CYTHON_USE_UNICODE_INTERNALS	.\performance\cysqrt.c	107;"	d	file:
+CYTHON_USE_UNICODE_INTERNALS	.\performance\cysqrt.c	159;"	d	file:
+CYTHON_USE_UNICODE_INTERNALS	.\performance\cysqrt.c	73;"	d	file:
+CYTHON_USE_UNICODE_INTERNALS	.\performance\cysqrt.c	74;"	d	file:
+CYTHON_USE_UNICODE_WRITER	.\performance\cysqrt.c	109;"	d	file:
+CYTHON_USE_UNICODE_WRITER	.\performance\cysqrt.c	110;"	d	file:
+CYTHON_USE_UNICODE_WRITER	.\performance\cysqrt.c	162;"	d	file:
+CYTHON_USE_UNICODE_WRITER	.\performance\cysqrt.c	163;"	d	file:
+CYTHON_USE_UNICODE_WRITER	.\performance\cysqrt.c	165;"	d	file:
+CYTHON_USE_UNICODE_WRITER	.\performance\cysqrt.c	75;"	d	file:
+CYTHON_USE_UNICODE_WRITER	.\performance\cysqrt.c	76;"	d	file:
+CYTHON_WITHOUT_ASSERTIONS	.\performance\cysqrt.c	581;"	d	file:
+Chair	.\patterns\structural\facade.py	/^class Chair:        $/;"	c
+Command	.\patterns\behavioral\command.py	/^class Command(object):$/;"	c
+CompositeRussianDoll	.\patterns\structural\composite.py	/^class CompositeRussianDoll(AbstractRussianDoll):$/;"	c
+ConcreteRussianDoll	.\patterns\structural\composite.py	/^class ConcreteRussianDoll(AbstractRussianDoll):$/;"	c
+Cooker	.\patterns\behavioral\command.py	/^class Cooker(object):$/;"	c
+Counter	.\dataanalytics\simulations.py	/^from collections import Counter$/;"	i
+Cow	.\patterns\structural\facade.py	/^class Cow:$/;"	c
+Customer	.\metaprogramming\class_decorators.py	/^class Customer:$/;"	c
+DBCoordinator	.\patterns\behavioral\mediator.py	/^class DBCoordinator(Mediator):$/;"	c
+DB_NAME	.\metaprogramming\basics.py	/^DB_NAME = "conference2.db"$/;"	v
+DECREF	.\performance\cysqrt.c	/^    void (*DECREF)(void*, PyObject*, int);$/;"	m	struct:__anon3	file:
+DL_EXPORT	.\performance\cysqrt.c	43;"	d	file:
+DL_IMPORT	.\performance\cysqrt.c	40;"	d	file:
+DOWNLOAD_DIR	.\async\basics.py	/^DOWNLOAD_DIR = os.path.join('c:\\\\', 'Tmp', 'downloads')$/;"	v
+DarkEmperor	.\patterns\behavioral\chainofresponsibility.py	/^class DarkEmperor(ForceUser):$/;"	c
+DarkEmperor	.\patterns\structural\proxy.py	/^class DarkEmperor(object):$/;"	c
+DarkForceSide	.\patterns\structural\adapter.py	/^class DarkForceSide(object):$/;"	c
+DarkLord	.\patterns\behavioral\observer.py	/^class DarkLord(object):$/;"	c
+DarkPadavan	.\patterns\behavioral\chainofresponsibility.py	/^class DarkPadavan(ForceUser):$/;"	c
+DartVeider	.\patterns\behavioral\chainofresponsibility.py	/^class DartVeider(ForceUser):$/;"	c
+DbRecord	.\metaprogramming\basics.py	/^class DbRecord(Record):$/;"	c
+Dead	.\patterns\behavioral\state.py	/^class Dead(State):$/;"	c
+DistributedDBNode	.\patterns\behavioral\mediator.py	/^class DistributedDBNode(Node):$/;"	c
+Egg	.\patterns\behavioral\command.py	/^class Egg(object):$/;"	c
+EmperorProxy	.\patterns\structural\proxy.py	/^class EmperorProxy(object):$/;"	c
+Event	.\metaprogramming\basics.py	/^class Event(DbRecord):$/;"	c
+Factory	.\patterns\creational\factory.py	/^    class Factory(object):$/;"	c	class:Jedi
+FinishContext	.\performance\cysqrt.c	/^    void (*FinishContext)(void**);$/;"	m	struct:__anon3	file:
+Flask	.\containerization\haproxy_uwsgi_app\uwsgi\run.py	/^from flask import Flask$/;"	i
+Flask	.\frameworks\flask\basic.py	/^from flask import Flask$/;"	i
+ForceAdapter	.\patterns\structural\adapter.py	/^class ForceAdapter(object):$/;"	c
+ForceUser	.\patterns\behavioral\chainofresponsibility.py	/^class ForceUser(Handler):$/;"	c
+GIVEREF	.\performance\cysqrt.c	/^    void (*GIVEREF)(void*, PyObject*, int);$/;"	m	struct:__anon3	file:
+GOTREF	.\performance\cysqrt.c	/^    void (*GOTREF)(void*, PyObject*, int);$/;"	m	struct:__anon3	file:
+GlassBottleMaker	.\patterns\structural\bridge.py	/^class GlassBottleMaker(object):$/;"	c
+HAVE_LONG_LONG	.\performance\cysqrt.c	48;"	d	file:
+Handler	.\patterns\behavioral\chainofresponsibility.py	/^class Handler(object):$/;"	c
+Human	.\patterns\behavioral\state.py	/^class Human(object):    $/;"	c
+INCREF	.\performance\cysqrt.c	/^    void (*INCREF)(void*, PyObject*, int);$/;"	m	struct:__anon3	file:
+JSON_FILE	.\metaprogramming\basics.py	/^JSON_FILE = "test_data.json"$/;"	v
+Jedi	.\patterns\behavioral\observer.py	/^class Jedi(object):$/;"	c
+Jedi	.\patterns\creational\factory.py	/^class Jedi(object):$/;"	c
+Joda	.\patterns\behavioral\chainofresponsibility.py	/^class Joda(ForceUser):$/;"	c
+Khan	.\patterns\behavioral\visitor.py	/^class Khan(Visitor):$/;"	c
+LightForceSide	.\patterns\structural\adapter.py	/^class LightForceSide(object):$/;"	c
+LivingMatterBreaker	.\patterns\structural\facade.py	/^class LivingMatterBreaker(object):$/;"	c
+LivingMatterComposer	.\patterns\structural\facade.py	/^class LivingMatterComposer(object):$/;"	c
+Luke	.\patterns\behavioral\chainofresponsibility.py	/^class Luke(ForceUser):$/;"	c
+MASK	.\performance\cysqrt.c	196;"	d	file:
+MAX_WORKERS	.\async\basics.py	/^MAX_WORKERS = 20$/;"	v
+METH_FASTCALL	.\performance\cysqrt.c	325;"	d	file:
+MafiaBankDeposit	.\patterns\behavioral\templatemethod.py	/^class MafiaBankDeposit(BankDeposit):$/;"	c
+Mapping	.\metaprogramming\basics.py	/^from collections.abc import Mapping$/;"	i
+MasterJedi	.\patterns\behavioral\chainofresponsibility.py	/^class MasterJedi(ForceUser):$/;"	c
+Mediator	.\patterns\behavioral\mediator.py	/^class Mediator(object):$/;"	c
+Meta	.\frameworks\marshmallow\basic.py	/^    class Meta:$/;"	c	class:UserSchema2
+MissignDatabaseError	.\metaprogramming\basics.py	/^class MissignDatabaseError(RuntimeError):$/;"	c
+MissileCruiser	.\patterns\behavioral\iterator.py	/^class MissileCruiser(Spaceship):$/;"	c
+MutableSequence	.\metaprogramming\basics.py	/^from collections.abc import MutableSequence$/;"	i
+Node	.\algorithms\trie.py	/^class Node:$/;"	c
+Node	.\patterns\behavioral\mediator.py	/^class Node(object):$/;"	c
+Node2	.\algorithms\trie.py	/^class Node2:$/;"	c
+NonLivingMatterBreaker	.\patterns\structural\facade.py	/^class NonLivingMatterBreaker(object):$/;"	c
+NonLivingMatterComposer	.\patterns\structural\facade.py	/^class NonLivingMatterComposer(object):$/;"	c
+NonTerminalExpression	.\patterns\behavioral\interpreter.py	/^class NonTerminalExpression(AbstractExpression):$/;"	c
+OrderItem	.\metaprogramming\descriptors.py	/^class OrderItem:$/;"	c
+OrderItem	.\metaprogramming\properties.py	/^class OrderItem:$/;"	c
+Oven	.\patterns\behavioral\command.py	/^class Oven(object):$/;"	c
+PPoint	.\performance\tricks.py	/^class PPoint:$/;"	c
+PY_LONG_LONG	.\performance\cysqrt.c	52;"	d	file:
+PY_SSIZE_T_CLEAN	.\performance\cysqrt.c	15;"	d	file:
+Pan	.\patterns\behavioral\command.py	/^class Pan(object):$/;"	c
+Planet	.\patterns\behavioral\visitor.py	/^class Planet(object):$/;"	c
+PlasticBottleMaker	.\patterns\structural\bridge.py	/^class PlasticBottleMaker(object):$/;"	c
+Point	.\performance\tricks.py	/^class Point:$/;"	c
+Pool	.\challenges\parallel_word_search.py	/^from multiprocessing import Pool$/;"	i
+ProcessPoolExecutor	.\performance\parallel.py	/^from concurrent.futures import ProcessPoolExecutor$/;"	i
+Prototype	.\patterns\creational\prototype.py	/^class Prototype(object):$/;"	c
+PutOnOven	.\patterns\behavioral\command.py	/^class PutOnOven(Command):$/;"	c
+PyBaseString_Type	.\performance\cysqrt.c	463;"	d	file:
+PyBoolObject	.\performance\cysqrt.c	502;"	d	file:
+PyByteArray_Check	.\performance\cysqrt.c	447;"	d	file:
+PyIntObject	.\performance\cysqrt.c	485;"	d	file:
+PyInt_AS_LONG	.\performance\cysqrt.c	495;"	d	file:
+PyInt_AsLong	.\performance\cysqrt.c	494;"	d	file:
+PyInt_AsSsize_t	.\performance\cysqrt.c	496;"	d	file:
+PyInt_AsUnsignedLongLongMask	.\performance\cysqrt.c	498;"	d	file:
+PyInt_AsUnsignedLongMask	.\performance\cysqrt.c	497;"	d	file:
+PyInt_Check	.\performance\cysqrt.c	487;"	d	file:
+PyInt_CheckExact	.\performance\cysqrt.c	488;"	d	file:
+PyInt_FromLong	.\performance\cysqrt.c	491;"	d	file:
+PyInt_FromSize_t	.\performance\cysqrt.c	492;"	d	file:
+PyInt_FromSsize_t	.\performance\cysqrt.c	493;"	d	file:
+PyInt_FromString	.\performance\cysqrt.c	489;"	d	file:
+PyInt_FromUnicode	.\performance\cysqrt.c	490;"	d	file:
+PyInt_Type	.\performance\cysqrt.c	486;"	d	file:
+PyNumber_Int	.\performance\cysqrt.c	499;"	d	file:
+PyObject_ASCII	.\performance\cysqrt.c	460;"	d	file:
+PyObject_Format	.\performance\cysqrt.c	450;"	d	file:
+PyObject_Free	.\performance\cysqrt.c	342;"	d	file:
+PyObject_Malloc	.\performance\cysqrt.c	341;"	d	file:
+PyObject_Realloc	.\performance\cysqrt.c	343;"	d	file:
+PySet_CheckExact	.\performance\cysqrt.c	477;"	d	file:
+PyStringObject	.\performance\cysqrt.c	464;"	d	file:
+PyString_Check	.\performance\cysqrt.c	466;"	d	file:
+PyString_CheckExact	.\performance\cysqrt.c	467;"	d	file:
+PyString_Type	.\performance\cysqrt.c	465;"	d	file:
+PyThread_tss_alloc	.\performance\cysqrt.c	/^static CYTHON_INLINE Py_tss_t * PyThread_tss_alloc(void) {$/;"	f	file:
+PyThread_tss_create	.\performance\cysqrt.c	/^static CYTHON_INLINE int PyThread_tss_create(Py_tss_t *key) {$/;"	f	file:
+PyThread_tss_delete	.\performance\cysqrt.c	/^static CYTHON_INLINE void PyThread_tss_delete(Py_tss_t *key) {$/;"	f	file:
+PyThread_tss_free	.\performance\cysqrt.c	/^static CYTHON_INLINE void PyThread_tss_free(Py_tss_t *key) {$/;"	f	file:
+PyThread_tss_get	.\performance\cysqrt.c	/^static CYTHON_INLINE void * PyThread_tss_get(Py_tss_t *key) {$/;"	f	file:
+PyThread_tss_is_created	.\performance\cysqrt.c	/^static CYTHON_INLINE int PyThread_tss_is_created(Py_tss_t *key) {$/;"	f	file:
+PyThread_tss_set	.\performance\cysqrt.c	/^static CYTHON_INLINE int PyThread_tss_set(Py_tss_t *key, void *value) {$/;"	f	file:
+PyUnicode_1BYTE_KIND	.\performance\cysqrt.c	422;"	d	file:
+PyUnicode_2BYTE_KIND	.\performance\cysqrt.c	423;"	d	file:
+PyUnicode_4BYTE_KIND	.\performance\cysqrt.c	424;"	d	file:
+PyUnicode_Contains	.\performance\cysqrt.c	444;"	d	file:
+PyUnicode_InternFromString	.\performance\cysqrt.c	506;"	d	file:
+Py_HUGE_VAL	.\performance\cysqrt.c	55;"	d	file:
+Py_OptimizeFlag	.\performance\cysqrt.c	296;"	d	file:
+Py_TPFLAGS_CHECKTYPES	.\performance\cysqrt.c	312;"	d	file:
+Py_TPFLAGS_HAVE_FINALIZE	.\performance\cysqrt.c	321;"	d	file:
+Py_TPFLAGS_HAVE_INDEX	.\performance\cysqrt.c	315;"	d	file:
+Py_TPFLAGS_HAVE_NEWBUFFER	.\performance\cysqrt.c	318;"	d	file:
+Py_hash_t	.\performance\cysqrt.c	/^  typedef long Py_hash_t;$/;"	t	file:
+Py_tss_NEEDS_INIT	.\performance\cysqrt.c	363;"	d	file:
+Py_tss_t	.\performance\cysqrt.c	/^typedef int Py_tss_t;$/;"	t	file:
+Quantity	.\metaprogramming\descriptors.py	/^class Quantity:$/;"	c
+Record	.\metaprogramming\basics.py	/^class Record:$/;"	c
+Rest	.\patterns\behavioral\state.py	/^class Rest(State):$/;"	c
+Rocket	.\patterns\creational\factorymethod.py	/^class Rocket(Weapon):$/;"	c
+SHIFT	.\performance\cysqrt.c	194;"	d	file:
+SPoint	.\performance\tricks.py	/^class SPoint:$/;"	c
+Schema	.\frameworks\marshmallow\basic.py	/^from marshmallow import Schema, fields, pprint, validates, ValidationError$/;"	i
+SetupContext	.\performance\cysqrt.c	/^    void* (*SetupContext)(const char*, int, const char*);$/;"	m	struct:__anon3	file:
+Shotgun	.\patterns\creational\factorymethod.py	/^class Shotgun(Weapon):$/;"	c
+Signal	.\async\spinner_thread.py	/^class Signal:$/;"	c
+Singleton	.\patterns\creational\singleton.py	/^class Singleton(Borg):$/;"	c
+SpaceFleet	.\patterns\behavioral\iterator.py	/^class SpaceFleet(object):	$/;"	c
+SpaceFleetIterator	.\patterns\behavioral\iterator.py	/^	class SpaceFleetIterator(object):$/;"	c	class:SpaceFleet
+Spaceship	.\patterns\behavioral\iterator.py	/^class Spaceship(object):$/;"	c
+Spaceship	.\patterns\creational\builder.py	/^class Spaceship(object):$/;"	c
+SpaceshipBuilder	.\patterns\creational\builder.py	/^class SpaceshipBuilder(Builder):$/;"	c
+SpaceshipEnterprise	.\patterns\behavioral\visitor.py	/^class SpaceshipEnterprise(Visitor):$/;"	c
+Spaceshipyard	.\patterns\creational\builder.py	/^class Spaceshipyard(object):$/;"	c
+StarTrooper	.\patterns\creational\prototype.py	/^class StarTrooper(object):$/;"	c
+StarWarsFactory	.\patterns\creational\factory.py	/^class StarWarsFactory(object):$/;"	c
+Starfighter	.\patterns\behavioral\iterator.py	/^class Starfighter(Spaceship):$/;"	c
+State	.\patterns\behavioral\state.py	/^class State(object):$/;"	c
+StateBankDeposit	.\patterns\behavioral\templatemethod.py	/^class StateBankDeposit(BankDeposit):$/;"	c
+StormTrooper	.\patterns\creational\factory.py	/^class StormTrooper(object):$/;"	c
+StormTrooperFactory	.\patterns\creational\factory.py	/^class StormTrooperFactory(object):$/;"	c
+Strategy	.\patterns\behavioral\strategy.py	/^class Strategy(object):$/;"	c
+Subject	.\patterns\behavioral\observer.py	/^class Subject(object):$/;"	c
+Table	.\patterns\behavioral\memento.py	/^class Table(object):$/;"	c
+TeleporterFacade	.\patterns\structural\facade.py	/^class TeleporterFacade(object):$/;"	c
+TerminalExpression	.\patterns\behavioral\interpreter.py	/^class TerminalExpression(AbstractExpression):$/;"	c
+ThreadPoolExecutor	.\performance\parallel.py	/^from concurrent.futures import ThreadPoolExecutor$/;"	i
+Training	.\patterns\behavioral\state.py	/^class Training(State):$/;"	c
+TurnOn	.\patterns\behavioral\command.py	/^class TurnOn(Command):$/;"	c
+URL	.\metaprogramming\basics.py	/^URL = "https:\/\/www.oreilly.com\/pub\/sc\/osconfeed"$/;"	v
+USER_DICT	.\frameworks\marshmallow\basic.py	/^USER_DICT = {$/;"	v
+UniverseForce	.\patterns\behavioral\observer.py	/^class UniverseForce(Subject):$/;"	c
+User	.\frameworks\marshmallow\basic.py	/^class User:$/;"	c
+User	.\performance\parallel.py	/^User = namedtuple("User", ["login", "name", "joined"])$/;"	v
+UserSchema	.\frameworks\marshmallow\basic.py	/^class UserSchema(Schema):$/;"	c
+UserSchema2	.\frameworks\marshmallow\basic.py	/^class UserSchema2(Schema):$/;"	c
+VEC	.\performance\numpy_test.py	/^VEC = list(range(1000000))$/;"	v
+ValidationError	.\frameworks\marshmallow\basic.py	/^from marshmallow import Schema, fields, pprint, validates, ValidationError$/;"	i
+Visitor	.\patterns\behavioral\visitor.py	/^class Visitor(object):$/;"	c
+Weapon	.\patterns\creational\factorymethod.py	/^class Weapon(object):$/;"	c
+_CLIENT_DATA_TEMPLATE	.\external\keycloak\basics.py	/^_CLIENT_DATA_TEMPLATE = {"id": None, "name": "Client_{:02}"}$/;"	v
+_CLIENT_URL_TEMPLATE	.\external\keycloak\basics.py	/^_CLIENT_URL_TEMPLATE = 'http:\/\/keycloak:10080\/auth\/admin\/realms\/{realm_name}\/clients'$/;"	v
+_DEFAULT_ADMIN_CLIENT	.\external\keycloak\basics.py	/^_DEFAULT_ADMIN_CLIENT = 'admin-cli'$/;"	v
+_DEFAULT_AUTH_URL	.\external\keycloak\basics.py	/^_DEFAULT_AUTH_URL = 'http:\/\/keycloak:10080\/auth\/realms\/master\/protocol\/openid-connect\/token'$/;"	v
+_DEFAULT_HEADER_TEMPLATE	.\external\keycloak\basics.py	/^_DEFAULT_HEADER_TEMPLATE = {'Content-Type': 'application\/json', 'Authorization': 'bearer {}'}$/;"	v
+_DEFAULT_PASSWORD	.\external\keycloak\basics.py	/^_DEFAULT_PASSWORD = 'admin'$/;"	v
+_DEFAULT_USERNAME	.\external\keycloak\basics.py	/^_DEFAULT_USERNAME = 'admin'$/;"	v
+_MODEL	.\external\keycloak\basics.py	/^_MODEL = {$/;"	v
+_REALMS_URL	.\external\keycloak\basics.py	/^_REALMS_URL = 'http:\/\/keycloak:10080\/auth\/admin\/realms'$/;"	v
+_REALM_DATA_TEMPLATE	.\external\keycloak\basics.py	/^_REALM_DATA_TEMPLATE = {"id": None, "realm": "LoadRealm_{:05}"}$/;"	v
+_USER_DATA_TEMPLATE	.\external\keycloak\basics.py	/^_USER_DATA_TEMPLATE = {"id": None, "username": "User_{:06}"}$/;"	v
+_USER_URL_TEMPLATE	.\external\keycloak\basics.py	/^_USER_URL_TEMPLATE = 'http:\/\/keycloak:10080\/auth\/admin\/realms\/{realm_name}\/users'$/;"	v
+_USE_MATH_DEFINES	.\performance\cysqrt.c	541;"	d	file:
+__ATTEMPTS_THRESHOLD	.\patterns\structural\proxy.py	/^    __ATTEMPTS_THRESHOLD = 10$/;"	v	class:EmperorProxy
+__PYX_BUILD_PY_SSIZE_T	.\performance\cysqrt.c	298;"	d	file:
+__PYX_COMMA	.\performance\cysqrt.c	45;"	d	file:
+__PYX_DEFAULT_STRING_ENCODING	.\performance\cysqrt.c	/^static char* __PYX_DEFAULT_STRING_ENCODING;$/;"	v	file:
+__PYX_DEFAULT_STRING_ENCODING	.\performance\cysqrt.c	589;"	d	file:
+__PYX_DEFAULT_STRING_ENCODING_IS_ASCII	.\performance\cysqrt.c	587;"	d	file:
+__PYX_DEFAULT_STRING_ENCODING_IS_DEFAULT	.\performance\cysqrt.c	588;"	d	file:
+__PYX_ERR	.\performance\cysqrt.c	560;"	d	file:
+__PYX_EXTERN_C	.\performance\cysqrt.c	567;"	d	file:
+__PYX_EXTERN_C	.\performance\cysqrt.c	569;"	d	file:
+__PYX_HAVE_API__pysharpen__performance__cysqrt	.\performance\cysqrt.c	574;"	d	file:
+__PYX_HAVE__pysharpen__performance__cysqrt	.\performance\cysqrt.c	573;"	d	file:
+__PYX_NAN	.\performance\cysqrt.c	/^static CYTHON_INLINE float __PYX_NAN() {$/;"	f	file:
+__PYX_NAN	.\performance\cysqrt.c	545;"	d	file:
+__PYX_VERIFY_RETURN_INT	.\performance\cysqrt.c	1927;"	d	file:
+__PYX_VERIFY_RETURN_INT_EXC	.\performance\cysqrt.c	1929;"	d	file:
+__PYX__VERIFY_RETURN_INT	.\performance\cysqrt.c	1931;"	d	file:
+__Pyx_AddTraceback	.\performance\cysqrt.c	/^static void __Pyx_AddTraceback(const char *funcname, int c_line,$/;"	f	file:
+__Pyx_BUILTIN_MODULE_NAME	.\performance\cysqrt.c	301;"	d	file:
+__Pyx_BUILTIN_MODULE_NAME	.\performance\cysqrt.c	306;"	d	file:
+__Pyx_CLEAR	.\performance\cysqrt.c	845;"	d	file:
+__Pyx_CLineForTraceback	.\performance\cysqrt.c	/^static int __Pyx_CLineForTraceback(CYTHON_UNUSED PyThreadState *tstate, int c_line) {$/;"	f	file:
+__Pyx_CLineForTraceback	.\performance\cysqrt.c	905;"	d	file:
+__Pyx_CodeObjectCache	.\performance\cysqrt.c	/^struct __Pyx_CodeObjectCache {$/;"	s	file:
+__Pyx_CodeObjectCacheEntry	.\performance\cysqrt.c	/^} __Pyx_CodeObjectCacheEntry;$/;"	t	typeref:struct:__anon4	file:
+__Pyx_CreateCodeObjectForTraceback	.\performance\cysqrt.c	/^static PyCodeObject* __Pyx_CreateCodeObjectForTraceback($/;"	f	file:
+__Pyx_DECREF	.\performance\cysqrt.c	817;"	d	file:
+__Pyx_DECREF	.\performance\cysqrt.c	829;"	d	file:
+__Pyx_DECREF_SET	.\performance\cysqrt.c	841;"	d	file:
+__Pyx_DefaultClassType	.\performance\cysqrt.c	304;"	d	file:
+__Pyx_DefaultClassType	.\performance\cysqrt.c	309;"	d	file:
+__Pyx_ErrFetch	.\performance\cysqrt.c	884;"	d	file:
+__Pyx_ErrFetch	.\performance\cysqrt.c	900;"	d	file:
+__Pyx_ErrFetchInState	.\performance\cysqrt.c	/^static CYTHON_INLINE void __Pyx_ErrFetchInState(PyThreadState *tstate, PyObject **type, PyObject **value, PyObject **tb) {$/;"	f	file:
+__Pyx_ErrFetchInState	.\performance\cysqrt.c	898;"	d	file:
+__Pyx_ErrFetchWithState	.\performance\cysqrt.c	882;"	d	file:
+__Pyx_ErrFetchWithState	.\performance\cysqrt.c	896;"	d	file:
+__Pyx_ErrRestore	.\performance\cysqrt.c	883;"	d	file:
+__Pyx_ErrRestore	.\performance\cysqrt.c	899;"	d	file:
+__Pyx_ErrRestoreInState	.\performance\cysqrt.c	/^static CYTHON_INLINE void __Pyx_ErrRestoreInState(PyThreadState *tstate, PyObject *type, PyObject *value, PyObject *tb) {$/;"	f	file:
+__Pyx_ErrRestoreInState	.\performance\cysqrt.c	897;"	d	file:
+__Pyx_ErrRestoreWithState	.\performance\cysqrt.c	881;"	d	file:
+__Pyx_ErrRestoreWithState	.\performance\cysqrt.c	895;"	d	file:
+__Pyx_GIVEREF	.\performance\cysqrt.c	819;"	d	file:
+__Pyx_GIVEREF	.\performance\cysqrt.c	831;"	d	file:
+__Pyx_GOTREF	.\performance\cysqrt.c	818;"	d	file:
+__Pyx_GOTREF	.\performance\cysqrt.c	830;"	d	file:
+__Pyx_INCREF	.\performance\cysqrt.c	816;"	d	file:
+__Pyx_INCREF	.\performance\cysqrt.c	828;"	d	file:
+__Pyx_InBases	.\performance\cysqrt.c	/^static int __Pyx_InBases(PyTypeObject *a, PyTypeObject *b) {$/;"	f	file:
+__Pyx_InitCachedBuiltins	.\performance\cysqrt.c	/^static int __Pyx_InitCachedBuiltins(void) {$/;"	f	file:
+__Pyx_InitCachedConstants	.\performance\cysqrt.c	/^static int __Pyx_InitCachedConstants(void) {$/;"	f	file:
+__Pyx_InitGlobals	.\performance\cysqrt.c	/^static int __Pyx_InitGlobals(void) {$/;"	f	file:
+__Pyx_InitStrings	.\performance\cysqrt.c	/^static int __Pyx_InitStrings(__Pyx_StringTabEntry *t) {$/;"	f	file:
+__Pyx_IsSubtype	.\performance\cysqrt.c	/^static CYTHON_INLINE int __Pyx_IsSubtype(PyTypeObject *a, PyTypeObject *b) {$/;"	f	file:
+__Pyx_MODULE_NAME	.\performance\cysqrt.c	959;"	d	file:
+__Pyx_NewRef	.\performance\cysqrt.c	658;"	d	file:
+__Pyx_Owned_Py_None	.\performance\cysqrt.c	659;"	d	file:
+__Pyx_ParseOptionalKeywords	.\performance\cysqrt.c	/^static int __Pyx_ParseOptionalKeywords($/;"	f	file:
+__Pyx_PyAsyncMethodsStruct	.\performance\cysqrt.c	/^    } __Pyx_PyAsyncMethodsStruct;$/;"	t	typeref:struct:__anon1	file:
+__Pyx_PyAsyncMethodsStruct	.\performance\cysqrt.c	524;"	d	file:
+__Pyx_PyBaseString_Check	.\performance\cysqrt.c	470;"	d	file:
+__Pyx_PyBaseString_Check	.\performance\cysqrt.c	473;"	d	file:
+__Pyx_PyBaseString_CheckExact	.\performance\cysqrt.c	471;"	d	file:
+__Pyx_PyBaseString_CheckExact	.\performance\cysqrt.c	474;"	d	file:
+__Pyx_PyBool_FromLong	.\performance\cysqrt.c	660;"	d	file:
+__Pyx_PyByteArray_FromCString	.\performance\cysqrt.c	647;"	d	file:
+__Pyx_PyByteArray_FromString	.\performance\cysqrt.c	622;"	d	file:
+__Pyx_PyByteArray_FromStringAndSize	.\performance\cysqrt.c	623;"	d	file:
+__Pyx_PyBytes_AsSString	.\performance\cysqrt.c	638;"	d	file:
+__Pyx_PyBytes_AsString	.\performance\cysqrt.c	637;"	d	file:
+__Pyx_PyBytes_AsUString	.\performance\cysqrt.c	639;"	d	file:
+__Pyx_PyBytes_AsWritableSString	.\performance\cysqrt.c	635;"	d	file:
+__Pyx_PyBytes_AsWritableString	.\performance\cysqrt.c	634;"	d	file:
+__Pyx_PyBytes_AsWritableUString	.\performance\cysqrt.c	636;"	d	file:
+__Pyx_PyBytes_FromCString	.\performance\cysqrt.c	646;"	d	file:
+__Pyx_PyBytes_FromString	.\performance\cysqrt.c	624;"	d	file:
+__Pyx_PyBytes_FromStringAndSize	.\performance\cysqrt.c	625;"	d	file:
+__Pyx_PyCFunctionFast	.\performance\cysqrt.c	/^  typedef PyObject *(*__Pyx_PyCFunctionFast) (PyObject *self, PyObject *const *args, Py_ssize_t nargs);$/;"	t	file:
+__Pyx_PyCFunctionFast	.\performance\cysqrt.c	331;"	d	file:
+__Pyx_PyCFunctionFastWithKeywords	.\performance\cysqrt.c	/^  typedef PyObject *(*__Pyx_PyCFunctionFastWithKeywords) (PyObject *self, PyObject *const *args,$/;"	t	file:
+__Pyx_PyCFunctionFastWithKeywords	.\performance\cysqrt.c	332;"	d	file:
+__Pyx_PyCode_HasFreeVars	.\performance\cysqrt.c	346;"	d	file:
+__Pyx_PyCode_HasFreeVars	.\performance\cysqrt.c	349;"	d	file:
+__Pyx_PyCode_New	.\performance\cysqrt.c	302;"	d	file:
+__Pyx_PyCode_New	.\performance\cysqrt.c	307;"	d	file:
+__Pyx_PyDict_GetItemStr	.\performance\cysqrt.c	404;"	d	file:
+__Pyx_PyDict_GetItemStr	.\performance\cysqrt.c	406;"	d	file:
+__Pyx_PyDict_NewPresized	.\performance\cysqrt.c	392;"	d	file:
+__Pyx_PyDict_NewPresized	.\performance\cysqrt.c	394;"	d	file:
+__Pyx_PyErr_Clear	.\performance\cysqrt.c	880;"	d	file:
+__Pyx_PyErr_Clear	.\performance\cysqrt.c	893;"	d	file:
+__Pyx_PyErr_GivenExceptionMatches	.\performance\cysqrt.c	/^static CYTHON_INLINE int __Pyx_PyErr_GivenExceptionMatches(PyObject *err, PyObject* exc_type) {$/;"	f	file:
+__Pyx_PyErr_GivenExceptionMatches	.\performance\cysqrt.c	946;"	d	file:
+__Pyx_PyErr_GivenExceptionMatches2	.\performance\cysqrt.c	/^static CYTHON_INLINE int __Pyx_PyErr_GivenExceptionMatches2(PyObject *err, PyObject *exc_type1, PyObject *exc_type2) {$/;"	f	file:
+__Pyx_PyErr_GivenExceptionMatches2	.\performance\cysqrt.c	947;"	d	file:
+__Pyx_PyErr_Occurred	.\performance\cysqrt.c	871;"	d	file:
+__Pyx_PyErr_Occurred	.\performance\cysqrt.c	875;"	d	file:
+__Pyx_PyErr_SetNone	.\performance\cysqrt.c	888;"	d	file:
+__Pyx_PyErr_SetNone	.\performance\cysqrt.c	890;"	d	file:
+__Pyx_PyErr_SetNone	.\performance\cysqrt.c	894;"	d	file:
+__Pyx_PyException_Check	.\performance\cysqrt.c	949;"	d	file:
+__Pyx_PyFastCFunction_Check	.\performance\cysqrt.c	335;"	d	file:
+__Pyx_PyFastCFunction_Check	.\performance\cysqrt.c	338;"	d	file:
+__Pyx_PyFrame_SetLineNumber	.\performance\cysqrt.c	347;"	d	file:
+__Pyx_PyFrame_SetLineNumber	.\performance\cysqrt.c	350;"	d	file:
+__Pyx_PyIndex_AsSsize_t	.\performance\cysqrt.c	/^static CYTHON_INLINE Py_ssize_t __Pyx_PyIndex_AsSsize_t(PyObject* b) {$/;"	f	file:
+__Pyx_PyInt_AsHash_t	.\performance\cysqrt.c	512;"	d	file:
+__Pyx_PyInt_AsHash_t	.\performance\cysqrt.c	515;"	d	file:
+__Pyx_PyInt_As_int	.\performance\cysqrt.c	/^static CYTHON_INLINE int __Pyx_PyInt_As_int(PyObject *x) {$/;"	f	file:
+__Pyx_PyInt_As_long	.\performance\cysqrt.c	/^static CYTHON_INLINE long __Pyx_PyInt_As_long(PyObject *x) {$/;"	f	file:
+__Pyx_PyInt_FromHash_t	.\performance\cysqrt.c	511;"	d	file:
+__Pyx_PyInt_FromHash_t	.\performance\cysqrt.c	514;"	d	file:
+__Pyx_PyInt_FromSize_t	.\performance\cysqrt.c	/^static CYTHON_INLINE PyObject * __Pyx_PyInt_FromSize_t(size_t ival) {$/;"	f	file:
+__Pyx_PyInt_From_long	.\performance\cysqrt.c	/^static CYTHON_INLINE PyObject* __Pyx_PyInt_From_long(long value) {$/;"	f	file:
+__Pyx_PyMODINIT_FUNC	.\performance\cysqrt.c	1279;"	d	file:
+__Pyx_PyMODINIT_FUNC	.\performance\cysqrt.c	1281;"	d	file:
+__Pyx_PyMODINIT_FUNC	.\performance\cysqrt.c	1285;"	d	file:
+__Pyx_PyMODINIT_FUNC	.\performance\cysqrt.c	1287;"	d	file:
+__Pyx_PyMethod_New	.\performance\cysqrt.c	518;"	d	file:
+__Pyx_PyMethod_New	.\performance\cysqrt.c	520;"	d	file:
+__Pyx_PyNumber_Divide	.\performance\cysqrt.c	397;"	d	file:
+__Pyx_PyNumber_Divide	.\performance\cysqrt.c	400;"	d	file:
+__Pyx_PyNumber_Float	.\performance\cysqrt.c	678;"	d	file:
+__Pyx_PyNumber_InPlaceDivide	.\performance\cysqrt.c	398;"	d	file:
+__Pyx_PyNumber_InPlaceDivide	.\performance\cysqrt.c	401;"	d	file:
+__Pyx_PyNumber_Int	.\performance\cysqrt.c	674;"	d	file:
+__Pyx_PyNumber_Int	.\performance\cysqrt.c	676;"	d	file:
+__Pyx_PyNumber_IntOrLong	.\performance\cysqrt.c	/^static CYTHON_INLINE PyObject* __Pyx_PyNumber_IntOrLong(PyObject* x) {$/;"	f	file:
+__Pyx_PyNumber_IntOrLongWrongResultType	.\performance\cysqrt.c	/^static PyObject* __Pyx_PyNumber_IntOrLongWrongResultType(PyObject* result, const char* type_name) {$/;"	f	file:
+__Pyx_PyObject_AsSString	.\performance\cysqrt.c	643;"	d	file:
+__Pyx_PyObject_AsString	.\performance\cysqrt.c	/^static CYTHON_INLINE const char* __Pyx_PyObject_AsString(PyObject* o) {$/;"	f	file:
+__Pyx_PyObject_AsStringAndSize	.\performance\cysqrt.c	/^static CYTHON_INLINE const char* __Pyx_PyObject_AsStringAndSize(PyObject* o, Py_ssize_t *length) {$/;"	f	file:
+__Pyx_PyObject_AsUString	.\performance\cysqrt.c	644;"	d	file:
+__Pyx_PyObject_AsWritableSString	.\performance\cysqrt.c	641;"	d	file:
+__Pyx_PyObject_AsWritableString	.\performance\cysqrt.c	640;"	d	file:
+__Pyx_PyObject_AsWritableUString	.\performance\cysqrt.c	642;"	d	file:
+__Pyx_PyObject_FromCString	.\performance\cysqrt.c	645;"	d	file:
+__Pyx_PyObject_FromString	.\performance\cysqrt.c	590;"	d	file:
+__Pyx_PyObject_FromStringAndSize	.\performance\cysqrt.c	591;"	d	file:
+__Pyx_PyObject_GetAttrStr	.\performance\cysqrt.c	/^static CYTHON_INLINE PyObject* __Pyx_PyObject_GetAttrStr(PyObject* obj, PyObject* attr_name) {$/;"	f	file:
+__Pyx_PyObject_GetAttrStr	.\performance\cysqrt.c	864;"	d	file:
+__Pyx_PyObject_IsTrue	.\performance\cysqrt.c	/^static CYTHON_INLINE int __Pyx_PyObject_IsTrue(PyObject* x) {$/;"	f	file:
+__Pyx_PySequence_SIZE	.\performance\cysqrt.c	480;"	d	file:
+__Pyx_PySequence_SIZE	.\performance\cysqrt.c	482;"	d	file:
+__Pyx_PySequence_Tuple	.\performance\cysqrt.c	663;"	d	file:
+__Pyx_PyStr_FromCString	.\performance\cysqrt.c	648;"	d	file:
+__Pyx_PyStr_FromString	.\performance\cysqrt.c	628;"	d	file:
+__Pyx_PyStr_FromString	.\performance\cysqrt.c	631;"	d	file:
+__Pyx_PyStr_FromStringAndSize	.\performance\cysqrt.c	629;"	d	file:
+__Pyx_PyStr_FromStringAndSize	.\performance\cysqrt.c	632;"	d	file:
+__Pyx_PyString_Format	.\performance\cysqrt.c	455;"	d	file:
+__Pyx_PyString_Format	.\performance\cysqrt.c	457;"	d	file:
+__Pyx_PyString_FormatSafe	.\performance\cysqrt.c	452;"	d	file:
+__Pyx_PyThreadState_Current	.\performance\cysqrt.c	353;"	d	file:
+__Pyx_PyThreadState_Current	.\performance\cysqrt.c	355;"	d	file:
+__Pyx_PyThreadState_Current	.\performance\cysqrt.c	357;"	d	file:
+__Pyx_PyThreadState_Current	.\performance\cysqrt.c	359;"	d	file:
+__Pyx_PyThreadState_assign	.\performance\cysqrt.c	870;"	d	file:
+__Pyx_PyThreadState_assign	.\performance\cysqrt.c	874;"	d	file:
+__Pyx_PyThreadState_declare	.\performance\cysqrt.c	869;"	d	file:
+__Pyx_PyThreadState_declare	.\performance\cysqrt.c	873;"	d	file:
+__Pyx_PyType_AsAsync	.\performance\cysqrt.c	525;"	d	file:
+__Pyx_PyType_AsAsync	.\performance\cysqrt.c	527;"	d	file:
+__Pyx_PyType_AsAsync	.\performance\cysqrt.c	530;"	d	file:
+__Pyx_PyUnicode_AsStringAndSize	.\performance\cysqrt.c	/^static CYTHON_INLINE const char* __Pyx_PyUnicode_AsStringAndSize(PyObject* o, Py_ssize_t *length) {$/;"	f	file:
+__Pyx_PyUnicode_AsStringAndSize	.\performance\cysqrt.c	/^static const char* __Pyx_PyUnicode_AsStringAndSize(PyObject* o, Py_ssize_t *length) {$/;"	f	file:
+__Pyx_PyUnicode_AsUnicode	.\performance\cysqrt.c	657;"	d	file:
+__Pyx_PyUnicode_Concat	.\performance\cysqrt.c	436;"	d	file:
+__Pyx_PyUnicode_Concat	.\performance\cysqrt.c	439;"	d	file:
+__Pyx_PyUnicode_ConcatSafe	.\performance\cysqrt.c	437;"	d	file:
+__Pyx_PyUnicode_ConcatSafe	.\performance\cysqrt.c	440;"	d	file:
+__Pyx_PyUnicode_DATA	.\performance\cysqrt.c	416;"	d	file:
+__Pyx_PyUnicode_DATA	.\performance\cysqrt.c	430;"	d	file:
+__Pyx_PyUnicode_FormatSafe	.\performance\cysqrt.c	453;"	d	file:
+__Pyx_PyUnicode_FromCString	.\performance\cysqrt.c	649;"	d	file:
+__Pyx_PyUnicode_FromString	.\performance\cysqrt.c	/^static CYTHON_INLINE PyObject* __Pyx_PyUnicode_FromString(const char* c_str) {$/;"	f	file:
+__Pyx_PyUnicode_FromStringAndSize	.\performance\cysqrt.c	726;"	d	file:
+__Pyx_PyUnicode_FromStringAndSize	.\performance\cysqrt.c	728;"	d	file:
+__Pyx_PyUnicode_FromUnicode	.\performance\cysqrt.c	655;"	d	file:
+__Pyx_PyUnicode_FromUnicodeAndLength	.\performance\cysqrt.c	656;"	d	file:
+__Pyx_PyUnicode_GET_LENGTH	.\performance\cysqrt.c	412;"	d	file:
+__Pyx_PyUnicode_GET_LENGTH	.\performance\cysqrt.c	426;"	d	file:
+__Pyx_PyUnicode_IS_TRUE	.\performance\cysqrt.c	419;"	d	file:
+__Pyx_PyUnicode_IS_TRUE	.\performance\cysqrt.c	433;"	d	file:
+__Pyx_PyUnicode_KIND	.\performance\cysqrt.c	415;"	d	file:
+__Pyx_PyUnicode_KIND	.\performance\cysqrt.c	429;"	d	file:
+__Pyx_PyUnicode_MAX_CHAR_VALUE	.\performance\cysqrt.c	414;"	d	file:
+__Pyx_PyUnicode_MAX_CHAR_VALUE	.\performance\cysqrt.c	428;"	d	file:
+__Pyx_PyUnicode_READ	.\performance\cysqrt.c	417;"	d	file:
+__Pyx_PyUnicode_READ	.\performance\cysqrt.c	431;"	d	file:
+__Pyx_PyUnicode_READY	.\performance\cysqrt.c	410;"	d	file:
+__Pyx_PyUnicode_READY	.\performance\cysqrt.c	425;"	d	file:
+__Pyx_PyUnicode_READ_CHAR	.\performance\cysqrt.c	413;"	d	file:
+__Pyx_PyUnicode_READ_CHAR	.\performance\cysqrt.c	427;"	d	file:
+__Pyx_PyUnicode_WRITE	.\performance\cysqrt.c	418;"	d	file:
+__Pyx_PyUnicode_WRITE	.\performance\cysqrt.c	432;"	d	file:
+__Pyx_Py_UNICODE_strlen	.\performance\cysqrt.c	/^static CYTHON_INLINE size_t __Pyx_Py_UNICODE_strlen(const Py_UNICODE *u) {$/;"	f	file:
+__Pyx_RaiseArgtupleInvalid	.\performance\cysqrt.c	/^static void __Pyx_RaiseArgtupleInvalid($/;"	f	file:
+__Pyx_RaiseDoubleKeywordsError	.\performance\cysqrt.c	/^static void __Pyx_RaiseDoubleKeywordsError($/;"	f	file:
+__Pyx_RefNanny	.\performance\cysqrt.c	/^  static __Pyx_RefNannyAPIStruct *__Pyx_RefNanny = NULL;$/;"	v	file:
+__Pyx_RefNannyAPIStruct	.\performance\cysqrt.c	/^  } __Pyx_RefNannyAPIStruct;$/;"	t	typeref:struct:__anon3	file:
+__Pyx_RefNannyDeclarations	.\performance\cysqrt.c	800;"	d	file:
+__Pyx_RefNannyDeclarations	.\performance\cysqrt.c	825;"	d	file:
+__Pyx_RefNannyFinishContext	.\performance\cysqrt.c	814;"	d	file:
+__Pyx_RefNannyFinishContext	.\performance\cysqrt.c	827;"	d	file:
+__Pyx_RefNannyImportAPI	.\performance\cysqrt.c	/^static __Pyx_RefNannyAPIStruct *__Pyx_RefNannyImportAPI(const char *modname) {$/;"	f	file:
+__Pyx_RefNannySetupContext	.\performance\cysqrt.c	802;"	d	file:
+__Pyx_RefNannySetupContext	.\performance\cysqrt.c	811;"	d	file:
+__Pyx_RefNannySetupContext	.\performance\cysqrt.c	826;"	d	file:
+__Pyx_StringTabEntry	.\performance\cysqrt.c	/^                const char is_unicode; const char is_str; const char intern; } __Pyx_StringTabEntry;$/;"	t	typeref:struct:__anon2	file:
+__Pyx_TypeCheck	.\performance\cysqrt.c	940;"	d	file:
+__Pyx_TypeCheck	.\performance\cysqrt.c	945;"	d	file:
+__Pyx_XCLEAR	.\performance\cysqrt.c	846;"	d	file:
+__Pyx_XDECREF	.\performance\cysqrt.c	821;"	d	file:
+__Pyx_XDECREF	.\performance\cysqrt.c	833;"	d	file:
+__Pyx_XDECREF_SET	.\performance\cysqrt.c	837;"	d	file:
+__Pyx_XGIVEREF	.\performance\cysqrt.c	823;"	d	file:
+__Pyx_XGIVEREF	.\performance\cysqrt.c	835;"	d	file:
+__Pyx_XGOTREF	.\performance\cysqrt.c	822;"	d	file:
+__Pyx_XGOTREF	.\performance\cysqrt.c	834;"	d	file:
+__Pyx_XINCREF	.\performance\cysqrt.c	820;"	d	file:
+__Pyx_XINCREF	.\performance\cysqrt.c	832;"	d	file:
+__Pyx_check_binary_version	.\performance\cysqrt.c	/^static int __Pyx_check_binary_version(void) {$/;"	f	file:
+__Pyx_fits_Py_ssize_t	.\performance\cysqrt.c	594;"	d	file:
+__Pyx_init_sys_getdefaultencoding_params	.\performance\cysqrt.c	/^static int __Pyx_init_sys_getdefaultencoding_params(void) {$/;"	f	file:
+__Pyx_inner_PyErr_GivenExceptionMatches2	.\performance\cysqrt.c	/^static CYTHON_INLINE int __Pyx_inner_PyErr_GivenExceptionMatches2(PyObject *err, PyObject* exc_type1, PyObject *exc_type2) {$/;"	f	file:
+__Pyx_inner_PyErr_GivenExceptionMatches2	.\performance\cysqrt.c	/^static int __Pyx_inner_PyErr_GivenExceptionMatches2(PyObject *err, PyObject* exc_type1, PyObject* exc_type2) {$/;"	f	file:
+__Pyx_long_cast	.\performance\cysqrt.c	593;"	d	file:
+__Pyx_modinit_function_export_code	.\performance\cysqrt.c	/^static int __Pyx_modinit_function_export_code(void) {$/;"	f	file:
+__Pyx_modinit_function_import_code	.\performance\cysqrt.c	/^static int __Pyx_modinit_function_import_code(void) {$/;"	f	file:
+__Pyx_modinit_global_init_code	.\performance\cysqrt.c	/^static int __Pyx_modinit_global_init_code(void) {$/;"	f	file:
+__Pyx_modinit_type_import_code	.\performance\cysqrt.c	/^static int __Pyx_modinit_type_import_code(void) {$/;"	f	file:
+__Pyx_modinit_type_init_code	.\performance\cysqrt.c	/^static int __Pyx_modinit_type_init_code(void) {$/;"	f	file:
+__Pyx_modinit_variable_export_code	.\performance\cysqrt.c	/^static int __Pyx_modinit_variable_export_code(void) {$/;"	f	file:
+__Pyx_modinit_variable_import_code	.\performance\cysqrt.c	/^static int __Pyx_modinit_variable_import_code(void) {$/;"	f	file:
+__Pyx_pretend_to_initialize	.\performance\cysqrt.c	/^static CYTHON_INLINE void __Pyx_pretend_to_initialize(void* ptr) { (void)ptr; }$/;"	f	file:
+__Pyx_sst_abs	.\performance\cysqrt.c	606;"	d	file:
+__Pyx_sst_abs	.\performance\cysqrt.c	608;"	d	file:
+__Pyx_sst_abs	.\performance\cysqrt.c	610;"	d	file:
+__Pyx_sst_abs	.\performance\cysqrt.c	612;"	d	file:
+__Pyx_sst_abs	.\performance\cysqrt.c	614;"	d	file:
+__Pyx_sst_abs	.\performance\cysqrt.c	616;"	d	file:
+__Pyx_sst_abs	.\performance\cysqrt.c	618;"	d	file:
+__Pyx_sys_getdefaultencoding_not_ascii	.\performance\cysqrt.c	/^static int __Pyx_sys_getdefaultencoding_not_ascii;$/;"	v	file:
+__Pyx_truncl	.\performance\cysqrt.c	554;"	d	file:
+__Pyx_truncl	.\performance\cysqrt.c	556;"	d	file:
+__Pyx_uchar_cast	.\performance\cysqrt.c	592;"	d	file:
+__Pyx_void_to_None	.\performance\cysqrt.c	242;"	d	file:
+__always_check_balance	.\patterns\behavioral\templatemethod.py	/^    def __always_check_balance(self, amount_to_withdraw):$/;"	m	class:BankDeposit	file:
+__always_take_fee	.\patterns\behavioral\templatemethod.py	/^    def __always_take_fee(self, amount_to_withdraw):$/;"	m	class:BankDeposit	file:
+__cdecl	.\performance\cysqrt.c	33;"	d	file:
+__db	.\metaprogramming\basics.py	/^    __db = None$/;"	v	class:DbRecord
+__eq__	.\metaprogramming\basics.py	/^    def __eq__(self, other):$/;"	m	class:Record	file:
+__factories	.\patterns\creational\factory.py	/^    __factories = {}$/;"	v	class:StarWarsFactory
+__fastcall	.\performance\cysqrt.c	36;"	d	file:
+__fee	.\patterns\behavioral\templatemethod.py	/^    __fee = 0.01$/;"	v	class:BankDeposit
+__fee	.\patterns\behavioral\templatemethod.py	/^    __fee = 0.05$/;"	v	class:MafiaBankDeposit
+__fee	.\patterns\behavioral\templatemethod.py	/^    __fee = 0.1$/;"	v	class:StateBankDeposit
+__get__	.\metaprogramming\descriptors.py	/^    def __get__(self, instance, owner):$/;"	m	class:Quantity	file:
+__getattr__	.\metaprogramming\basics.py	/^    def __getattr__(self, name):$/;"	m	class:AttributeDict	file:
+__getattr__	.\patterns\structural\adapter.py	/^    def __getattr__(self, attr):$/;"	m	class:ForceAdapter	file:
+__has_attribute	.\performance\cysqrt.c	199;"	d	file:
+__has_cpp_attribute	.\performance\cysqrt.c	202;"	d	file:
+__init__	.\algorithms\trie.py	/^    def __init__(self, num_bits)$/;"	m	class:Node2
+__init__	.\algorithms\trie.py	/^    def __init__(self, num_bits):$/;"	m	class:Node
+__init__	.\frameworks\marshmallow\basic.py	/^    def __init__(self, name, surname, login, email):$/;"	m	class:User
+__init__	.\metaprogramming\basics.py	/^    def __init__(self, **kwargs):$/;"	m	class:Record
+__init__	.\metaprogramming\basics.py	/^    def __init__(self, data):$/;"	m	class:AttributeDict
+__init__	.\metaprogramming\class_decorators.py	/^    def __init__(self, name, email):$/;"	m	class:Customer
+__init__	.\metaprogramming\descriptors.py	/^    def __init__(self):$/;"	m	class:Quantity
+__init__	.\metaprogramming\descriptors.py	/^    def __init__(self, product, weight, price):$/;"	m	class:OrderItem
+__init__	.\metaprogramming\properties.py	/^    def __init__(self, product, weight, price):$/;"	m	class:OrderItem
+__init__	.\patterns\behavioral\chainofresponsibility.py	/^	def __init__(self):$/;"	m	class:DarkEmperor
+__init__	.\patterns\behavioral\chainofresponsibility.py	/^	def __init__(self):$/;"	m	class:DarkPadavan
+__init__	.\patterns\behavioral\chainofresponsibility.py	/^	def __init__(self):$/;"	m	class:DartVeider
+__init__	.\patterns\behavioral\chainofresponsibility.py	/^	def __init__(self):$/;"	m	class:MasterJedi
+__init__	.\patterns\behavioral\chainofresponsibility.py	/^	def __init__(self, name, force_level, successor):$/;"	m	class:ForceUser
+__init__	.\patterns\behavioral\chainofresponsibility.py	/^	def __init__(self, successor):$/;"	m	class:Joda
+__init__	.\patterns\behavioral\chainofresponsibility.py	/^	def __init__(self, successor):$/;"	m	class:Luke
+__init__	.\patterns\behavioral\command.py	/^    def __init__(self):$/;"	m	class:Cooker
+__init__	.\patterns\behavioral\command.py	/^    def __init__(self, command_object):$/;"	m	class:Command
+__init__	.\patterns\behavioral\interpreter.py	/^    def __init__(self):$/;"	m	class:AbstractExpression
+__init__	.\patterns\behavioral\interpreter.py	/^    def __init__(self):$/;"	m	class:TerminalExpression
+__init__	.\patterns\behavioral\interpreter.py	/^    def __init__(self, expression):$/;"	m	class:NonTerminalExpression
+__init__	.\patterns\behavioral\iterator.py	/^		def __init__(self, fleet):$/;"	m	class:SpaceFleet.SpaceFleetIterator
+__init__	.\patterns\behavioral\iterator.py	/^	def __init__(self):$/;"	m	class:MissileCruiser
+__init__	.\patterns\behavioral\iterator.py	/^	def __init__(self):$/;"	m	class:SpaceFleet
+__init__	.\patterns\behavioral\iterator.py	/^	def __init__(self):$/;"	m	class:Starfighter
+__init__	.\patterns\behavioral\iterator.py	/^	def __init__(self, spaceship_type):$/;"	m	class:Spaceship
+__init__	.\patterns\behavioral\mediator.py	/^    def __init__(self):$/;"	m	class:DBCoordinator
+__init__	.\patterns\behavioral\mediator.py	/^    def __init__(self):$/;"	m	class:Mediator
+__init__	.\patterns\behavioral\mediator.py	/^    def __init__(self, mediator, id):$/;"	m	class:DistributedDBNode
+__init__	.\patterns\behavioral\mediator.py	/^    def __init__(self, mediator, id):$/;"	m	class:Node
+__init__	.\patterns\behavioral\memento.py	/^    def __init__(self, columns_list):$/;"	m	class:Table
+__init__	.\patterns\behavioral\observer.py	/^    def __init__(self):$/;"	m	class:Subject
+__init__	.\patterns\behavioral\observer.py	/^    def __init__(self, force_level):$/;"	m	class:UniverseForce
+__init__	.\patterns\behavioral\observer.py	/^    def __init__(self, name):$/;"	m	class:DarkLord
+__init__	.\patterns\behavioral\observer.py	/^    def __init__(self, name):$/;"	m	class:Jedi
+__init__	.\patterns\behavioral\state.py	/^    def __init__(self, state):$/;"	m	class:Human
+__init__	.\patterns\behavioral\strategy.py	/^    def __init__(self, name, strategy_function = None):$/;"	m	class:Strategy
+__init__	.\patterns\behavioral\templatemethod.py	/^    def __init__(self, initial_amount, deposit_name):$/;"	m	class:BankDeposit
+__init__	.\patterns\behavioral\visitor.py	/^    def __init__(self):$/;"	m	class:Khan
+__init__	.\patterns\behavioral\visitor.py	/^    def __init__(self):$/;"	m	class:SpaceshipEnterprise
+__init__	.\patterns\behavioral\visitor.py	/^    def __init__(self, name):$/;"	m	class:Visitor
+__init__	.\patterns\behavioral\visitor.py	/^    def __init__(self, planet_name):$/;"	m	class:Planet
+__init__	.\patterns\creational\builder.py	/^	def __init__(self):$/;"	m	class:Builder
+__init__	.\patterns\creational\builder.py	/^	def __init__(self):$/;"	m	class:Spaceship
+__init__	.\patterns\creational\builder.py	/^	def __init__(self, builder):$/;"	m	class:Spaceshipyard
+__init__	.\patterns\creational\factory.py	/^    def __init__(self, nickname, force_level):$/;"	m	class:Jedi
+__init__	.\patterns\creational\factory.py	/^    def __init__(self, personal_number, force_level):$/;"	m	class:StormTrooper
+__init__	.\patterns\creational\factorymethod.py	/^	def __init__(self, number_of_shootings):$/;"	m	class:Rocket
+__init__	.\patterns\creational\factorymethod.py	/^	def __init__(self, number_of_shootings):$/;"	m	class:Shotgun
+__init__	.\patterns\creational\factorymethod.py	/^	def __init__(self, weapon_type, number_of_shootings):$/;"	m	class:Weapon
+__init__	.\patterns\creational\prototype.py	/^    def __init__(self):$/;"	m	class:Prototype
+__init__	.\patterns\creational\prototype.py	/^    def __init__(self, name, personal_number, weight, height, skills):$/;"	m	class:StarTrooper
+__init__	.\patterns\creational\singleton.py	/^	def __init__(self):$/;"	m	class:Borg
+__init__	.\patterns\creational\singleton.py	/^	def __init__(self, **kwargs):$/;"	m	class:Singleton
+__init__	.\patterns\structural\adapter.py	/^    def __init__(self, dark_emotions, amount):$/;"	m	class:DarkForceSide
+__init__	.\patterns\structural\adapter.py	/^    def __init__(self, force, **adaptable_methods):$/;"	m	class:ForceAdapter
+__init__	.\patterns\structural\adapter.py	/^    def __init__(self, inner_state, amount):$/;"	m	class:LightForceSide
+__init__	.\patterns\structural\bridge.py	/^    def __init__(self, bottle_maker, volume, sticker):$/;"	m	class:Bottle
+__init__	.\patterns\structural\composite.py	/^    def __init__(self, name, coloring):$/;"	m	class:AbstractRussianDoll
+__init__	.\patterns\structural\composite.py	/^    def __init__(self, name, coloring):$/;"	m	class:CompositeRussianDoll
+__init__	.\patterns\structural\composite.py	/^    def __init__(self, name, coloring):$/;"	m	class:ConcreteRussianDoll
+__init__	.\patterns\structural\facade.py	/^    def __init__(self, material):$/;"	m	class:Chair
+__init__	.\patterns\structural\facade.py	/^    def __init__(self, name, mass):$/;"	m	class:Cow
+__init__	.\patterns\structural\facade.py	/^    def __init__(self, nlm_breaker, nlm_composer, lc_breaker, lc_composer):$/;"	m	class:TeleporterFacade
+__init__	.\patterns\structural\proxy.py	/^    def __init__(self):$/;"	m	class:EmperorProxy
+__init__	.\performance\tricks.py	/^    def __init__(self, x, y):$/;"	m	class:PPoint
+__init__	.\performance\tricks.py	/^    def __init__(self, x, y):$/;"	m	class:Point
+__init__	.\performance\tricks.py	/^    def __init__(self, x, y):$/;"	m	class:SPoint
+__iter__	.\patterns\behavioral\iterator.py	/^		def __iter__(self):$/;"	m	class:SpaceFleet.SpaceFleetIterator	file:
+__iter__	.\patterns\behavioral\iterator.py	/^	def __iter__(self):$/;"	m	class:SpaceFleet	file:
+__new__	.\metaprogramming\basics.py	/^    def __new__(cls, arg):$/;"	m	class:AttributeDict	file:
+__next__	.\patterns\behavioral\iterator.py	/^		def __next__(self):$/;"	m	class:SpaceFleet.SpaceFleetIterator	file:
+__print_executing_code	.\patterns\behavioral\templatemethod.py	/^    def __print_executing_code(self, frame):$/;"	m	class:BankDeposit	file:
+__pyx_PyFloat_AsDouble	.\performance\cysqrt.c	668;"	d	file:
+__pyx_PyFloat_AsDouble	.\performance\cysqrt.c	670;"	d	file:
+__pyx_PyFloat_AsFloat	.\performance\cysqrt.c	672;"	d	file:
+__pyx_b	.\performance\cysqrt.c	/^static PyObject *__pyx_b;$/;"	v	file:
+__pyx_bisect_code_objects	.\performance\cysqrt.c	/^static int __pyx_bisect_code_objects(__Pyx_CodeObjectCacheEntry* entries, int count, int code_line) {$/;"	f	file:
+__pyx_cfilenm	.\performance\cysqrt.c	/^static const char * __pyx_cfilenm= __FILE__;$/;"	v	file:
+__pyx_clineno	.\performance\cysqrt.c	/^static int __pyx_clineno = 0;$/;"	v	file:
+__pyx_code_cache	.\performance\cysqrt.c	/^static struct __Pyx_CodeObjectCache __pyx_code_cache = {0,0,NULL};$/;"	v	typeref:struct:__Pyx_CodeObjectCache	file:
+__pyx_codeobj__2	.\performance\cysqrt.c	/^static PyObject *__pyx_codeobj__2;$/;"	v	file:
+__pyx_cython_runtime	.\performance\cysqrt.c	/^static PyObject *__pyx_cython_runtime;$/;"	v	file:
+__pyx_d	.\performance\cysqrt.c	/^static PyObject *__pyx_d;$/;"	v	file:
+__pyx_doc_9pysharpen_11performance_6cysqrt_sqrt	.\performance\cysqrt.c	/^static char __pyx_doc_9pysharpen_11performance_6cysqrt_sqrt[] = "Return square root of n";$/;"	v	file:
+__pyx_empty_bytes	.\performance\cysqrt.c	/^static PyObject *__pyx_empty_bytes;$/;"	v	file:
+__pyx_empty_tuple	.\performance\cysqrt.c	/^static PyObject *__pyx_empty_tuple;$/;"	v	file:
+__pyx_empty_unicode	.\performance\cysqrt.c	/^static PyObject *__pyx_empty_unicode;$/;"	v	file:
+__pyx_f	.\performance\cysqrt.c	/^static const char *__pyx_f[] = {$/;"	v	file:
+__pyx_filename	.\performance\cysqrt.c	/^static const char *__pyx_filename;$/;"	v	file:
+__pyx_find_code_object	.\performance\cysqrt.c	/^static PyCodeObject *__pyx_find_code_object(int code_line) {$/;"	f	file:
+__pyx_insert_code_object	.\performance\cysqrt.c	/^static void __pyx_insert_code_object(int code_line, PyCodeObject* code_object) {$/;"	f	file:
+__pyx_k_Module_for_cython_demostration	.\performance\cysqrt.c	/^static const char __pyx_k_Module_for_cython_demostration[] = "\\nModule for cython demostration\\n";$/;"	v	file:
+__pyx_k_cline_in_traceback	.\performance\cysqrt.c	/^static const char __pyx_k_cline_in_traceback[] = "cline_in_traceback";$/;"	v	file:
+__pyx_k_epsilon	.\performance\cysqrt.c	/^static const char __pyx_k_epsilon[] = "epsilon";$/;"	v	file:
+__pyx_k_guess	.\performance\cysqrt.c	/^static const char __pyx_k_guess[] = "guess";$/;"	v	file:
+__pyx_k_main	.\performance\cysqrt.c	/^static const char __pyx_k_main[] = "__main__";$/;"	v	file:
+__pyx_k_n	.\performance\cysqrt.c	/^static const char __pyx_k_n[] = "n";$/;"	v	file:
+__pyx_k_pysharpen_performance_cysqrt	.\performance\cysqrt.c	/^static const char __pyx_k_pysharpen_performance_cysqrt[] = "pysharpen.performance.cysqrt";$/;"	v	file:
+__pyx_k_pysharpen_performance_cysqrt_pyx	.\performance\cysqrt.c	/^static const char __pyx_k_pysharpen_performance_cysqrt_pyx[] = "pysharpen\\\\performance\\\\cysqrt.pyx";$/;"	v	file:
+__pyx_k_sqrt	.\performance\cysqrt.c	/^static const char __pyx_k_sqrt[] = "sqrt";$/;"	v	file:
+__pyx_k_test	.\performance\cysqrt.c	/^static const char __pyx_k_test[] = "__test__";$/;"	v	file:
+__pyx_kp_s_pysharpen_performance_cysqrt_pyx	.\performance\cysqrt.c	/^static PyObject *__pyx_kp_s_pysharpen_performance_cysqrt_pyx;$/;"	v	file:
+__pyx_lineno	.\performance\cysqrt.c	/^static int __pyx_lineno;$/;"	v	file:
+__pyx_m	.\performance\cysqrt.c	/^static PyObject *__pyx_m = NULL;$/;"	v	file:
+__pyx_mdef_9pysharpen_11performance_6cysqrt_1sqrt	.\performance\cysqrt.c	/^static PyMethodDef __pyx_mdef_9pysharpen_11performance_6cysqrt_1sqrt = {"sqrt", (PyCFunction)__pyx_pw_9pysharpen_11performance_6cysqrt_1sqrt, METH_VARARGS|METH_KEYWORDS, __pyx_doc_9pysharpen_11performance_6cysqrt_sqrt};$/;"	v	file:
+__pyx_methods	.\performance\cysqrt.c	/^static PyMethodDef __pyx_methods[] = {$/;"	v	file:
+__pyx_module_is_main_pysharpen__performance__cysqrt	.\performance\cysqrt.c	/^int __pyx_module_is_main_pysharpen__performance__cysqrt = 0;$/;"	v
+__pyx_moduledef	.\performance\cysqrt.c	/^static struct PyModuleDef __pyx_moduledef = {$/;"	v	typeref:struct:PyModuleDef	file:
+__pyx_moduledef_slots	.\performance\cysqrt.c	/^static PyModuleDef_Slot __pyx_moduledef_slots[] = {$/;"	v	file:
+__pyx_n_s_cline_in_traceback	.\performance\cysqrt.c	/^static PyObject *__pyx_n_s_cline_in_traceback;$/;"	v	file:
+__pyx_n_s_epsilon	.\performance\cysqrt.c	/^static PyObject *__pyx_n_s_epsilon;$/;"	v	file:
+__pyx_n_s_guess	.\performance\cysqrt.c	/^static PyObject *__pyx_n_s_guess;$/;"	v	file:
+__pyx_n_s_main	.\performance\cysqrt.c	/^static PyObject *__pyx_n_s_main;$/;"	v	file:
+__pyx_n_s_n	.\performance\cysqrt.c	/^static PyObject *__pyx_n_s_n;$/;"	v	file:
+__pyx_n_s_pysharpen_performance_cysqrt	.\performance\cysqrt.c	/^static PyObject *__pyx_n_s_pysharpen_performance_cysqrt;$/;"	v	file:
+__pyx_n_s_sqrt	.\performance\cysqrt.c	/^static PyObject *__pyx_n_s_sqrt;$/;"	v	file:
+__pyx_n_s_test	.\performance\cysqrt.c	/^static PyObject *__pyx_n_s_test;$/;"	v	file:
+__pyx_pf_9pysharpen_11performance_6cysqrt_sqrt	.\performance\cysqrt.c	/^static PyObject *__pyx_pf_9pysharpen_11performance_6cysqrt_sqrt(CYTHON_UNUSED PyObject *__pyx_self, double __pyx_v_n, double __pyx_v_epsilon) {$/;"	f	file:
+__pyx_pw_9pysharpen_11performance_6cysqrt_1sqrt	.\performance\cysqrt.c	/^static PyObject *__pyx_pw_9pysharpen_11performance_6cysqrt_1sqrt(PyObject *__pyx_self, PyObject *__pyx_args, PyObject *__pyx_kwds) {$/;"	f	file:
+__pyx_string_tab	.\performance\cysqrt.c	/^static __Pyx_StringTabEntry __pyx_string_tab[] = {$/;"	v	file:
+__pyx_tuple_	.\performance\cysqrt.c	/^static PyObject *__pyx_tuple_;$/;"	v	file:
+__repr__	.\frameworks\marshmallow\basic.py	/^    def __repr__(self):$/;"	m	class:User	file:
+__repr__	.\metaprogramming\basics.py	/^    def __repr__(self):$/;"	m	class:DbRecord	file:
+__repr__	.\metaprogramming\basics.py	/^    def __repr__(self):$/;"	m	class:Event	file:
+__set__	.\metaprogramming\descriptors.py	/^    def __set__(self, instance, value):$/;"	m	class:Quantity	file:
+__slots__	.\performance\tricks.py	/^    __slots__ = ("x", "y")$/;"	v	class:SPoint
+__stdcall	.\performance\cysqrt.c	30;"	d	file:
+__str__	.\algorithms\trie.py	/^    def __str__(self):$/;"	m	class:Node	file:
+__str__	.\patterns\behavioral\iterator.py	/^	def __str__(self):$/;"	m	class:Spaceship	file:
+__str__	.\patterns\behavioral\memento.py	/^    def __str__(self):$/;"	m	class:Table	file:
+__str__	.\patterns\behavioral\state.py	/^    def __str__(self):$/;"	m	class:Human	file:
+__str__	.\patterns\behavioral\state.py	/^    def __str__(self):$/;"	m	class:State	file:
+__str__	.\patterns\behavioral\templatemethod.py	/^    def __str__(self):$/;"	m	class:BankDeposit	file:
+__str__	.\patterns\behavioral\visitor.py	/^    def __str__(self):$/;"	m	class:Visitor	file:
+__str__	.\patterns\creational\builder.py	/^	def __str__(self):$/;"	m	class:Spaceship	file:
+__str__	.\patterns\creational\factory.py	/^    def __str__(self):$/;"	m	class:Jedi	file:
+__str__	.\patterns\creational\factory.py	/^    def __str__(self):$/;"	m	class:StormTrooper	file:
+__str__	.\patterns\creational\prototype.py	/^    def __str__(self):$/;"	m	class:StarTrooper	file:
+__str__	.\patterns\creational\singleton.py	/^	def __str__(self):$/;"	m	class:Singleton	file:
+__str__	.\patterns\structural\bridge.py	/^    def __str__(self):$/;"	m	class:Bottle	file:
+__str__	.\patterns\structural\facade.py	/^    def __str__(self):$/;"	m	class:Chair	file:
+__str__	.\patterns\structural\facade.py	/^    def __str__(self):$/;"	m	class:Cow	file:
+_allowed	.\patterns\behavioral\state.py	/^    _allowed = ["rest", "training", "dead"]$/;"	v	class:Rest
+_allowed	.\patterns\behavioral\state.py	/^    _allowed = ["rest", "training", "dead"]$/;"	v	class:Training
+_allowed	.\patterns\behavioral\state.py	/^    _allowed = []    $/;"	v	class:State
+_allowed	.\patterns\behavioral\state.py	/^    _allowed = []$/;"	v	class:Dead
+_can_handle_trainings	.\patterns\behavioral\state.py	/^    _can_handle_trainings = 3$/;"	v	class:Human
+_counter	.\metaprogramming\descriptors.py	/^    _counter = 0$/;"	v	class:Quantity
+_handle	.\patterns\behavioral\chainofresponsibility.py	/^	def _handle(self, request):$/;"	m	class:ForceUser
+_handle	.\patterns\behavioral\chainofresponsibility.py	/^	def _handle(self, request):$/;"	m	class:Joda
+_handle	.\patterns\behavioral\chainofresponsibility.py	/^	def _handle(self, request):$/;"	m	class:Luke
+_handle	.\patterns\behavioral\chainofresponsibility.py	/^	def _handle(self, request):$/;"	m	class:MasterJedi
+_name	.\frameworks\marshmallow\basic.py	/^    _name = fields.Str(attribute="name", data_key="dict_name")$/;"	v	class:UserSchema
+_shared_state	.\patterns\creational\singleton.py	/^	_shared_state = {}$/;"	v	class:Borg
+abc	.\challenges\parallel_word_search.py	/^from collections import abc$/;"	i
+abs_even	.\performance\tricks.py	/^def abs_even(num):$/;"	f
+abstractmethod	.\patterns\behavioral\interpreter.py	/^from abc import ABC, abstractmethod$/;"	i
+abstractmethod	.\patterns\behavioral\templatemethod.py	/^from abc import ABC, abstractmethod$/;"	i
+accept	.\patterns\behavioral\visitor.py	/^    def accept(self, visitor):$/;"	m	class:Planet
+add_body	.\patterns\creational\builder.py	/^	def add_body(self):$/;"	m	class:SpaceshipBuilder
+add_doll	.\patterns\structural\composite.py	/^    def add_doll(self, doll):$/;"	m	class:CompositeRussianDoll
+add_engine	.\patterns\creational\builder.py	/^	def add_engine(self):$/;"	m	class:SpaceshipBuilder
+add_factory	.\patterns\creational\factory.py	/^    def add_factory(cls, character_name):$/;"	m	class:StarWarsFactory
+add_lasers	.\patterns\creational\builder.py	/^	def add_lasers(self):$/;"	m	class:SpaceshipBuilder
+add_node	.\patterns\behavioral\mediator.py	/^    def add_node(self, node):$/;"	m	class:DBCoordinator
+add_node	.\patterns\behavioral\mediator.py	/^    def add_node(self, node):$/;"	m	class:Mediator
+add_to_fleet	.\patterns\behavioral\iterator.py	/^	def add_to_fleet(self, spaceship):$/;"	m	class:SpaceFleet
+add_to_program	.\patterns\behavioral\command.py	/^    def add_to_program(self, command):$/;"	m	class:Cooker
+aiohttp	.\external\keycloak\basics.py	/^import aiohttp$/;"	i
+alloc_compreh	.\performance\tricks.py	/^def alloc_compreh(size):$/;"	f
+alloc_multipl	.\performance\tricks.py	/^def alloc_multipl(size):$/;"	f
+allocate_points	.\performance\tricks.py	/^def allocate_points(cls, num):$/;"	f
+am_aiter	.\performance\cysqrt.c	/^        unaryfunc am_aiter;$/;"	m	struct:__anon1	file:
+am_anext	.\performance\cysqrt.c	/^        unaryfunc am_anext;$/;"	m	struct:__anon1	file:
+am_await	.\performance\cysqrt.c	/^        unaryfunc am_await;$/;"	m	struct:__anon1	file:
+app	.\containerization\haproxy_uwsgi_app\uwsgi\run.py	/^app = Flask(__name__)$/;"	v
+app	.\frameworks\flask\basic.py	/^app = Flask(__name__)$/;"	v
+arrivals	.\dataanalytics\simulations.py	/^arrivals = []$/;"	v
+asyncio	.\async\spinner_asyncio.py	/^import asyncio$/;"	i
+asyncio	.\external\keycloak\basics.py	/^import asyncio$/;"	i
+attach	.\patterns\behavioral\observer.py	/^    def attach(self, observer):$/;"	m	class:Subject
+average_arrival_interval	.\dataanalytics\simulations.py	/^average_arrival_interval = 5.6$/;"	v
+average_service_time	.\dataanalytics\simulations.py	/^average_service_time = 4.6$/;"	v
+bootstrap	.\dataanalytics\simulations.py	/^def bootstrap(data):$/;"	f
+break_creature	.\patterns\structural\facade.py	/^    def break_creature(self, creature):$/;"	m	class:LivingMatterBreaker
+break_egg	.\patterns\behavioral\command.py	/^    def break_egg(self):$/;"	m	class:Egg
+break_object	.\patterns\structural\facade.py	/^    def break_object(self, obj):$/;"	m	class:NonLivingMatterBreaker
+build_spaceship	.\patterns\creational\builder.py	/^	def build_spaceship(self):$/;"	m	class:Builder
+bz2	.\performance\parallel.py	/^import bz2$/;"	i
+cProfile	.\io\calcaverage.py	/^import cProfile$/;"	i
+cProfile	.\performance\measure_time.py	/^    import cProfile$/;"	i
+calc_avg_csvreader	.\io\calcaverage.py	/^def calc_avg_csvreader(path_to_file):$/;"	f
+calc_avg_python	.\io\calcaverage.py	/^def calc_avg_python(path_to_file):$/;"	f
+choices	.\dataanalytics\simulations.py	/^from random import choices, sample, shuffle, expovariate, gauss$/;"	i
+cleanup	.\external\keycloak\basics.py	/^def cleanup():$/;"	f
+client_data	.\external\keycloak\basics.py	/^def client_data(idx):$/;"	f
+clone	.\patterns\creational\prototype.py	/^    def clone(self, prototype_name, **args):$/;"	m	class:Prototype
+code_line	.\performance\cysqrt.c	/^    int code_line;$/;"	m	struct:__anon4	file:
+code_object	.\performance\cysqrt.c	/^    PyCodeObject* code_object;$/;"	m	struct:__anon4	file:
+coefs	.\performance\numba_test.py	/^coefs = [4, 8, 15, 16, 23, 42]$/;"	v
+combined	.\dataanalytics\simulations.py	/^combined = drug + placebo$/;"	v
+compose_creature	.\patterns\structural\facade.py	/^    def compose_creature(self, creature):$/;"	m	class:LivingMatterComposer
+compose_object	.\patterns\structural\facade.py	/^    def compose_object(self, obj):$/;"	m	class:NonLivingMatterComposer
+config	.\performance\tricks.py	/^class config:$/;"	c
+construct_spaceship	.\patterns\creational\builder.py	/^	def construct_spaceship(self):$/;"	m	class:Spaceshipyard
+copy	.\patterns\creational\prototype.py	/^import copy$/;"	i
+count	.\performance\cysqrt.c	/^    int count;$/;"	m	struct:__Pyx_CodeObjectCache	file:
+cprofile_test	.\performance\measure_time.py	/^def cprofile_test():$/;"	f
+create	.\patterns\creational\factory.py	/^        def create(self):$/;"	m	class:Jedi.Factory
+create	.\patterns\creational\factory.py	/^    def create(cls):$/;"	m	class:StormTrooperFactory
+create	.\patterns\creational\factory.py	/^    def create(cls, character_name):$/;"	m	class:StarWarsFactory
+create_entity	.\external\keycloak\basics.py	/^def create_entity(url, access_token, entity_data):$/;"	f
+create_headers	.\external\keycloak\basics.py	/^def create_headers(access_token):$/;"	f
+create_realm	.\external\keycloak\basics.py	/^create_realm = partial(create_entity, _REALMS_URL)$/;"	v
+create_realm_async	.\external\keycloak\basics.py	/^async def create_realm_async(url, access_token, realm_data):$/;"	f
+created_dt	.\frameworks\marshmallow\basic.py	/^    created_dt = fields.DateTime()$/;"	v	class:UserSchema
+csv	.\io\calcaverage.py	/^import csv$/;"	i
+cummulative_weights	.\dataanalytics\simulations.py	/^cummulative_weights = [0.6, 1.0]$/;"	v
+customer_count	.\metaprogramming\class_decorators.py	/^    customer_count = 0$/;"	v	class:Customer
+data	.\performance\parallel.py	/^    data = fp.read()$/;"	v
+data_compressed	.\performance\parallel.py	/^data_compressed = bz2.compress(data)$/;"	v
+datetime	.\performance\parallel.py	/^from datetime import datetime$/;"	i
+deal	.\dataanalytics\simulations.py	/^deal = sample(list(deck.elements()), 52)$/;"	v
+deck	.\dataanalytics\simulations.py	/^deck = Counter(tens=16, low=36)$/;"	v
+decorator	.\patterns\structural\decorator.py	/^    def decorator(*args, **kwargs):$/;"	f	function:masked_decorator
+decorator	.\patterns\structural\decorator.py	/^    def decorator(*args, **kwargs):$/;"	f	function:unmasked_decorator
+deepcopy	.\patterns\behavioral\memento.py	/^from copy import deepcopy$/;"	i
+deepcopy	.\patterns\structural\adapter.py	/^from copy import deepcopy$/;"	i
+default_access_token	.\external\keycloak\basics.py	/^default_access_token = partial(get_access_token,$/;"	v
+default_client_data	.\external\keycloak\basics.py	/^default_client_data = partial(generate_client_data, _MODEL)$/;"	v
+default_realm_data	.\external\keycloak\basics.py	/^default_realm_data = partial(generate_realm_data, _MODEL)$/;"	v
+default_user_data	.\external\keycloak\basics.py	/^default_user_data = partial(generate_user_data, _MODEL)$/;"	v
+defaultdict	.\algorithms\trie.py	/^from collections import defaultdict$/;"	i
+delete	.\patterns\behavioral\memento.py	/^    def delete(self, where_clause):$/;"	m	class:Table
+delete_entity	.\external\keycloak\basics.py	/^def delete_entity(url, access_token, key):$/;"	f
+delete_realm	.\external\keycloak\basics.py	/^delete_realm = partial(delete_entity, _REALMS_URL)$/;"	v
+destroy_forests	.\patterns\behavioral\visitor.py	/^    def destroy_forests(self):$/;"	m	class:Planet
+detach	.\patterns\behavioral\observer.py	/^    def detach(self, observer):$/;"	m	class:Subject
+distribute	.\patterns\behavioral\mediator.py	/^    def distribute(self, sender, message):$/;"	m	class:DBCoordinator
+distribute	.\patterns\behavioral\mediator.py	/^    def distribute(self, sender, message):$/;"	m	class:Mediator
+do_withdraw	.\patterns\behavioral\templatemethod.py	/^    def do_withdraw(self, amount_to_withdraw):$/;"	m	class:BankDeposit
+do_withdraw	.\patterns\behavioral\templatemethod.py	/^    def do_withdraw(self, amount_to_withdraw):$/;"	m	class:MafiaBankDeposit
+do_withdraw	.\patterns\behavioral\templatemethod.py	/^    def do_withdraw(self, amount_to_withdraw):$/;"	m	class:StateBankDeposit
+download_flag	.\async\basics.py	/^def download_flag(country_code):$/;"	f
+drug	.\dataanalytics\simulations.py	/^drug = [9.1, 10.6, 9.0, 8.41, 6.90, 7.11, 8.90, 7.89, 10.1]$/;"	v
+drug_len	.\dataanalytics\simulations.py	/^drug_len = len(drug)$/;"	v
+dt	.\async\basics.py	/^from datetime import datetime as dt$/;"	i
+dt	.\frameworks\marshmallow\basic.py	/^import datetime as dt$/;"	i
+duration	.\algorithms\trie.py	/^    duration = perf_counter() - start_time$/;"	v
+email	.\frameworks\marshmallow\basic.py	/^    email = fields.Email()$/;"	v	class:UserSchema
+encoding	.\performance\cysqrt.c	/^typedef struct {PyObject **p; const char *s; const Py_ssize_t n; const char* encoding;$/;"	m	struct:__anon2	file:
+entries	.\performance\cysqrt.c	/^    __Pyx_CodeObjectCacheEntry* entries;$/;"	m	struct:__Pyx_CodeObjectCache	file:
+ep	.\patterns\structural\proxy.py	/^    ep = EmperorProxy()$/;"	v
+execute	.\patterns\behavioral\command.py	/^    def execute(self):$/;"	m	class:BreakEgg
+execute	.\patterns\behavioral\command.py	/^    def execute(self):$/;"	m	class:Command
+execute	.\patterns\behavioral\command.py	/^    def execute(self):$/;"	m	class:PutOnOven
+execute	.\patterns\behavioral\command.py	/^    def execute(self):$/;"	m	class:TurnOn
+execute	.\patterns\behavioral\strategy.py	/^    def execute(self):$/;"	m	class:Strategy
+execute_program	.\patterns\behavioral\command.py	/^    def execute_program(self):$/;"	m	class:Cooker
+expovariate	.\dataanalytics\simulations.py	/^from random import choices, sample, shuffle, expovariate, gauss$/;"	i
+factor	.\performance\tricks.py	/^    factor = 7.3$/;"	v	class:config
+factorial_iter	.\performance\measure_time.py	/^def factorial_iter(n):$/;"	f
+factorial_recursive	.\performance\measure_time.py	/^def factorial_recursive(n):$/;"	f
+factorial_test	.\performance\measure_time.py	/^def factorial_test():$/;"	f
+fetch	.\metaprogramming\basics.py	/^    def fetch(cls, ident):$/;"	m	class:DbRecord
+fget	.\metaprogramming\properties.py	/^    def fget(self):$/;"	f	function:quantity
+fields	.\frameworks\marshmallow\basic.py	/^        fields = ("name", "surname", "login", "email")$/;"	v	class:UserSchema2.Meta
+fields	.\frameworks\marshmallow\basic.py	/^from marshmallow import Schema, fields, pprint, validates, ValidationError$/;"	i
+fight_strategy	.\patterns\behavioral\strategy.py	/^def fight_strategy(self):$/;"	f
+file_path	.\io\calcaverage.py	/^        file_path = sys.argv[1]$/;"	v
+find_word_index	.\challenges\parallel_word_search.py	/^def find_word_index(words, word, process_number):$/;"	f
+fix_num	.\performance\tricks.py	/^def fix_num(numbers):$/;"	f
+fix_num_inline	.\performance\tricks.py	/^def fix_num_inline(numbers):$/;"	f
+force_level	.\patterns\behavioral\chainofresponsibility.py	/^	def force_level(self):$/;"	m	class:ForceUser
+force_level	.\patterns\behavioral\chainofresponsibility.py	/^	def force_level(self, value):$/;"	m	class:ForceUser
+force_level	.\patterns\behavioral\observer.py	/^    def force_level(self):$/;"	m	class:UniverseForce
+force_level	.\patterns\behavioral\observer.py	/^    def force_level(self, value):$/;"	m	class:UniverseForce
+force_level	.\patterns\creational\factory.py	/^    def force_level(self):$/;"	m	class:Jedi
+force_level	.\patterns\creational\factory.py	/^    def force_level(self):$/;"	m	class:StormTrooper
+fset	.\metaprogramming\properties.py	/^    def fset(self, value):$/;"	f	function:quantity
+futures	.\async\basics.py	/^from concurrent import futures$/;"	i
+gauss	.\dataanalytics\simulations.py	/^from random import choices, sample, shuffle, expovariate, gauss$/;"	i
+generate_client_data	.\external\keycloak\basics.py	/^def generate_client_data(model):$/;"	f
+generate_clients	.\external\keycloak\basics.py	/^def generate_clients(realm):$/;"	f
+generate_one	.\external\keycloak\basics.py	/^def generate_one(realm, data):$/;"	f
+generate_queries	.\algorithms\trie.py	/^def generate_queries(num_x, num_queries, a_min_value, a_max_value):$/;"	f
+generate_realm_data	.\external\keycloak\basics.py	/^def generate_realm_data(model):$/;"	f
+generate_user_data	.\external\keycloak\basics.py	/^def generate_user_data(model):$/;"	f
+generate_users	.\external\keycloak\basics.py	/^def generate_users(realm):$/;"	f
+generate_x	.\algorithms\trie.py	/^def generate_x(num, min_value, max_value):$/;"	f
+get_access_token	.\external\keycloak\basics.py	/^def get_access_token(url, client_id, username, password):$/;"	f
+get_balance	.\patterns\behavioral\templatemethod.py	/^    def get_balance(self):$/;"	m	class:BankDeposit
+get_checkpoint	.\patterns\behavioral\memento.py	/^    def get_checkpoint(self):$/;"	m	class:Table
+get_db	.\metaprogramming\basics.py	/^    def get_db():$/;"	m	class:DbRecord
+get_fee	.\patterns\behavioral\templatemethod.py	/^    def get_fee(self):$/;"	m	class:BankDeposit
+get_fee	.\patterns\behavioral\templatemethod.py	/^    def get_fee(self):$/;"	m	class:MafiaBankDeposit
+get_fee	.\patterns\behavioral\templatemethod.py	/^    def get_fee(self):$/;"	m	class:StateBankDeposit
+get_file	.\async\basics.py	/^def get_file(base_url, path):$/;"	f
+get_node_id	.\patterns\behavioral\mediator.py	/^    def get_node_id(self):$/;"	m	class:Node
+get_weapon	.\patterns\creational\factorymethod.py	/^def get_weapon(weapon_type):$/;"	f
+go	.\async\spinner_thread.py	/^    go = True$/;"	v	class:Signal
+go_next	.\patterns\behavioral\state.py	/^    def go_next(self, state):$/;"	m	class:State
+gzip	.\challenges\parallel_word_search.py	/^import gzip$/;"	i
+handle	.\patterns\behavioral\chainofresponsibility.py	/^	def handle(self, request):$/;"	m	class:ForceUser
+handle	.\patterns\behavioral\chainofresponsibility.py	/^	def handle(self, request):$/;"	m	class:Handler
+hello_from_flask	.\containerization\haproxy_uwsgi_app\uwsgi\run.py	/^def hello_from_flask():$/;"	f
+hello_from_flask	.\frameworks\flask\basic.py	/^def hello_from_flask():$/;"	f
+initcysqrt	.\performance\cysqrt.c	/^__Pyx_PyMODINIT_FUNC initcysqrt(void)$/;"	f
+insert	.\algorithms\trie.py	/^    def insert(self, num):$/;"	m	class:Node
+insert	.\algorithms\trie.py	/^    def insert(self, num, index):$/;"	m	class:Node2
+insert	.\patterns\behavioral\memento.py	/^    def insert(self, row):$/;"	m	class:Table
+insert_one	.\algorithms\trie.py	/^    def insert_one(self, parent_node, num):$/;"	m	class:Node
+insert_one	.\algorithms\trie.py	/^    def insert_one(self, parent_node, num):$/;"	m	class:Node2
+insert_zero	.\algorithms\trie.py	/^    def insert_zero(self, parent_node, num):$/;"	m	class:Node
+insert_zero	.\algorithms\trie.py	/^    def insert_zero(self, parent_node, num, index):$/;"	m	class:Node2
+inspect	.\metaprogramming\basics.py	/^import inspect$/;"	i
+intern	.\performance\cysqrt.c	/^                const char is_unicode; const char is_str; const char intern; } __Pyx_StringTabEntry;$/;"	m	struct:__anon2	file:
+interpret	.\patterns\behavioral\interpreter.py	/^    def interpret(self):$/;"	m	class:AbstractExpression
+interpret	.\patterns\behavioral\interpreter.py	/^    def interpret(self):$/;"	m	class:NonTerminalExpression
+interpret	.\patterns\behavioral\interpreter.py	/^    def interpret(self):$/;"	m	class:TerminalExpression
+is_msb_set	.\algorithms\trie.py	/^    def is_msb_set(self, num):$/;"	m	class:Node
+is_msb_set	.\algorithms\trie.py	/^    def is_msb_set(self, num):$/;"	m	class:Node2
+is_range_in_index	.\algorithms\trie.py	/^    def is_range_in_index(self, index, start, end):$/;"	m	class:Node2
+is_str	.\performance\cysqrt.c	/^                const char is_unicode; const char is_str; const char intern; } __Pyx_StringTabEntry;$/;"	m	struct:__anon2	file:
+is_unicode	.\performance\cysqrt.c	/^                const char is_unicode; const char is_str; const char intern; } __Pyx_StringTabEntry;$/;"	m	struct:__anon2	file:
+itemgetter	.\performance\tricks.py	/^from operator import itemgetter$/;"	i
+itertools	.\async\spinner_asyncio.py	/^import itertools$/;"	i
+itertools	.\async\spinner_thread.py	/^import itertools$/;"	i
+itertools	.\concurrency\multiprocess.py	/^import itertools$/;"	i
+json	.\containerization\haproxy_uwsgi_app\uwsgi\run.py	/^import json$/;"	i
+json	.\external\keycloak\basics.py	/^import json$/;"	i
+json	.\frameworks\flask\basic.py	/^import json$/;"	i
+json	.\metaprogramming\basics.py	/^import json$/;"	i
+json	.\performance\parallel.py	/^import json$/;"	i
+k	.\dataanalytics\simulations.py	/^                        k=7).count("heads") >= 5$/;"	v
+likely	.\performance\cysqrt.c	757;"	d	file:
+likely	.\performance\cysqrt.c	760;"	d	file:
+list_attributes	.\metaprogramming\class_decorators.py	/^def list_attributes(cls):$/;"	f
+load	.\metaprogramming\basics.py	/^def load():$/;"	f
+load_db	.\metaprogramming\basics.py	/^def load_db(db):$/;"	f
+load_text	.\challenges\parallel_word_search.py	/^def load_text(file_path):$/;"	f
+logical_funcs	.\basics\shpbuiltins.py	/^def logical_funcs():$/;"	f
+login	.\frameworks\marshmallow\basic.py	/^    login = fields.Str(required=True, error_messages={"required": "Login must present"})$/;"	v	class:UserSchema
+login_validation	.\frameworks\marshmallow\basic.py	/^    def login_validation(self, value):$/;"	m	class:UserSchema
+logins	.\performance\parallel.py	/^logins = ("tebeka", "torvalds", "gvanrossum", "mselivanov")$/;"	v
+lru_cache	.\performance\caching.py	/^from functools import lru_cache$/;"	i
+main	.\async\basics.py	/^def main():$/;"	f
+main	.\async\spinner_asyncio.py	/^def main():$/;"	f
+main	.\async\spinner_thread.py	/^def main():$/;"	f
+main	.\basics\shpbuiltins.py	/^def main():$/;"	f
+main	.\challenges\parallel_word_search.py	/^def main(file_path, word, process_number):$/;"	f
+main	.\concurrency\multiprocess.py	/^def main():$/;"	f
+main	.\external\keycloak\basics.py	/^def main():$/;"	f
+main	.\frameworks\marshmallow\basic.py	/^def main():$/;"	f
+main	.\metaprogramming\basics.py	/^def main():$/;"	f
+main	.\metaprogramming\class_decorators.py	/^def main():$/;"	f
+main	.\metaprogramming\descriptors.py	/^def main():$/;"	f
+main	.\metaprogramming\properties.py	/^def main():$/;"	f
+main	.\patterns\behavioral\chainofresponsibility.py	/^def main():$/;"	f
+main	.\patterns\behavioral\command.py	/^def main():$/;"	f
+main	.\patterns\behavioral\interpreter.py	/^def main():$/;"	f
+main	.\patterns\behavioral\iterator.py	/^def main():$/;"	f
+main	.\patterns\behavioral\mediator.py	/^def main():$/;"	f
+main	.\patterns\behavioral\memento.py	/^def main():$/;"	f
+main	.\patterns\behavioral\observer.py	/^def main():$/;"	f
+main	.\patterns\behavioral\state.py	/^def main():  $/;"	f
+main	.\patterns\behavioral\strategy.py	/^def main():$/;"	f
+main	.\patterns\behavioral\templatemethod.py	/^def main():  $/;"	f
+main	.\patterns\behavioral\visitor.py	/^def main():$/;"	f
+main	.\patterns\creational\builder.py	/^def main():$/;"	f
+main	.\patterns\creational\factorymethod.py	/^def main():$/;"	f
+main	.\patterns\creational\singleton.py	/^def main():$/;"	f
+main	.\patterns\structural\adapter.py	/^def main():$/;"	f
+main	.\patterns\structural\bridge.py	/^def main():$/;"	f
+main	.\patterns\structural\composite.py	/^def main():$/;"	f
+main	.\patterns\structural\decorator.py	/^def main():$/;"	f
+main	.\patterns\structural\facade.py	/^def main():$/;"	f
+main	.\performance\measure_time.py	/^def main():$/;"	f
+main	.\performance\numba_test.py	/^def main():$/;"	f
+main	.\performance\numpy_test.py	/^def main():$/;"	f
+main	.\performance\parallel.py	/^def main():$/;"	f
+make	.\patterns\structural\bridge.py	/^    def make(self):$/;"	m	class:Bottle
+make	.\patterns\structural\bridge.py	/^    def make(self, bottle):$/;"	m	class:GlassBottleMaker
+make	.\patterns\structural\bridge.py	/^    def make(self, bottle):$/;"	m	class:PlasticBottleMaker
+masked_decorator	.\patterns\structural\decorator.py	/^def masked_decorator(function):$/;"	f
+math	.\patterns\behavioral\chainofresponsibility.py	/^import math$/;"	i
+mathematical_funcs	.\basics\shpbuiltins.py	/^def mathematical_funcs():$/;"	f
+max_builtin	.\performance\measure_time.py	/^def max_builtin(seq):$/;"	f
+max_count	.\performance\cysqrt.c	/^    int max_count;$/;"	m	struct:__Pyx_CodeObjectCache	file:
+max_python	.\performance\measure_time.py	/^def max_python(seq):$/;"	f
+max_test	.\performance\measure_time.py	/^def max_test():$/;"	f
+max_xor	.\algorithms\trie.py	/^    def max_xor(self, num):$/;"	m	class:Node
+max_xor	.\algorithms\trie.py	/^    def max_xor(self, num, start, end, bits_left):$/;"	m	class:Node2
+max_xor	.\algorithms\trie.py	/^def max_xor(x, queries):$/;"	f
+max_xor_trie	.\algorithms\trie.py	/^def max_xor_trie(x, queries):$/;"	f
+mean	.\dataanalytics\simulations.py	/^from statistics import median, mean, stdev$/;"	i
+means	.\dataanalytics\simulations.py	/^means = sorted([mean(bootstrap(timings)) for _ in range(n)])$/;"	v
+measure_exec_time	.\external\keycloak\basics.py	/^def measure_exec_time(f):$/;"	f
+measure_time	.\async\basics.py	/^    def measure_time(*args, **kwargs):$/;"	f	function:print_exec_time
+median	.\dataanalytics\simulations.py	/^from statistics import median, mean, stdev$/;"	i
+meet	.\patterns\structural\proxy.py	/^    def meet(self):$/;"	m	class:DarkEmperor
+meet	.\patterns\structural\proxy.py	/^    def meet(self):$/;"	m	class:EmperorProxy
+memory_usage	.\performance\tricks.py	/^from memory_profiler import memory_usage$/;"	i
+mpc	.\concurrency\multiprocess.py	/^import multiprocessing as mpc$/;"	i
+multiprocess_example	.\async\basics.py	/^def multiprocess_example(number_flags):$/;"	f
+multithreaded_example	.\async\basics.py	/^def multithreaded_example(number_flags):$/;"	f
+n	.\dataanalytics\simulations.py	/^n = 10000$/;"	v
+n	.\dataanalytics\simulations.py	/^n = 100000$/;"	v
+n	.\performance\cysqrt.c	/^typedef struct {PyObject **p; const char *s; const Py_ssize_t n; const char* encoding;$/;"	m	struct:__anon2	file:
+name	.\patterns\behavioral\chainofresponsibility.py	/^	def name(self):$/;"	m	class:ForceUser
+name	.\patterns\behavioral\state.py	/^    name = ""$/;"	v	class:State
+name	.\patterns\behavioral\state.py	/^    name = "dead"$/;"	v	class:Dead
+name	.\patterns\behavioral\state.py	/^    name = "rest"$/;"	v	class:Rest
+name	.\patterns\behavioral\state.py	/^    name = "training"$/;"	v	class:Training
+name	.\patterns\behavioral\strategy.py	/^    def name(self):$/;"	m	class:Strategy
+name	.\patterns\behavioral\strategy.py	/^    def name(self, value):$/;"	m	class:Strategy
+name	.\patterns\behavioral\visitor.py	/^    def name(self):$/;"	m	class:Visitor
+name	.\patterns\behavioral\visitor.py	/^    def name(self, name):$/;"	m	class:Visitor
+namedtuple	.\performance\parallel.py	/^from collections import namedtuple$/;"	i
+names	.\patterns\creational\factory.py	/^import names$/;"	i
+nickname	.\patterns\creational\factory.py	/^    def nickname(self):$/;"	m	class:Jedi
+normalize	.\performance\tricks.py	/^def normalize(numbers):$/;"	f
+normalize_cached	.\performance\tricks.py	/^def normalize_cached(numbers):$/;"	f
+notify	.\patterns\behavioral\observer.py	/^    def notify(self, modifier = None):        $/;"	m	class:Subject
+np	.\performance\numpy_test.py	/^import numpy as np$/;"	i
+num_of_trials	.\dataanalytics\simulations.py	/^num_of_trials = 100000$/;"	v
+num_queries	.\algorithms\trie.py	/^    num_queries = 5 $/;"	v
+num_waiting	.\dataanalytics\simulations.py	/^num_waiting = 0.0 $/;"	v
+num_x	.\algorithms\trie.py	/^    num_x = 10$/;"	v
+numba	.\performance\numba_test.py	/^import numba$/;"	i
+numbers	.\performance\tricks.py	/^numbers = []$/;"	v
+obs_diff	.\dataanalytics\simulations.py	/^obs_diff = mean(drug) - mean(placebo)$/;"	v
+offsetof	.\performance\cysqrt.c	26;"	d	file:
+os	.\async\basics.py	/^import os$/;"	i
+os	.\concurrency\multiprocess.py	/^import os$/;"	i
+os	.\metaprogramming\basics.py	/^import os$/;"	i
+p	.\performance\cysqrt.c	/^typedef struct {PyObject **p; const char *s; const Py_ssize_t n; const char* encoding;$/;"	m	struct:__anon2	file:
+p1	.\performance\tricks.py	/^p1 = None$/;"	v
+p2	.\performance\tricks.py	/^p2 = None$/;"	v
+partial	.\external\keycloak\basics.py	/^from functools import partial$/;"	i
+perf_counter	.\algorithms\trie.py	/^from time import perf_counter$/;"	i
+perf_counter	.\performance\measure_time.py	/^from time import perf_counter$/;"	i
+perf_counter_ns	.\async\basics.py	/^from time import perf_counter_ns$/;"	i
+perf_counter_ns	.\external\keycloak\basics.py	/^from time import perf_counter_ns$/;"	i
+personal_number	.\patterns\creational\factory.py	/^    def personal_number(self):$/;"	m	class:StormTrooper
+pickle	.\patterns\behavioral\memento.py	/^import pickle$/;"	i
+placebo	.\dataanalytics\simulations.py	/^placebo = [9.1, 6.6, 10.0, 6.41, 6.90, 8.11, 6.90, 9.89, 9.1]$/;"	v
+poly	.\performance\numba_test.py	/^def poly(coefs, n):$/;"	f
+poly_jit	.\performance\numba_test.py	/^def poly_jit(coefs, n):$/;"	f
+population	.\dataanalytics\simulations.py	/^population = ["heads", "tails"]$/;"	v
+pprint	.\frameworks\marshmallow\basic.py	/^from marshmallow import Schema, fields, pprint, validates, ValidationError$/;"	i
+pretty_print	.\metaprogramming\class_decorators.py	/^    def pretty_print(self):$/;"	m	class:Customer
+price	.\metaprogramming\descriptors.py	/^    price = Quantity()$/;"	v	class:OrderItem
+price	.\metaprogramming\properties.py	/^    price = quantity("price")$/;"	v	class:OrderItem
+print_exec_time	.\async\basics.py	/^def print_exec_time(f):$/;"	f
+print_header	.\basics\shpbuiltins.py	/^def print_header(message):$/;"	f
+process	.\patterns\behavioral\mediator.py	/^    def process(self, message):$/;"	m	class:DistributedDBNode
+process	.\patterns\behavioral\mediator.py	/^    def process(self, message):$/;"	m	class:Node
+processor	.\concurrency\multiprocess.py	/^def processor(*args):$/;"	f
+produce_units	.\patterns\creational\factory.py	/^def produce_units():$/;"	f
+prototype	.\patterns\creational\prototype.py	/^    prototype = Prototype()$/;"	v
+put_on_oven	.\patterns\behavioral\command.py	/^    def put_on_oven(self):$/;"	m	class:Pan
+q	.\algorithms\trie.py	/^    q = generate_queries(num_x, num_queries, 1, 32768)$/;"	v
+quantity	.\metaprogramming\properties.py	/^def quantity(attribute_name):$/;"	f
+randint	.\async\basics.py	/^from random import randint$/;"	i
+random	.\algorithms\trie.py	/^import random$/;"	i
+random	.\patterns\creational\factory.py	/^import random$/;"	i
+random	.\performance\tricks.py	/^    import random$/;"	i
+realm_data	.\external\keycloak\basics.py	/^def realm_data(idx):$/;"	f
+receive	.\patterns\behavioral\mediator.py	/^    def receive(self, message):$/;"	m	class:DistributedDBNode
+receive	.\patterns\behavioral\mediator.py	/^    def receive(self, message):$/;"	m	class:Node
+register_prototype	.\patterns\creational\prototype.py	/^    def register_prototype(self, prototype_name, obj):$/;"	m	class:Prototype
+remove_doll	.\patterns\structural\composite.py	/^    def remove_doll(self, doll):$/;"	m	class:CompositeRussianDoll
+remove_from_fleet	.\patterns\behavioral\iterator.py	/^	def remove_from_fleet(self, spaceship):$/;"	m	class:SpaceFleet
+report	.\patterns\creational\factory.py	/^    def report(self):$/;"	m	class:StormTrooper
+requests	.\async\basics.py	/^import requests$/;"	i
+requests	.\external\keycloak\basics.py	/^import requests$/;"	i
+requests	.\metaprogramming\basics.py	/^import requests$/;"	i
+requests	.\performance\parallel.py	/^requests = [data_compressed]*40$/;"	v
+res	.\algorithms\trie.py	/^    res = max_xor(x, q)$/;"	v
+res	.\algorithms\trie.py	/^    res = max_xor_trie(x, q) $/;"	v
+rollback_to_checkpoint	.\patterns\behavioral\memento.py	/^    def rollback_to_checkpoint(self, checkpoint):$/;"	m	class:Table
+s	.\performance\cysqrt.c	/^typedef struct {PyObject **p; const char *s; const Py_ssize_t n; const char* encoding;$/;"	m	struct:__anon2	file:
+salt	.\performance\caching.py	/^salt = "Qazwsx123fjhvnn"$/;"	v
+sample	.\dataanalytics\simulations.py	/^from random import choices, sample, shuffle, expovariate, gauss$/;"	i
+save_file	.\async\basics.py	/^def save_file(data, path):$/;"	f
+save_fresh_water	.\patterns\behavioral\visitor.py	/^    def save_fresh_water(self):$/;"	m	class:Planet
+send	.\patterns\behavioral\mediator.py	/^    def send(self, message):$/;"	m	class:DistributedDBNode
+send	.\patterns\behavioral\mediator.py	/^    def send(self, message):$/;"	m	class:Node
+seq	.\performance\measure_time.py	/^seq = []$/;"	v
+service_end	.\dataanalytics\simulations.py	/^        service_end = service_start + service_time$/;"	v
+service_start	.\dataanalytics\simulations.py	/^        service_start = service_end if num_waiting else arrival$/;"	v
+service_time	.\dataanalytics\simulations.py	/^        service_time = gauss(average_service_time, stdev_service_time)$/;"	v
+set_db	.\metaprogramming\basics.py	/^    def set_db(db):$/;"	m	class:DbRecord
+set_state	.\patterns\behavioral\state.py	/^    def set_state(self, state):$/;"	m	class:Human
+sha256	.\performance\caching.py	/^from passlib.hash import sha256_crypt as sha256$/;"	i
+shelve	.\metaprogramming\basics.py	/^import shelve$/;"	i
+shift	.\algorithms\trie.py	/^    def shift(self, num):$/;"	m	class:Node
+shift	.\algorithms\trie.py	/^    def shift(self, num):$/;"	m	class:Node2
+shoot	.\patterns\creational\factorymethod.py	/^	def shoot(self):$/;"	m	class:Weapon
+shuffle	.\dataanalytics\simulations.py	/^from random import choices, sample, shuffle, expovariate, gauss$/;"	i
+shuffle	.\performance\measure_time.py	/^from random import shuffle$/;"	i
+single_thread_example	.\async\basics.py	/^def single_thread_example(number_flags):$/;"	f
+sixwheelspins	.\dataanalytics\simulations.py	/^sixwheelspins = Counter(choices(["red", "black", "green"],$/;"	v
+slow_function	.\async\spinner_asyncio.py	/^async def slow_function():$/;"	f
+slow_function	.\async\spinner_thread.py	/^def slow_function():$/;"	f
+sort_builtin	.\performance\tricks.py	/^def sort_builtin(tasks):$/;"	f
+sort_lambda	.\performance\tricks.py	/^def sort_lambda(tasks):$/;"	f
+speakers	.\metaprogramming\basics.py	/^    def speakers(self):$/;"	m	class:Event
+spin	.\async\spinner_asyncio.py	/^async def spin(msg):$/;"	f
+spin	.\async\spinner_thread.py	/^def spin(msg, signal):$/;"	f
+sqrt	.\performance\cysqrt.pyx	/^def sqrt(double n, double epsilon):$/;"	f
+st1	.\patterns\creational\prototype.py	/^    st1 = StarTrooper("Jack Black", "X0102", 75, 1.82, ["Laser weapon", "Surviving in jungles"])$/;"	v
+st2	.\patterns\creational\prototype.py	/^    st2 = prototype.clone("Surviver", **{"name": "Andrew First"})$/;"	v
+start_time	.\algorithms\trie.py	/^    start_time = perf_counter()$/;"	v
+starts	.\dataanalytics\simulations.py	/^starts = []$/;"	v
+stdev	.\dataanalytics\simulations.py	/^from statistics import median, mean, stdev$/;"	i
+stdev_service_time	.\dataanalytics\simulations.py	/^stdev_service_time = 0.5$/;"	v
+string	.\frameworks\marshmallow\basic.py	/^import string$/;"	i
+string_char_funcs	.\basics\shpbuiltins.py	/^def string_char_funcs():$/;"	f
+supervisor	.\async\spinner_asyncio.py	/^async def supervisor():$/;"	f
+supervisor	.\async\spinner_thread.py	/^def supervisor():$/;"	f
+surname	.\frameworks\marshmallow\basic.py	/^    surname = fields.Str()$/;"	v	class:UserSchema
+sys	.\async\spinner_asyncio.py	/^import sys$/;"	i
+sys	.\async\spinner_thread.py	/^import sys$/;"	i
+sys	.\challenges\parallel_word_search.py	/^import sys$/;"	i
+sys	.\external\keycloak\basics.py	/^import sys$/;"	i
+sys	.\io\calcaverage.py	/^import sys$/;"	i
+sys	.\patterns\behavioral\templatemethod.py	/^import sys$/;"	i
+sys	.\performance\parallel.py	/^import sys$/;"	i
+tasks	.\performance\tricks.py	/^tasks = []$/;"	v
+teleport	.\patterns\structural\facade.py	/^    def teleport(self, objects, creatures):    $/;"	m	class:TeleporterFacade
+test_alloc	.\performance\tricks.py	/^def test_alloc():$/;"	f
+test_builtin	.\performance\tricks.py	/^def test_builtin():$/;"	f
+test_calc_avg	.\io\calcaverage.py	/^def test_calc_avg(file_path):$/;"	f
+test_crypt	.\performance\caching.py	/^def test_crypt():$/;"	f
+test_fix_num	.\performance\tricks.py	/^def test_fix_num():$/;"	f
+test_generate	.\external\keycloak\basics.py	/^def test_generate():$/;"	f
+test_generate_async	.\external\keycloak\basics.py	/^def test_generate_async():$/;"	f
+test_jit	.\performance\numba_test.py	/^def test_jit():$/;"	f
+test_list_access	.\metaprogramming\basics.py	/^    def test_list_access(self):$/;"	m	class:AttributeDictTest
+test_normalize	.\performance\tricks.py	/^def test_normalize():$/;"	f
+test_numpy	.\performance\numpy_test.py	/^def test_numpy():$/;"	f
+test_processes	.\performance\parallel.py	/^def test_processes():$/;"	f
+test_property_access	.\performance\tricks.py	/^def test_property_access():$/;"	f
+test_simple_attribute_access	.\metaprogramming\basics.py	/^    def test_simple_attribute_access(self):$/;"	m	class:AttributeDictTest
+test_slots	.\performance\tricks.py	/^def test_slots():$/;"	f
+test_threads	.\performance\parallel.py	/^def test_threads():$/;"	f
+think	.\patterns\creational\factory.py	/^    def think(self):$/;"	m	class:Jedi
+threading	.\async\spinner_thread.py	/^import threading$/;"	i
+threshold	.\performance\tricks.py	/^    threshold = 12$/;"	v	class:config
+time	.\async\spinner_thread.py	/^import time$/;"	i
+timeit	.\performance\caching.py	/^import timeit$/;"	i
+timeit	.\performance\measure_time.py	/^from timeit import timeit$/;"	i
+timeit	.\performance\numba_test.py	/^from timeit import timeit$/;"	i
+timeit	.\performance\numpy_test.py	/^from timeit import timeit$/;"	i
+timeit	.\performance\parallel.py	/^from timeit import timeit$/;"	i
+timeit	.\performance\tricks.py	/^import timeit$/;"	i
+timings	.\dataanalytics\simulations.py	/^timings = [1.13, 2.08, 7.09, 8.12, 5.67, 7.98, 7.06, 8.99, 9.01]$/;"	v
+trial	.\dataanalytics\simulations.py	/^def trial():$/;"	f
+trial	.\dataanalytics\simulations.py	/^trial = lambda: choices(population, cum_weights=cummulative_weights,$/;"	v
+trial	.\dataanalytics\simulations.py	/^trial = lambda: n \/\/ 4 < median(sample(range(n), 5)) <= 3*n \/\/ 4$/;"	v
+turn_on	.\patterns\behavioral\command.py	/^    def turn_on(self):$/;"	m	class:Oven
+types	.\patterns\behavioral\strategy.py	/^import types$/;"	i
+uint32_t	.\performance\cysqrt.c	/^           typedef unsigned __int32  uint32_t;$/;"	t	file:
+uint32_t	.\performance\cysqrt.c	/^           typedef unsigned int      uint32_t;$/;"	t	file:
+uint8_t	.\performance\cysqrt.c	/^           typedef unsigned __int8   uint8_t;$/;"	t	file:
+uint8_t	.\performance\cysqrt.c	/^           typedef unsigned char     uint8_t;$/;"	t	file:
+unittest	.\metaprogramming\basics.py	/^import unittest$/;"	i
+unlikely	.\performance\cysqrt.c	758;"	d	file:
+unlikely	.\performance\cysqrt.c	761;"	d	file:
+unmasked_decorator	.\patterns\structural\decorator.py	/^def unmasked_decorator(function):$/;"	f
+unpack	.\patterns\structural\composite.py	/^    def unpack(self, indent = 0):$/;"	m	class:AbstractRussianDoll
+unpack	.\patterns\structural\composite.py	/^    def unpack(self, indent = 0):$/;"	m	class:CompositeRussianDoll
+unpack	.\patterns\structural\composite.py	/^    def unpack(self, indent = 0):$/;"	m	class:ConcreteRussianDoll
+unpack	.\performance\parallel.py	/^def unpack(requests):$/;"	f
+unpack_proc	.\performance\parallel.py	/^def unpack_proc(requests):$/;"	f
+unregister_prototype	.\patterns\creational\prototype.py	/^    def unregister_prototype(self, prototype_name):$/;"	m	class:Prototype
+unwrapped_test_function	.\patterns\structural\decorator.py	/^def unwrapped_test_function(message, name = "George"):$/;"	f
+update	.\patterns\behavioral\observer.py	/^    def update(self, subject):$/;"	m	class:DarkLord
+update	.\patterns\behavioral\observer.py	/^    def update(self, subject):$/;"	m	class:Jedi
+updated_dt	.\frameworks\marshmallow\basic.py	/^    updated_dt = fields.DateTime()$/;"	v	class:UserSchema
+urlopen	.\performance\parallel.py	/^from urllib.request import urlopen$/;"	i
+use_dark_force	.\patterns\structural\adapter.py	/^    def use_dark_force(self):$/;"	m	class:DarkForceSide
+use_light_force	.\patterns\structural\adapter.py	/^    def use_light_force(self):$/;"	m	class:LightForceSide
+user_data	.\external\keycloak\basics.py	/^def user_data(idx):$/;"	f
+user_from_key	.\performance\caching.py	/^def user_from_key(key):$/;"	f
+user_from_key_cached	.\performance\caching.py	/^def user_from_key_cached(key):$/;"	f
+user_info	.\performance\parallel.py	/^def user_info(login_name):$/;"	f
+users	.\performance\caching.py	/^users = {$/;"	v
+users_info	.\performance\parallel.py	/^def users_info(logins):$/;"	f
+users_info_threaded	.\performance\parallel.py	/^def users_info_threaded(logins):$/;"	f
+uuid	.\external\keycloak\basics.py	/^import uuid$/;"	i
+uuid	.\patterns\creational\factory.py	/^import uuid$/;"	i
+validates	.\frameworks\marshmallow\basic.py	/^from marshmallow import Schema, fields, pprint, validates, ValidationError$/;"	i
+venue	.\metaprogramming\basics.py	/^    def venue(self):$/;"	m	class:Event
+visit	.\patterns\behavioral\visitor.py	/^    def visit(self, planet):$/;"	m	class:Khan
+visit	.\patterns\behavioral\visitor.py	/^    def visit(self, planet):$/;"	m	class:SpaceshipEnterprise
+vmul	.\performance\numpy_test.py	/^def vmul(v1, v2):$/;"	f
+vmul_numpy	.\performance\numpy_test.py	/^def vmul_numpy(v1, v2):$/;"	f
+waits	.\dataanalytics\simulations.py	/^waits = [start - arrival for start, arrival in zip(starts, arrivals)]$/;"	v
+warnings	.\metaprogramming\basics.py	/^import warnings$/;"	i
+weight	.\metaprogramming\descriptors.py	/^    weight = Quantity()$/;"	v	class:OrderItem
+weight	.\metaprogramming\properties.py	/^    weight = quantity("weight")$/;"	v	class:OrderItem
+weights	.\dataanalytics\simulations.py	/^weights = [6, 4]$/;"	v
+welcome_visitor	.\patterns\behavioral\visitor.py	/^    def welcome_visitor(self, visitor):$/;"	m	class:Planet
+withdraw_money	.\patterns\behavioral\templatemethod.py	/^    def withdraw_money(self, amount_to_withdraw):$/;"	m	class:BankDeposit
+worker	.\challenges\parallel_word_search.py	/^def worker(args):$/;"	f
+wrapped_test_function	.\patterns\structural\decorator.py	/^def wrapped_test_function(message, name = "George"):$/;"	f
+wrapper	.\external\keycloak\basics.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:measure_exec_time
+wraps	.\patterns\structural\decorator.py	/^from functools import wraps$/;"	i
+x	.\algorithms\trie.py	/^    x = generate_x(num_x, 1, 32768)$/;"	v
+x	.\performance\tricks.py	/^    def x(self):$/;"	m	class:PPoint
+y	.\performance\tricks.py	/^    def y(self):$/;"	m	class:PPoint

@@ -1,5 +1,5 @@
 "Module demonstrates basics of multiprocessing"
-import itertools
+
 import multiprocessing as mpc
 import os
 

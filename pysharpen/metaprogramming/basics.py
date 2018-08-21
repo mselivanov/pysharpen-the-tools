@@ -11,7 +11,6 @@ import json
 JSON_FILE = "test_data.json"
 URL = "https://www.oreilly.com/pub/sc/osconfeed"
 
-
 def load():
     if not os.path.exists(JSON_FILE):
         msg = f"Loading {JSON_FILE} from {URL}"
