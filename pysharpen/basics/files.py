@@ -81,6 +81,7 @@ def zipfile_examples():
     root_dir, fn = path.split(TEST_FILE_PATH)
     zip_path = root_dir + os.sep + 'pyexample2.zip' 
     with ZipFile(zip_path, 'w') as zf:
+        zf.start_dir
         zf.write(TEST_FILE_PATH)
         zf.write(root_dir + os.sep + fn + '.bak')
 

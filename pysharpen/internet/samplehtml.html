@@ -1,0 +1,1754 @@
+<!DOCTYPE html>
+<html style="--vh:9.950000000000001px;" lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <style type="text/css">.gitter-hidden{box-sizing:border-box;display:none}.gitter-icon{box-sizing:border-box;width:22px;height:22px;fill:currentColor}.gitter-chat-embed{box-sizing:border-box;z-index:100;position:fixed;top:0;left:60%;bottom:0;right:0;display:-ms-flexbox;display:flex;-ms-flex-direction:row;flex-direction:row;background-color:#fff;border-left:1px solid #333;box-shadow:-12px 0 18px 0 rgba(50,50,50,.3);transition:transform .3s cubic-bezier(.16,.22,.22,1.7)}@context border-box{.gitter-chat-embed{box-sizing:border-box;background-color:#fff}}.gitter-chat-embed.is-collapsed:not(.is-loading){box-sizing:border-box;transform:translateX(110%)}.gitter-chat-embed:after{box-sizing:border-box;content:"";z-index:-1;position:absolute;top:0;left:100%;bottom:0;right:-100%;background-color:#fff}@context border-box{.gitter-chat-embed:after{box-sizing:border-box;background-color:#fff}}@media(max-width:1150px){.gitter-chat-embed{box-sizing:border-box;left:45%}}@media(max-width:944px){.gitter-chat-embed{box-sizing:border-box;left:30%}}@media(max-width:600px){.gitter-chat-embed{box-sizing:border-box;left:15%}}@media(max-width:500px){.gitter-chat-embed{box-sizing:border-box;left:0;border-left:none}}.gitter-chat-embed>iframe{box-sizing:border-box;-ms-flex:1;flex:1;width:100%;height:100%;border:0}.gitter-chat-embed-loading-wrapper{box-sizing:border-box;position:absolute;top:0;left:0;bottom:0;right:0;display:none;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center}.is-loading .gitter-chat-embed-loading-wrapper{box-sizing:border-box;display:-ms-flexbox;display:flex}.gitter-chat-embed-loading-indicator{box-sizing:border-box;opacity:.75;background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzkyIDE3OTIiIGZpbGw9IiMzYTMxMzMiPjxwYXRoIGQ9Ik01MjYgMTM5NHEwIDUzLTM3LjUgOTAuNXQtOTAuNSAzNy41cS01MiAwLTkwLTM4dC0zOC05MHEwLTUzIDM3LjUtOTAuNXQ5MC41LTM3LjUgOTAuNSAzNy41IDM3LjUgOTAuNXptNDk4IDIwNnEwIDUzLTM3LjUgOTAuNXQtOTAuNSAzNy41LTkwLjUtMzcuNS0zNy41LTkwLjUgMzcuNS05MC41IDkwLjUtMzcuNSA5MC41IDM3LjUgMzcuNSA5MC41em0tNzA0LTcwNHEwIDUzLTM3LjUgOTAuNXQtOTAuNSAzNy41LTkwLjUtMzcuNS0zNy41LTkwLjUgMzcuNS05MC41IDkwLjUtMzcuNSA5MC41IDM3LjUgMzcuNSA5MC41em0xMjAyIDQ5OHEwIDUyLTM4IDkwdC05MCAzOHEtNTMgMC05MC41LTM3LjV0LTM3LjUtOTAuNSAzNy41LTkwLjUgOTAuNS0zNy41IDkwLjUgMzcuNSAzNy41IDkwLjV6bS05NjQtOTk2cTAgNjYtNDcgMTEzdC0xMTMgNDctMTEzLTQ3LTQ3LTExMyA0Ny0xMTMgMTEzLTQ3IDExMyA0NyA0NyAxMTN6bTExNzAgNDk4cTAgNTMtMzcuNSA5MC41dC05MC41IDM3LjUtOTAuNS0zNy41LTM3LjUtOTAuNSAzNy41LTkwLjUgOTAuNS0zNy41IDkwLjUgMzcuNSAzNy41IDkwLjV6bS02NDAtNzA0cTAgODAtNTYgMTM2dC0xMzYgNTYtMTM2LTU2LTU2LTEzNiA1Ni0xMzYgMTM2LTU2IDEzNiA1NiA1NiAxMzZ6bTUzMCAyMDZxMCA5My02NiAxNTguNXQtMTU4IDY1LjVxLTkzIDAtMTU4LjUtNjUuNXQtNjUuNS0xNTguNXEwLTkyIDY1LjUtMTU4dDE1OC41LTY2cTkyIDAgMTU4IDY2dDY2IDE1OHoiLz48L3N2Zz4=);animation:spin 2s infinite linear}@keyframes spin{0%{box-sizing:border-box;transform:rotate(0deg)}to{box-sizing:border-box;transform:rotate(359.9deg)}}.gitter-chat-embed-action-bar{box-sizing:border-box;position:absolute;top:0;left:0;right:0;display:-ms-flexbox;display:flex;-ms-flex-pack:end;justify-content:flex-end;padding-bottom:.7em;background:linear-gradient(180deg,#fff 0,#fff 50%,hsla(0,0%,100%,0))}.gitter-chat-embed-action-bar-item{box-sizing:border-box;display:-ms-flexbox;display:flex;-ms-flex-pack:center;justify-content:center;-ms-flex-align:center;align-items:center;width:40px;height:40px;padding-left:0;padding-right:0;opacity:.65;background:none;background-position:50%;background-repeat:no-repeat;background-size:22px 22px;border:0;outline:none;cursor:pointer;cursor:hand;transition:all .2s ease}.gitter-chat-embed-action-bar-item:focus,.gitter-chat-embed-action-bar-item:hover{box-sizing:border-box;opacity:1}.gitter-chat-embed-action-bar-item:active{box-sizing:border-box;filter:hue-rotate(80deg) saturate(150)}.gitter-chat-embed-action-bar-item-pop-out{box-sizing:border-box;margin-right:-4px;background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMTcxLjQyOSIgZmlsbD0iIzNhMzEzMyI+PHBhdGggZD0iTTE1Ny4xNDMsMTAzLjU3MXYzNS43MTRjMCw4Ljg1NC0zLjE0NCwxNi40MjYtOS40MzEsMjIuNzEzcy0xMy44NTgsOS40MzEtMjIuNzEyLDkuNDMxSDMyLjE0MyBjLTguODU0LDAtMTYuNDI1LTMuMTQ0LTIyLjcxMi05LjQzMVMwLDE0OC4xNCwwLDEzOS4yODVWNDYuNDI5YzAtOC44NTQsMy4xNDQtMTYuNDI1LDkuNDMxLTIyLjcxMiBjNi4yODctNi4yODcsMTMuODU4LTkuNDMxLDIyLjcxMi05LjQzMWg3OC41NzJjMS4wNDEsMCwxLjg5NiwwLjMzNSwyLjU2NiwxLjAwNGMwLjY3LDAuNjcsMS4wMDQsMS41MjUsMS4wMDQsMi41NjdWMjUgYzAsMS4wNDItMC4zMzQsMS44OTctMS4wMDQsMi41NjdjLTAuNjcsMC42Ny0xLjUyNSwxLjAwNC0yLjU2NiwxLjAwNEgzMi4xNDNjLTQuOTExLDAtOS4xMTUsMS43NDktMTIuNjEyLDUuMjQ2IHMtNS4yNDYsNy43MDEtNS4yNDYsMTIuNjEydjkyLjg1NmMwLDQuOTExLDEuNzQ5LDkuMTE1LDUuMjQ2LDEyLjYxMnM3LjcwMSw1LjI0NSwxMi42MTIsNS4yNDVIMTI1YzQuOTEsMCw5LjExNS0xLjc0OCwxMi42MTEtNS4yNDUgYzMuNDk3LTMuNDk3LDUuMjQ2LTcuNzAxLDUuMjQ2LTEyLjYxMnYtMzUuNzE0YzAtMS4wNDIsMC4zMzQtMS44OTcsMS4wMDQtMi41NjdjMC42Ny0wLjY2OSwxLjUyNS0xLjAwNCwyLjU2Ny0xLjAwNGg3LjE0MyBjMS4wNDIsMCwxLjg5NywwLjMzNSwyLjU2NywxLjAwNEMxNTYuODA5LDEwMS42NzQsMTU3LjE0MywxMDIuNTI5LDE1Ny4xNDMsMTAzLjU3MXogTTIwMCw3LjE0M3Y1Ny4xNDMgYzAsMS45MzUtMC43MDcsMy42MDktMi4xMjEsNS4wMjJjLTEuNDEzLDEuNDE0LTMuMDg4LDIuMTIxLTUuMDIxLDIuMTIxYy0xLjkzNSwwLTMuNjA5LTAuNzA3LTUuMDIyLTIuMTIxbC0xOS42NDQtMTkuNjQzIGwtNzIuNzY3LDcyLjc2OWMtMC43NDQsMC43NDQtMS42LDEuMTE1LTIuNTY3LDEuMTE1cy0xLjgyMy0wLjM3MS0yLjU2Ny0xLjExNUw3Ny41NjcsMTA5LjcxYy0wLjc0NC0wLjc0NC0xLjExNi0xLjYtMS4xMTYtMi41NjcgYzAtMC45NjcsMC4zNzItMS44MjIsMS4xMTYtMi41NjZsNzIuNzY4LTcyLjc2OGwtMTkuNjQ0LTE5LjY0M2MtMS40MTMtMS40MTQtMi4xMi0zLjA4OC0yLjEyLTUuMDIyYzAtMS45MzUsMC43MDctMy42MDksMi4xMi01LjAyMiBDMTMyLjEwNSwwLjcwNywxMzMuNzc5LDAsMTM1LjcxNSwwaDU3LjE0M2MxLjkzNCwwLDMuNjA4LDAuNzA3LDUuMDIxLDIuMTIxQzE5OS4yOTMsMy41MzQsMjAwLDUuMjA4LDIwMCw3LjE0M3oiLz48L3N2Zz4=)}.gitter-chat-embed-action-bar-item-collapse-chat{box-sizing:border-box;background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxNzEuNDI5IDE3MS40MjkiIGZpbGw9IiMzYTMxMzMiPjxwYXRoIGQ9Ik0xMjIuNDMzLDEwNi4xMzhsLTE2LjI5NSwxNi4yOTVjLTAuNzQ0LDAuNzQ0LTEuNiwxLjExNi0yLjU2NiwxLjExNmMtMC45NjgsMC0xLjgyMy0wLjM3Mi0yLjU2Ny0xLjExNmwtMTUuMjktMTUuMjkgbC0xNS4yOSwxNS4yOWMtMC43NDQsMC43NDQtMS42LDEuMTE2LTIuNTY3LDEuMTE2cy0xLjgyMy0wLjM3Mi0yLjU2Ny0xLjExNmwtMTYuMjk0LTE2LjI5NWMtMC43NDQtMC43NDQtMS4xMTYtMS42LTEuMTE2LTIuNTY2IGMwLTAuOTY4LDAuMzcyLTEuODIzLDEuMTE2LTIuNTY3bDE1LjI5LTE1LjI5bC0xNS4yOS0xNS4yOWMtMC43NDQtMC43NDQtMS4xMTYtMS42LTEuMTE2LTIuNTY3czAuMzcyLTEuODIzLDEuMTE2LTIuNTY3IEw2NS4yOSw0OC45OTZjMC43NDQtMC43NDQsMS42LTEuMTE2LDIuNTY3LTEuMTE2czEuODIzLDAuMzcyLDIuNTY3LDEuMTE2bDE1LjI5LDE1LjI5bDE1LjI5LTE1LjI5IGMwLjc0NC0wLjc0NCwxLjYtMS4xMTYsMi41NjctMS4xMTZjMC45NjcsMCwxLjgyMiwwLjM3MiwyLjU2NiwxLjExNmwxNi4yOTUsMTYuMjk0YzAuNzQ0LDAuNzQ0LDEuMTE2LDEuNiwxLjExNiwyLjU2NyBzLTAuMzcyLDEuODIzLTEuMTE2LDIuNTY3bC0xNS4yOSwxNS4yOWwxNS4yOSwxNS4yOWMwLjc0NCwwLjc0NCwxLjExNiwxLjYsMS4xMTYsMi41NjcgQzEyMy41NDksMTA0LjUzOSwxMjMuMTc3LDEwNS4zOTQsMTIyLjQzMywxMDYuMTM4eiBNMTQ2LjQyOSw4NS43MTRjMC0xMS4wMTItMi43MTctMjEuMTY4LTguMTQ4LTMwLjQ2OSBzLTEyLjc5Ny0xNi42NjctMjIuMDk4LTIyLjA5OFM5Ni43MjYsMjUsODUuNzE0LDI1cy0yMS4xNjgsMi43MTYtMzAuNDY5LDguMTQ3UzM4LjU3OSw0NS45NDUsMzMuMTQ3LDU1LjI0NlMyNSw3NC43MDMsMjUsODUuNzE0IHMyLjcxNiwyMS4xNjgsOC4xNDcsMzAuNDY5czEyLjc5NywxNi42NjYsMjIuMDk4LDIyLjA5OHMxOS40NTcsOC4xNDgsMzAuNDY5LDguMTQ4czIxLjE2OC0yLjcxNywzMC40NjktOC4xNDggczE2LjY2Ni0xMi43OTcsMjIuMDk4LTIyLjA5OFMxNDYuNDI5LDk2LjcyNiwxNDYuNDI5LDg1LjcxNHogTTE3MS40MjksODUuNzE0YzAsMTUuNTUxLTMuODMyLDI5Ljg5My0xMS40OTYsNDMuMDI0IGMtNy42NjQsMTMuMTMzLTE4LjA2MiwyMy41My0zMS4xOTQsMzEuMTk0Yy0xMy4xMzIsNy42NjQtMjcuNDc0LDExLjQ5Ni00My4wMjQsMTEuNDk2cy0yOS44OTItMy44MzItNDMuMDI0LTExLjQ5NiBjLTEzLjEzMy03LjY2NC0yMy41MzEtMTguMDYyLTMxLjE5NC0zMS4xOTRDMy44MzIsMTE1LjYwNywwLDEwMS4yNjUsMCw4NS43MTRTMy44MzIsNTUuODIyLDExLjQ5Niw0Mi42OSBjNy42NjQtMTMuMTMzLDE4LjA2Mi0yMy41MzEsMzEuMTk0LTMxLjE5NEM1NS44MjIsMy44MzIsNzAuMTY0LDAsODUuNzE0LDBzMjkuODkzLDMuODMyLDQzLjAyNCwxMS40OTYgYzEzLjEzMyw3LjY2NCwyMy41MywxOC4wNjIsMzEuMTk0LDMxLjE5NEMxNjcuNTk3LDU1LjgyMiwxNzEuNDI5LDcwLjE2NCwxNzEuNDI5LDg1LjcxNHoiLz48L3N2Zz4=)}.gitter-open-chat-button{z-index:100;position:fixed;bottom:0;right:10px;padding:1em 3em;background-color:#36bc98;border:0;border-top-left-radius:.5em;border-top-right-radius:.5em;font-family:sans-serif;font-size:12px;letter-spacing:1px;text-transform:uppercase;text-align:center;text-decoration:none;cursor:pointer;cursor:hand;transition:all .3s ease}.gitter-open-chat-button,.gitter-open-chat-button:visited{box-sizing:border-box;color:#fff}.gitter-open-chat-button:focus,.gitter-open-chat-button:hover{box-sizing:border-box;background-color:#3ea07f;color:#fff}.gitter-open-chat-button:focus{box-sizing:border-box;box-shadow:0 0 8px rgba(62,160,127,.6);outline:none}.gitter-open-chat-button:active{box-sizing:border-box;color:#eee}.gitter-open-chat-button.is-collapsed{box-sizing:border-box;transform:translateY(120%)}</style><meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chocolatey Software | Kelly Eltons Dev Environment 1.0.0.11</title>
+    
+    
+        <meta property="og:description" content="Apps I install for development">
+        <meta property="description" content="Apps I install for development">
+
+
+    <meta name="description" content="Chocolatey is software management automation for Windows that wraps installers, executables, zips, and scripts into compiled packages. Chocolatey integrates w/SCCM, Puppet, Chef, etc. Chocolatey is trusted by businesses to manage software deployments.">
+    
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@chocolateynuget">
+    <meta name="twitter:title" content="Kelly Eltons Dev Environment 1.0.0.11">
+    <meta name="twitter:image" content="https://community.chocolatey.org/content/images/global-shared/twitter-share.png">
+    
+    <meta property="og:title" content="Kelly Eltons Dev Environment 1.0.0.11">
+    <meta property="og:description" content="Chocolatey is software management automation for Windows that wraps installers, executables, zips, and scripts into compiled packages. Chocolatey integrates w/SCCM, Puppet, Chef, etc. Chocolatey is trusted by businesses to manage software deployments.">
+    <meta property="og:site_name" content="Chocolatey Software">
+    <meta property="og:type" content="product">
+    <meta property="og:image" content="https://community.chocolatey.org/content/images/global-shared/facebook-share.png">
+    <meta property="og:url" content="/packages/kellyelton.devenvironment">
+    
+    <meta property="product:brand" content="Chocolatey Software">
+    <meta property="product:category" content="software">
+    <meta name="flattr:id" content="mqgjkp">
+    <meta property="DC.title" content="Kelly Eltons Dev Environment 1.0.0.11">
+    <meta property="copyright" content="Chocolatey is Copyright 2017 - 2021 Chocolatey Software, Inc. Copyright 2011 - 2017 RealDimensions Software, LLC.">
+    <link rel="nuget" type="application/atom+xml" title="Chocolatey" href="https://community.chocolatey.org/api/v2">
+    <link rel="search" type="application/opensearchdescription+xml" href="https://community.chocolatey.org/opensearch.xml" title="Chocolatey Search">
+    
+    <link rel="shortcut icon" href="https://community.chocolatey.org/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://community.chocolatey.org/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="https://community.chocolatey.org/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="https://community.chocolatey.org/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="https://community.chocolatey.org/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="https://community.chocolatey.org/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="https://community.chocolatey.org/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="https://community.chocolatey.org/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="https://community.chocolatey.org/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="https://community.chocolatey.org/apple-touch-icon-180x180.png">
+    
+    <link rel="stylesheet" href="samplehtml_files/css.css">
+    
+<link href="samplehtml_files/chocolatey.css" type="text/css" rel="stylesheet">
+
+    
+    
+
+    <script type="text/javascript" async="" src="samplehtml_files/analytics.js"></script><script type="text/javascript" src="samplehtml_files/Capture.xml"></script><script>
+        if (!/MSIE \d|Trident.*rv:/.test(navigator.userAgent)) {
+            const theme = localStorage.getItem('theme'), html = document.getElementsByTagName("html")[0];
+            if (theme) { if (theme == 'dark') { html.setAttribute("data-user-color-scheme", "dark"); } else { html.setAttribute("data-user-color-scheme", "light"); } }
+        }
+    </script>
+    
+
+
+    
+        <script async="" src="samplehtml_files/js"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-2743882-12');
+        </script>
+    <script type="text/javascript" async="" referrerpolicy="unsafe-url" src="samplehtml_files/KPKpTJOFOv5SuV7X3eGx"></script>
+    
+    
+
+<script type="text/javascript" async="" src="samplehtml_files/embed.js"></script><link rel="prefetch" as="style" href="samplehtml_files/a_data_002/lounge.css"><link rel="prefetch" as="script" href="samplehtml_files/a_data_002/common.js"><link rel="prefetch" as="script" href="samplehtml_files/a_data_002/lounge.js"><link rel="prefetch" as="script" href="samplehtml_files/a_data_002/config.js"></head>
+
+
+
+
+<body class="chocolatey-org">
+    <script type="text/javascript" src="samplehtml_files/194108.js"></script>
+<noscript><img alt="" src="https://secure.make6pain.com/194108.png" style="display:none;" /></noscript>
+
+
+<svg class="position-absolute" style="right:999999px">
+    <defs>
+        <linearGradient id="bg-gradient-primary-theme" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:var(--theme-primary);stop-opacity:.2"></stop>
+            <stop offset="80%" style="stop-color:var(--background);stop-opacity:.2"></stop>
+        </linearGradient>
+        <linearGradient id="bg-gradient-theme-primary" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:var(--background);stop-opacity:.2"></stop>
+            <stop offset="80%" style="stop-color:var(--theme-primary);stop-opacity:.2"></stop>
+        </linearGradient>
+        <linearGradient id="bg-gradient-primary-theme-light" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:var(--theme-primary);stop-opacity:.2"></stop>
+            <stop offset="80%" style="stop-color:var(--background-light);stop-opacity:.2"></stop>
+        </linearGradient>
+        <linearGradient id="bg-gradient-theme-light-primary" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:var(--background-light);stop-opacity:.2"></stop>
+            <stop offset="80%" style="stop-color:var(--theme-primary);stop-opacity:.2"></stop>
+        </linearGradient>
+        <linearGradient id="bg-gradient-primary" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:var(--theme-primary);stop-opacity:1"></stop>
+            <stop offset="100%" style="stop-color:var(--theme-primary);stop-opacity:1"></stop>
+        </linearGradient>
+        <linearGradient id="bg-gradient-light" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:var(--background-light);stop-opacity:1"></stop>
+            <stop offset="100%" style="stop-color:var(--background-light);stop-opacity:1"></stop>
+        </linearGradient>
+    </defs>
+</svg>
+<a class="btn btn-primary btn-collapsing-right-sidebar btn-announcement-notifications collapsed py-3 d-none d-md-block shadow" data-bs-toggle="collapse" href="#collapsing-right-sidebar" role="button" aria-expanded="false" aria-controls="collapsing-right-sidebar"><span class="notification-badge" title="You have unread notifications">1</span><i class="fas fa-bullhorn"></i></a>
+<nav id="collapsing-right-sidebar" class="collapsing-sidebar collapse shadow pt-3 px-3">
+    <div class="text-end text-md-start mb-3"><a class="h3 collapsed" data-bs-toggle="collapse" href="#collapsing-right-sidebar" role="button" aria-expanded="true" aria-controls="collapsing-right-sidebar"><span class="fas fa-times"></span></a></div>
+    
+<!-- When adding a new announcement, change the number on the end of the value to the next available. Example: 1 becomes 2, 2 becomes 3. -->
+<input id="announcementCookie" value="chocolatey_announcement_6" type="hidden">
+<!-- When adding a new announcement, update the value number to the amount of new announcements added. -->
+<input id="announcementCount" value="1" type="hidden">
+
+<div id="announcementCount"></div>
+<div id="announcementCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="6000">
+    <div class="position-relative w-100 overflow-hidden">
+        <div class="carousel-item active">
+            <div class="card bg-theme-primary mb-0">
+                <div class="card-body text-center">
+                    <h3>Resources</h3>
+                    <p>Watch videos, read documentation, and hear Chocolatey success stories from companies you trust.</p>
+                    <a href="https://chocolatey.org/resources" class="btn btn-theme btn-width">View Resources</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card bg-success text-white mb-0">
+                <div class="card-body text-center">
+                    <h3>Events</h3>
+                    <p>Find past and upcoming webinars, workshops, and conferences. New events have recently been added!</p>
+                    <a href="https://chocolatey.org/events" class="btn btn-theme btn-width">View Events</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="card bg-primary-900 mb-0">
+                <div class="card-body text-center">
+                    <h3>Courses</h3>
+                    <p>Step-by-step guides for all things Chocolatey! Earn badges as you learn through interactive digital courses.</p>
+                    <a href="https://community.chocolatey.org/courses" class="btn btn-primary btn-width">View Courses</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<hr>
+<div class="shuffle"><div class="text-center">
+        <a href="https://www.twitch.tv/chocolateysoftware" rel="noreferrer" target="_blank">
+            <img class="img-fluid mb-3" src="samplehtml_files/04-00.jpg" alt="Chocolatey Explained - Monthly Twitch Stream">
+        </a>
+        <p class="convert-utc-to-local fw-bold" data-event-utc="06/03/2021 16:00:00" data-event-occurrence="1" data-event-include-break="true">First Thursday of Every Month <br>7:00 PM GMT+3 / 4:00 PM GMT</p>
+        <p class="text-start">Join us on the first Thursday of every 
+month for "Chocolatey Explained" where we will cover different 
+Chocolatey topics in detail.</p>
+        <a href="https://www.twitch.tv/chocolateysoftware" class="btn bg-twitch text-white btn-width mt-2" target="_blank" rel="nofollow"><i class="fab fa-twitch"></i> Follow on Twitch</a>
+        <hr>
+    </div><div class="text-center">
+        <a href="https://www.youtube.com/watch?v=cPcEmT1OWDs&amp;list=PLGvGJzqY88slekBOxwDi865ydvRL8OEqF&amp;index=9" rel="noreferrer" target="_blank">
+            <img class="img-fluid mb-3 border" src="samplehtml_files/01-07.jpg" alt="Accelerate Automation of Windows with Ansible + Chocolatey">
+        </a>
+        <p><strong>Webinar Replay from<br>Thursday, 10 December 2020</strong></p>
+        <p class="text-start">
+            Together, Ansible and Chocolatey bring faster and more 
+secure deployments to your Windows environments. Use Chocolatey for 
+software/package management and Ansible to automate and guarantee the 
+desired state of your Windows infrastructure,
+            allowing your team to securely deploy applications faster 
+than ever.
+        </p>
+        <a href="https://chocolatey.org/events/chocolatey-and-ansible" class="btn btn-outline-primary btn-width mt-2">Learn More</a>
+        <a href="https://www.youtube.com/watch?v=cPcEmT1OWDs&amp;list=PLGvGJzqY88slekBOxwDi865ydvRL8OEqF&amp;index=9" rel="noreferrer" target="_blank" class="btn btn-primary btn-width mt-2">Watch On-Demand</a>
+        <hr>
+    </div><div class="text-center">
+        <a href="https://chocolatey.org/events/chocolatey-deployments">
+            <img class="img-fluid mb-3" src="samplehtml_files/01-02.jpg" alt="Webinar: Chocolatey Deployments - Easily Orchestrate Amazing Things!">
+        </a>
+        <p><strong>Webinar Replay from<br>Tuesday, 23 June 2020</strong></p>
+        <p class="text-start">Chocolatey Central Management now includes
+ the premiere feature of managing endpoints through a 
+Chocolatey-centered solution aka Deployments. We are excited to share 
+what Deployments is all about!</p>
+        <a href="https://chocolatey.org/events/chocolatey-deployments" class="btn btn-outline-primary btn-width mt-2">Learn More</a>
+        <a href="https://chocolatey.zoom.us/webinar/register/WN_MPT5b34zQnud8R0nGgpe5A" rel="noreferrer" target="_blank" class="btn btn-primary btn-width mt-2">Watch On-Demand</a>
+        <hr>
+    </div><div class="text-center">
+        <a href="https://chocolatey.zoom.us/webinar/register/WN_5zJyoWDJRISDLcxizf-XAQ" rel="noreferrer" target="_blank">
+            <img class="img-fluid mb-3" src="samplehtml_files/04-01_002.jpg" alt="Chocolatey for Business Overview and Demonstration">
+        </a>
+        <p class="convert-utc-to-local fw-bold" data-event-utc="07/20/2021 15:00:00" data-event-occurrence="-2" data-event-include-break="true">Tuesday, 20 Jul 2021 <br>6:00 PM GMT+3 / 3:00 PM GMT</p>
+        <p class="text-start">
+            This session is meant to provide attendees with a better 
+understanding of how Chocolatey has helped in an organizational setting,
+ 
+            and educate on the features included in Chocolatey for 
+Business that can help your team more effectively manage its software.
+        </p>
+        <a href="https://chocolatey.org/events/chocolatey-for-business-overview-and-demonstration" class="btn btn-outline-primary btn-width mt-2">Learn More</a>
+        <a href="https://chocolatey.zoom.us/webinar/register/WN_5zJyoWDJRISDLcxizf-XAQ" rel="noreferrer" target="_blank" class="btn btn-primary btn-width mt-2">Register</a>
+        <hr>
+    </div><div class="text-center">
+        <a href="https://chocolatey.zoom.us/webinar/register/1516184163516/WN_eqS2S6k2RgmE8Fh0HGbkOQ" rel="noreferrer" target="_blank">
+            <img class="img-fluid mb-3" src="samplehtml_files/01-08.jpg" alt="Automate and 'Tune Up' Intune with Chocolatey">
+        </a>
+        <p><strong>Webinar Replay from<br>Thursday, 6 May 2021</strong></p>
+        <p class="text-start">
+            Microsoft is leading with Intune as its one-stop solution 
+for remote endpoint management. But there are still some gaps that need 
+to be addressed. 
+            Chocolatey for Business allows you to quickly on-board any 
+Windows software into Intune with two simple commands! Sounds too good 
+to be true? Join our webinar and watch us do it live.
+        </p>
+        <a href="https://chocolatey.org/events/automate-and-tune-up-intune-with-chocolatey" class="btn btn-outline-primary btn-width mt-2">Learn More</a>
+        <a href="https://chocolatey.zoom.us/webinar/register/1516184163516/WN_eqS2S6k2RgmE8Fh0HGbkOQ" rel="noreferrer" target="_blank" class="btn btn-primary btn-width mt-2">Watch On-Demand</a>
+        <hr>
+    </div><div class="text-center">
+        <a href="https://chocolatey.org/resources/features">
+            <img class="img-fluid mb-3" src="samplehtml_files/04-01.jpg" alt="Chocolatey for Business Feature Video Series">
+        </a>
+        <p class="mb-3"><strong>Chocolatey for Business Feature Video Series</strong></p>
+        <p class="text-start">
+            In this video series, come take a tour of the many features 
+available in our Chocolatey for Business offering.
+            Many organizations choose Chocolatey for Business when they 
+want to scale out their solution across thousands of nodes, deploy 
+rapidly and reliably every time,
+            mitigate risks with a greatly-simplified patching workflow, 
+and access a Support Team that will guide you on your automation 
+journey.
+        </p>
+        <a href="https://chocolatey.org/resources/features" class="btn btn-primary btn-width mt-2">Watch the Series</a>
+        <hr>
+    </div><div class="text-center">
+        <a href="https://chocolatey.org/resources/12-days-of-chocolatey">
+            <img class="img-fluid mb-3" src="samplehtml_files/01-06.jpg" alt="12 Days of Chocolatey">
+        </a>
+        <p><strong>Event from<br>December 1 - December 16 2020</strong></p>
+        <p class="text-start">
+            The 12 Days of Chocolatey livestream event may be over, but we've archived all the videos for you to watch again!
+        </p>
+        <a href="https://chocolatey.org/resources/12-days-of-chocolatey" class="btn btn-primary btn-width mt-2">Watch on-Demand</a>
+        <hr>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+</div>
+</nav>
+<header class="mb-xl-0">
+    
+
+    <div class="d-none d-sm-flex">
+        
+<ul class="nav global-nav fw-bold flex-wrap flex-sm-fill justify-content-sm-end">
+    <li class="nav-item"><a class="nav-link" href="https://chocolatey.org/" target="_blank" rel="noreferrer">chocolatey.org</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://chocolatey.org/community" target="_blank" rel="noreferrer">Community</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://docs.chocolatey.org/en-us/" target="_blank" rel="noreferrer">Docs</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://blog.chocolatey.org/" target="_blank" rel="noreferrer">Blog</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://chocolatey.org/install" target="_blank" rel="noreferrer">Install</a></li>
+</ul>
+    </div>
+    <nav id="topNav" class="navbar navbar-expand-md align-items-md-start align-items-xl-center">
+        <a class="navbar-brand mx-0" href="https://community.chocolatey.org/">
+            <img class="d-md-none" src="samplehtml_files/logo.svg" alt="Chocolatey">
+            <img class="d-none d-md-block" src="samplehtml_files/logo-square.svg" alt="Chocolatey">
+        </a>
+        <div class="d-flex flex-column flex-fill flex-xl-row">
+            <div class="d-flex flex-row order-1 align-items-center order-xl-2 ms-auto navbar-links mt-xl-0">
+                <label class="mb-0 me-2" for="themeToggle">
+                    <input id="themeToggle" class="toggle-checkbox" type="checkbox" aria-label="Toggle theme settings">
+                    <div class="toggle-slot">
+                        <div class="sun-icon-wrapper">
+                            <div class="sun-icon fas fa-sun"></div>
+                        </div>
+                        <div class="toggle-button"></div>
+                        <div class="moon-icon-wrapper">
+                            <div class="moon-icon fas fa-moon"></div>
+                        </div>
+                    </div>
+                </label>
+                <button class="d-md-none btn btn-top-nav me-2 btn-announcements btn-announcement-notifications position-relative" type="button" data-bs-toggle="collapse" data-bs-target="#collapsing-right-sidebar" aria-expanded="false" aria-controls="collapsing right sidebar"><span class="notification-badge" title="You have unread notifications">1</span><i class="fas fa-bullhorn"></i></button>
+                    <button type="button" aria-label="Search packages" class="btn btn-top-nav btn-search me-2"><i class="fas fa-search" aria-hidden="true"></i></button>
+                <button type="button" class="navbar-toggler btn btn-top-nav me-3" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+<form class="ms-3 ms-md-0 search-box search-d-submit " autocomplete="off" role="search" action="/packages" method="get">
+    <div class="flex-grow-1">
+        <input name="q" type="search" class="form-control search-input" id="searchQuery" placeholder="Search Packages" aria-label="Search Packages" autofocus="">
+        <i class="fas fa-search" aria-hidden="true"></i>
+        <span class="d-none d-md-flex search-key-container">
+            <span class="badge badge-key bg-primary search-key">ctrl</span>
+            <span class="badge badge-key bg-primary">k</span>
+        </span>
+    </div>
+        <button type="submit" aria-label="Search Packages" class="btn btn-outline-primary ms-2" title="Search Packages" value="">Search</button>
+        <button type="button" aria-label="Close search" class="btn btn-search-close btn-outline-primary ms-2 me-3 me-md-0"><i class="fas fa-times" aria-hidden="true"></i></button>
+    <div class="search-help position-absolute w-100 top-100 start-0 end-0">
+        <div class="arrow-up position-absolute"><div class="arrow-up-inner position-relative"></div></div>
+        <div class="card card-body bg-theme mt-3 me-3 rounded d-md-flex flex-md-row justify-content-md-between border">
+            <p class="mb-md-0 small"><strong>id:searchValue</strong> search by id only</p>
+            <p class="mb-0 small"><strong>tag:searchValue</strong> search by tags</p>
+        </div>
+    </div>
+</form>            </div>
+            <div class="collapse navbar-collapse flex-grow-1 order-2 order-xl-1 mb-n2 mb-md-0 d-none d-md-flex w-auto py-2 py-xl-0 mt-xl-0" id="topNavCollapse">
+                <ul class="navbar-nav mx-auto me-xl-0">
+                    <li class="nav-item me-md-4">
+    <button class="nav-link ps-3 ps-md-0 btn btn-link btn-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navProducts" aria-expanded="false" aria-controls="navProducts">Product</button>
+</li>
+<li class="nav-item me-md-4">
+    <button class="nav-link ps-3 ps-md-0 btn btn-link btn-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navCommunity" aria-expanded="false" aria-controls="navCommunity">Community</button>
+</li>
+<li class="nav-item me-md-4">
+    <button class="nav-link ps-3 ps-md-0 btn btn-link btn-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navLearn" aria-expanded="false" aria-controls="navLearn">Learn</button>
+</li>
+<li class="nav-item me-md-4">
+    <button class="nav-link ps-3 ps-md-0 btn btn-link btn-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navPartners" aria-expanded="false" aria-controls="navPartners">Partners</button>
+</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="navbar-nested-collapse mt-xl-0">
+        <div class="collapse d-md-none" id="navLinks" data-bs-parent=".navbar-nested-collapse">
+    <div class="card card-body p-0">
+        <div class="d-sm-none">
+            
+<ul class="nav global-nav fw-bold flex-wrap flex-sm-fill justify-content-sm-end">
+    <li class="nav-item"><a class="nav-link" href="https://chocolatey.org/" target="_blank" rel="noreferrer">chocolatey.org</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://chocolatey.org/community" target="_blank" rel="noreferrer">Community</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://docs.chocolatey.org/en-us/" target="_blank" rel="noreferrer">Docs</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://blog.chocolatey.org/" target="_blank" rel="noreferrer">Blog</a></li>
+    <li class="nav-item"><a class="nav-link" href="https://chocolatey.org/install" target="_blank" rel="noreferrer">Install</a></li>
+</ul>
+        </div>
+        <ul class="navbar-nav">
+            <li class="nav-item me-md-4">
+    <button class="nav-link ps-3 ps-md-0 btn btn-link btn-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navProducts" aria-expanded="false" aria-controls="navProducts">Product</button>
+</li>
+<li class="nav-item me-md-4">
+    <button class="nav-link ps-3 ps-md-0 btn btn-link btn-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navCommunity" aria-expanded="false" aria-controls="navCommunity">Community</button>
+</li>
+<li class="nav-item me-md-4">
+    <button class="nav-link ps-3 ps-md-0 btn btn-link btn-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navLearn" aria-expanded="false" aria-controls="navLearn">Learn</button>
+</li>
+<li class="nav-item me-md-4">
+    <button class="nav-link ps-3 ps-md-0 btn btn-link btn-collapse collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navPartners" aria-expanded="false" aria-controls="navPartners">Partners</button>
+</li>
+        </ul>
+    </div>
+</div>
+<div class="collapse" id="navProducts" data-bs-parent=".navbar-nested-collapse">
+    <div class="card card-body px-0 pt-0 pt-md-3">
+        <div class="container-fluid px-3 d-md-none">
+            <div class="row align-items-center border-bottom mb-3">
+                <div class="col"></div>
+                <div class="col text-end">
+                    <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-expanded="false" aria-controls="navLinks"><i class="fas fa-times" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row row-divider row-md-divider">
+                <div class="col-md-6 pb-3 pb-md-0">
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3 mb-md-0">
+                            <a href="https://chocolatey.org/compare">Compare Editions</a>
+                            <p class="d-none d-md-block">
+                                Learn the difference between the Chocolatey Editions and what will fit your needs the best.
+                            </p>
+                        </li>
+                        <li><a href="https://chocolatey.org/pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 pt-3 pt-md-0">
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3"><a href="https://chocolatey.org/contact/trial">Try Chocolatey for Business Free</a></li>
+                        <li class="mb-3 mb-md-0">
+                            <a href="https://chocolatey.org/pricing">Purchase</a>
+                            <p class="d-none d-md-block">
+                                I'm ready to get started now!
+                            </p>
+                        </li>
+                        <li><a href="https://chocolatey.org/support">Support</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="collapse" id="navCommunity" data-bs-parent=".navbar-nested-collapse">
+    <div class="card card-body px-0 pt-0 pt-md-3">
+        <div class="container-fluid px-3 d-md-none">
+            <div class="row align-items-center border-bottom mb-3">
+                <div class="col"></div>
+                <div class="col text-center">
+                    <p class="mb-0">Community</p>
+                </div>
+                <div class="col text-end">
+                    <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-expanded="false" aria-controls="navLinks"><i class="fas fa-times" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row row-divider row-md-divider">
+                <div class="col-md-6 pb-3 pb-md-0">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://community.chocolatey.org/packages">Community Packages</a>
+                            <p class="d-none d-md-block mb-0">
+                                Search the largest online registry of 
+Windows packages. Chocolatey packages encapsulate everything required to
+ manage a particular piece of software into one deployment artifact by 
+wrapping installers, executables, zips, and scripts into a compiled 
+package file.
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6 pt-3 pt-md-0">
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3"><a href="https://community.chocolatey.org/">Community Resources</a></li>
+                        <li class="mb-3"><a href="https://github.com/chocolatey" target="_blank" rel="noreferrer">Chocolatey on GitHub</a></li>
+                        <li><a href="https://blog.chocolatey.org/">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="collapse" id="navLearn" data-bs-parent=".navbar-nested-collapse">
+    <div class="card card-body px-0 pt-0 pt-md-3">
+        <div class="container-fluid px-3 d-md-none">
+            <div class="row align-items-center border-bottom mb-3">
+                <div class="col"></div>
+                <div class="col text-center">
+                    <p class="mb-0">Learn</p>
+                </div>
+                <div class="col text-end">
+                    <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-expanded="false" aria-controls="navLinks"><i class="fas fa-times" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row row-divider row-md-divider">
+                <div class="col-md-4 pb-3 pb-md-0">
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="https://community.chocolatey.org/courses">Getting Started Course</a>
+                            <p class="d-none d-md-block mb-0">
+                                New to Chocolatey? Learn the requirements and how to get Chocolatey up and running in no time!
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 py-3 py-md-0">
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3"><a href="https://docs.chocolatey.org/en-us/">Docs</a></li>
+                        <li><a href="https://community.chocolatey.org/courses">Courses</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 pt-3 pt-md-0">
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3 mb-md-0">
+                            <a href="https://chocolatey.org/support">Support</a>
+                            <p class="d-none d-md-block">
+                                Need help? Read our Support FAQ to find out the next steps.
+                            </p>
+                        </li>
+                        <li class="mb-3"><a href="https://blog.chocolatey.org/">Blog</a></li>
+                        <li><a href="http://eepurl.com/4qUJH" target="_blank" rel="noreferrer">Newsletter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="collapse" id="navPartners" data-bs-parent=".navbar-nested-collapse">
+    <div class="card card-body px-0 pt-0 pt-md-3">
+        <div class="container-fluid px-3 d-md-none">
+            <div class="row align-items-center border-bottom mb-3">
+                <div class="col"></div>
+                <div class="col text-center">
+                    <p class="mb-0">Partners</p>
+                </div>
+                <div class="col text-end">
+                    <button class="btn btn-link" type="button" data-bs-toggle="collapse" data-bs-target="#navLinks" aria-expanded="false" aria-controls="navLinks"><i class="fas fa-times" aria-hidden="true"></i></button>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row row-divider row-md-divider">
+                <div class="col-md-6 pb-3 pb-md-0">
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3"><a href="https://chocolatey.org/partner">Overview</a></li>
+                        <li><a href="https://chocolatey.org/contact/partner">Become a Partner</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 pt-3 pt-md-0">
+                    <ul class="list-unstyled mb-0">
+                        <li class="mb-3"><a href="https://chocolatey.org/partner#technology">Technology Partners</a></li>
+                        <li><a href="https://chocolatey.org/partner#resellers">Resellers</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</header>
+    <main class="mb-auto" style="--mh:335.20000000000005px;">
+        
+<div class="video-story">
+    <div class="modal fade" id="qualcomm-story" tabindex="-1" role="dialog" aria-labelledby="Dwight Bragdon at Qualcomm" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close pt-0" data-bs-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true" class="fas fa-times"></span>
+                    </button>
+                </div>
+                <div class="modal-body p-0">
+                    <div class="ratio ratio-16x9">
+                        <iframe data-src="https://www.youtube.com/embed/R9OClPwBpdk?autoplay=1" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        
+
+
+<div class="modal fade" id="package-disclaimer" tabindex="-1" role="dialog" data-bs-backdrop="static" data-bs-keyboard="false" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-body">
+                <p>Welcome to the Chocolatey Community Package 
+Repository! The packages found in this section of the site are provided,
+ maintained, and moderated by the community.</p>
+                <h3>Moderation</h3>
+                <p>Every version of each package undergoes a rigorous moderation process before it goes live that typically includes:</p>
+                <ul>
+                    <li><a href="https://docs.chocolatey.org/en-us/information/security#chocolatey.org-packages" target="_blank">Security</a>, consistency, and <a href="https://docs.chocolatey.org/en-us/community-repository/moderation/package-validator/rules/" target="_blank">quality checking</a></li>
+                    <li><a href="https://docs.chocolatey.org/en-us/community-repository/moderation/package-verifier" target="_blank">Installation testing</a></li>
+                    <li><a href="https://docs.chocolatey.org/en-us/information/security#chocolatey.org-packages" target="_blank">Virus checking through VirusTotal</a></li>
+                    <li>Human moderators who give final review and sign off</li>
+                </ul>
+                <p>More detail at <a href="https://docs.chocolatey.org/en-us/information/security#chocolatey.org-packages" target="_blank">Security</a> and <a href="https://docs.chocolatey.org/en-us/community-repository/moderation" target="_blank">Moderation</a>.</p>
+                <h3>Organizational Use</h3>
+                <p>
+                    If you are an organization using Chocolatey, we want your experience to be fully reliable.
+                    Due to the nature of this publicly offered repository, <a href="https://docs.chocolatey.org/en-us/community-repository/community-packages-disclaimer#reliability" target="_blank">reliability</a>
+ cannot be guaranteed.
+                    Packages offered here are subject to distribution 
+rights, which means they may need to reach out further to the internet 
+to the official locations to download files at runtime.
+                </p>
+                <p>
+                    Fortunately, distribution rights do not apply for 
+internal use. With any edition of Chocolatey (including the free open 
+source edition), you can <a href="https://docs.chocolatey.org/en-us/features/host-packages" rel="noreferrer" target="_blank">host your own packages</a> and cache or <a href="https://docs.chocolatey.org/en-us/guides/create/recompile-packages" target="_blank">internalize</a> existing community packages.
+                </p>
+                <h3>Disclaimer</h3>
+                <p>Your use of the packages on this site means you understand they are not supported or guaranteed in any way. <a href="https://docs.chocolatey.org/en-us/community-repository/community-packages-disclaimer" rel="noreferrer" target="_blank">Learn more...</a></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">I Understand</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<ul class="nav fw-bold justify-content-center align-items-center text-center border-bottom small lh-sm bg-theme">
+        <li class="nav-item">
+            <a class="nav-link" href="https://community.chocolatey.org/packages">
+                <span class="fas fa-download" alt="Packages"></span>
+                <p class="mb-0">Packages</p>
+            </a>
+        </li>
+    <li class="nav-item user-unauthenticated">
+        <a class="nav-link" href="https://community.chocolatey.org/account/Register">
+            <span class="fas fa-user-plus" alt="Signup"></span>
+            <p class="mb-0">Signup</p>
+        </a>
+    </li>
+    <li class="nav-item user-unauthenticated">
+        <a class="nav-link" href="https://community.chocolatey.org/users/account/LogOn">
+            <span class="fas fa-sign-in-alt" alt="Login"></span>
+            <p class="mb-0">Login</p>
+        </a>
+    </li>
+    <li class="nav-item user-authenticated">
+        <a class="nav-link" href="https://community.chocolatey.org/account">
+            <span class="fas fa-cogs" alt="Account"></span>
+            <p class="mb-0">Account</p>
+        </a>
+    </li>
+    <li class="nav-item user-authenticated">
+        <a class="nav-link" href="https://community.chocolatey.org/account/Profiles">
+            <span class="fas fa-user-alt" alt="Profile"></span>
+            <p class="mb-0">Profile</p>
+        </a>
+    </li>
+    <li class="nav-item user-authenticated">
+<form action="/users/account/LogOff" method="post">            <fieldset class="form nav-link">
+                <input name="__RequestVerificationToken" type="hidden" value="j5wZ13iHPiJzbL5pkjHKSBoMYz5Hkha5RtQRjWrS4MbiAf2G+EFna7qhwUcjpOi6aQN7ZKpHMVROY8Xuo99521RlUuDGYQZVUCjuq8maO3W0cJeRzse8Hhhlx/MYVDhAG9LWLustFhdQaO8oa/jB4xhRgL5FB2op7p70I4SMqzQlYQxAnWeRiW2JJ+0YCBmW">
+                <button class="btn btn-link align-items-center p-0 text-decoration-none fs-6" type="submit">
+                    <span class="fas fa-sign-out-alt lh-sm" alt="Log Off"></span>
+                    <p class="mb-0 fw-bold small lh-sm mt-n1">Log Off</p>
+                </button>
+            </fieldset>
+</form>    </li>
+</ul>
+<ul class="list-inline justify-content-center align-items-center text-center mb-0 border-bottom d-none d-sm-flex">
+    <li class="d-sm-flex align-items-center py-2 px-3">
+        <span class="status status-sm bg-success"></span>
+        <small>Passing</small>
+    </li>
+    <li class="d-sm-flex align-items-center py-2 px-3">
+        <span class="status status-sm bg-danger"></span>
+        <small>Failing</small>
+    </li>
+    <li class="d-sm-flex align-items-center py-2 px-3">
+        <span class="status status-sm bg-warning"></span>
+        <small>Pending</small>
+    </li>
+    <li class="d-sm-flex align-items-center py-2 px-3">
+        <span class="status status-sm bg-secondary"></span>
+        <small>Unknown / Exempted</small>
+    </li>
+</ul>
+<section class="container py-3 py-lg-5">
+    <div id="package-sidebar" class="row">
+        
+        <div class="col-md-3 col-xl-2 d-none d-md-block">
+            <div class="ratio ratio-1x1 package-logo">
+                <div class="d-flex flex-fill align-items-center justify-content-center package-icon">
+                    <img src="samplehtml_files/kellyelton.png" alt="Icon for package kellyelton.devenvironment" title="Icon for package kellyelton.devenvironment | Nuspec reference: &lt;iconUrl&gt;http://www.gravatar.com/avatar/2a9c790c93dec4979aa8702ab53d2c7a.png&lt;/iconurl&gt;" onerror="this.src='/Content/Images/packageDefaultIcon.png';">
+                </div>
+            </div>
+            <p class="mb-0 mt-3"><strong>Downloads:</strong></p>
+            <h3 class="mt-0 mb-3">5,739</h3>
+            <p class="mb-0"><strong>Downloads of v 1.0.0.11:</strong></p>
+            <h3 class="mt-0 mb-3">795</h3>
+            <p class="mb-0"><strong>Last Update:</strong></p>
+            <h3 class="mt-0 mb-3">31 Jan 2015</h3>
+            <p class="mb-0" title="Nuspec reference: owners | nuspec value not used on community feed | Specified as comma-separated"><strong>Package Maintainer(s):</strong></p>
+                <ul class="list-unstyled mb-2 mb-md-0">
+        <li>
+                <a class="d-flex align-items-center mb-2" href="https://community.chocolatey.org/profiles/kellyelton" title="kellyelton">
+<img src="samplehtml_files/2a9c790c93dec4979aa8702ab53d2c7a.jpg" class="rounded-circle" title="kellyelton" alt="gravatar" width="32" height="32">            <span class="ms-2">kellyelton</span>
+    </a>
+
+        </li>
+    </ul>
+
+            <p class="mb-0 mt-3" title="Software authors. Nuspec reference: authors | Specified as comma-separated"><strong>Software Author(s):</strong></p>
+            <ul class="list-unstyled">
+                    <li class="text-break">Kelly Elton</li>
+            </ul>
+                <p class="mb-0" title="Nuspec reference: tags | Specified as space-separated"><strong>Tags:</strong></p>
+                    <a class="badge bg-primary" href="https://community.chocolatey.org/packages?q=tag%3Adev" title="Search for dev">dev</a>
+            <ul class="list-unstyled">
+                <li class="mt-3"><strong>Software Specific:</strong></li>
+                    <li><a href="https://github.com/kellyelton/kellyelton.devenvironment" title="Visit the software site to learn more about the software this package installs. Nuspec reference: &lt;projectUrl&gt;https://github.com/kellyelton/kellyelton.devenvironment&lt;/projectUrl&gt;">Software Site</a></li>
+                    <li><a href="https://www.gnu.org/licenses/gpl.html" title="Make sure you agree with the software license. Nuspec reference: &lt;licenseUrl&gt;http://www.gnu.org/licenses/gpl.html&lt;/licenseUrl&gt;">Software License</a></li>
+                <li class="mt-3"><strong>Package Specific:</strong></li>
+                <li><a href="https://docs.chocolatey.org/en-us/community-repository/users/package-triage-process">Package outdated?</a></li>
+                <li><a href="https://docs.chocolatey.org/en-us/community-repository/users/package-triage-process">Package broken?</a></li>
+                <li><a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/ContactOwners">Contact Maintainers</a></li>
+                <li><a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.11/ContactAdmins" title="Contact Site Moderators">Contact Site Admins</a></li>
+                <li><a href="https://docs.chocolatey.org/en-us/community-repository/users/package-triage-process#are-you-a-software-vendor">Software Vendor?</a></li>
+                <li><a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.11/ReportAbuse" title="Report Abuse">Report Abuse</a></li>
+                <li>
+                    <a class="btn btn-secondary btn-sm mt-2" href="https://community.chocolatey.org/api/v2/package/kellyelton.devenvironment/1.0.0.11" title="Download the raw nupkg file." download=""><i class="fas fa-download" alt="Download"></i> Download</a>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="col-12 d-md-none">
+            <div class="justify-content-center align-items-center d-flex">
+                <div class="ratio ratio-1x1 package-logo">
+                    <div class="d-flex flex-fill align-items-center justify-content-center package-icon">
+                        <img src="samplehtml_files/kellyelton.png" alt="Icon for package kellyelton.devenvironment" title="Icon for package kellyelton.devenvironment | Nuspec reference: &lt;iconUrl&gt;http://www.gravatar.com/avatar/2a9c790c93dec4979aa8702ab53d2c7a.png&lt;/iconurl&gt;" onerror="this.src='/Content/Images/packageDefaultIcon.png';">
+                    </div>
+                </div>
+                <h4 class="mb-0 ms-2" title="Nuspec reference: &lt;title&gt;Kelly Eltons Dev Environment&lt;/title&gt;">Kelly Eltons Dev Environment</h4>
+            </div>
+            <div class="justify-content-center align-items-center d-flex">
+                <a href="#status" title="Click to view test results">
+                    <ul class="status status-sm">
+                        <li><div class="status-unknown">1</div></li>
+                        <li><div class="status-failing">2</div></li>
+                        <li><div class="status-investigate-unknown">3</div></li>
+                    </ul>
+                </a>
+                    <p title="Nuspec reference: &lt;version&gt;1.0.0.11&lt;/version&gt;" class="mb-0">1.0.0.11 | <strong>Updated: </strong>31 Jan 2015</p>
+            </div>
+            <div class="text-center">
+                <button class="btn btn-sm btn-primary btn-collapse btn-show-hide collapsed mb-3 mt-1" type="button" data-bs-toggle="collapse" data-bs-target="#additional-links" aria-expanded="false" aria-controls="additional-links">
+                    Show Additional Links
+                </button>
+                <div class="collapse text-start" id="additional-links">
+                    <ul class="list-unstyled">
+                        <li class="mt-3"><strong>Software Specific:</strong></li>
+                            <li><a href="https://github.com/kellyelton/kellyelton.devenvironment" title="Visit the software site to learn more about the software this package installs. Nuspec reference: &lt;projectUrl&gt;https://github.com/kellyelton/kellyelton.devenvironment&lt;/projectUrl&gt;">Software Site</a></li>
+                            <li><a href="https://www.gnu.org/licenses/gpl.html" title="Make sure you agree with the software license. Nuspec reference: &lt;licenseUrl&gt;http://www.gnu.org/licenses/gpl.html&lt;/licenseUrl&gt;">Software License</a></li>
+                        <li class="mt-3"><strong>Package Specific:</strong></li>
+                        <li><a href="https://docs.chocolatey.org/en-us/community-repository/users/package-triage-process">Package outdated?</a></li>
+                        <li><a href="https://docs.chocolatey.org/en-us/community-repository/users/package-triage-process">Package broken?</a></li>
+                        <li><a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/ContactOwners">Contact Maintainers</a></li>
+                        <li><a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.11/ContactAdmins" title="Contact Site Moderators">Contact Site Admins</a></li>
+                        <li><a href="https://docs.chocolatey.org/en-us/community-repository/users/package-triage-process#are-you-a-software-vendor">Software Vendor?</a></li>
+                        <li><a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.11/ReportAbuse" title="Report Abuse">Report Abuse</a></li>
+                        <li>
+                            <a href="https://community.chocolatey.org/api/v2/package/kellyelton.devenvironment/1.0.0.11" title="Download the raw nupkg file.">Download</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row border-bottom">
+                <div class="col">
+                    <p class="mb-0"><small>Downloads:</small></p>
+                    <p class="mb-1">5,739</p>
+                </div>
+                <div class="col">
+                    <p class="mb-0"><small>Downloads of v 1.0.0.11:</small></p>
+                    <p class="mb-1">795</p>
+                </div>
+            </div>
+            <div class="border-bottom">
+                <p class="mb-0" title="Nuspec reference: owners | nuspec value not used on community feed | Specified as comma-separated"><small>Maintainer(s):</small></p>
+                    <ul class="list-unstyled mb-2 mb-md-0">
+        <li>
+                <a class="d-flex align-items-center mb-2" href="https://community.chocolatey.org/profiles/kellyelton" title="kellyelton">
+<img src="samplehtml_files/2a9c790c93dec4979aa8702ab53d2c7a.jpg" class="rounded-circle" title="kellyelton" alt="gravatar" width="32" height="32">            <span class="ms-2">kellyelton</span>
+    </a>
+
+        </li>
+    </ul>
+
+            </div>
+            <p class="mb-0" title="Software authors. Nuspec reference: authors | Specified as comma-separated"><small>Software Author(s):</small></p>
+            <ul class="list-unstyled mb-0 pb-1 border-bottom">
+                    <li class="text-break">Kelly Elton</li>
+            </ul>
+                <div class="mb-3">
+                    <p class="mb-0" title="Nuspec reference: tags | Specified as space-separated"><small>Tags:</small></p>
+                        <a class="badge bg-primary" href="https://community.chocolatey.org/packages?q=tag%3Adev" title="Search for dev">dev</a>
+                </div>
+        </div>
+        
+        <div class="modal fade" id="package-edit" tabindex="-1" role="dialog" aria-labelledby="package-edit" aria-hidden="true">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header justify-content-center">
+                        <h2 class="mb-0">Edit Package</h2>
+                    </div>
+                    <div class="modal-body">
+                        <p><strong>To edit the metadata for a package, please upload an updated version of the package.</strong></p>
+                        <p>
+                            Chocolatey's Community Package Repository 
+currently does not allow updating package metadata on the website. This 
+helps ensure
+                            that the package itself (and the source used
+ to build the package) remains the one true
+                            source of package metadata.
+                        </p>
+                        <p class="mb-0">This does require that you increment the package version.</p>
+                    </div>
+                    <div class="modal-footer justify-content-center">
+                        <a href="https://community.chocolatey.org/packages/upload" class="btn btn-success"><i class="fas fa-upload" alt="Upload"></i> Upload Updated Package</a>
+                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-9 col-xl-10">
+            <div class="mb-3 d-none d-md-block">
+                <h1 class="justify-content-center align-items-center d-flex mb-0 text-transform-none" title="Nuspec reference: &lt;title&gt;Kelly Eltons Dev Environment&lt;/title&gt;">
+                    <a href="#status" title="Click to view test results">
+                        <ul class="status">
+                            <li><div class="status-unknown">1</div></li>
+                            <li><div class="status-failing">2</div></li>
+                            <li><div class="status-investigate-unknown">3</div></li>
+                        </ul>
+                    </a>
+                    Kelly Eltons Dev Environment
+                        <span class="ms-2" title="Nuspec reference: &lt;version&gt;1.0.0.11&lt;/version&gt;">1.0.0.11</span>
+                </h1>
+            </div>
+            
+            <div id="status" class="callout p-0 callout-warning">
+                <div class="d-flex justify-content-between p-3">
+                    <div class="d-flex">
+                        <div>
+                            <ul class="status mt-0">
+                                <li><div class="status-unknown">1</div></li>
+                                <li><div class="status-failing">2</div></li>
+                                <li><div class="status-investigate-unknown">3</div></li>
+                            </ul>
+                        </div>
+                        <div>
+                                    <h3>Some Checks Have Failed or Are Not Yet Complete</h3>
+                                <p>Not All Tests Have Passed</p>
+                        </div>
+                    </div>
+                    <div class="d-none d-xl-block">
+                        <a class="btn-collapse  btn btn-sm btn-secondary btn-show-hide" data-bs-toggle="collapse" href="#testingResults" role="button" aria-expanded="true" aria-controls="testing results" title="Testing Results">
+Hide Checks                    </a>
+                </div>
+            </div>
+            <div class="px-3 pb-3 d-xl-none">
+                <a class="btn-collapse  btn btn-sm btn-secondary btn-show-hide" data-bs-toggle="collapse" href="#testingResults" role="button" aria-expanded="true" aria-controls="testing results" title="Testing Results">
+Hide Checks            </a>
+        </div>
+        <div class="collapse show" id="testingResults">
+            <hr class="mt-0">
+            
+            <div class="px-3">
+                    <p class="mb-0"><span class="fas fa-question text-secondary me-3"></span>Validation Testing Unknown</p>
+            </div>
+            <hr>
+            
+            <div class="px-3">
+                    <div class="d-flex justify-content-between">
+                        <p class="mb-0"><span class="fas fa-times text-danger me-3"></span>Verification Testing Failed</p>
+                        <a href="https://gist.github.com/8bdb3cae48eba2ded4b42d7564ce193e" target="_blank" rel="noreferrer">Details</a>
+                    </div>
+            </div>
+            <hr>
+            
+            <div class="px-3 pb-3">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                                    <span class="fas fa-search text-danger me-3 mt-1"></span>
+                                    <div>
+                                        <p class="mb-0">Scan Testing Resulted in Investigate</p>
+                                        <p class="mb-0"></p>
+                                    </div>
+                    </div>
+                    <a class="btn-collapse-target text-break-none" href="#virus" data-collapse-target="#virus">Details</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+            <ul class="nav nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" id="individual-tab" data-bs-toggle="tab" href="#individual" role="tab" aria-controls="individual" aria-selected="true">Individual</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="organization-tab" data-bs-toggle="tab" href="#organization" role="tab" aria-controls="organization" aria-selected="false">Organization</a>
+                </li>
+            </ul>
+            <div class="tab-content bg-theme-light p-3 shadow-sm mb-3 position-relative border-start border-end border-bottom">
+                
+                <div class="tab-pane fade show active" id="individual" role="tabpanel" aria-labelledby="individual-tab">
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="install-tab" data-bs-toggle="tab" href="#install" role="tab" aria-controls="install" aria-selected="true">Install</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="upgrade-tab" data-bs-toggle="tab" href="#upgrade" role="tab" aria-controls="upgrade" aria-selected="false">Upgrade</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="uninstall-tab" data-bs-toggle="tab" href="#uninstall" role="tab" aria-controls="uninstall" aria-selected="false">Uninstall</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content p-3">
+                        <div class="tab-pane fade show active" id="install" role="tabpanel" aria-labelledby="install-tab">
+                            <p class="mb-3">To install Kelly Eltons Dev Environment, run the following command from the command line or from PowerShell:</p>
+                            <div class="input-group">
+                                <span class="input-group-text bg-theme-light text-theme pe-0">&gt;</span>
+                                <input type="text" id="id-kellyeltondevenvironment-10011-install" class="form-control bg-theme-light user-select-all border-start-0 ps-1" aria-label="Install Kelly Eltons Dev Environment command" value="choco install kellyelton.devenvironment" readonly="readonly">
+                                <button data-clipboard-target="#id-kellyeltondevenvironment-10011-install" class="btn btn-primary btn-copy tt tt-top" type="button" data-bs-toggle="button" data-tooltip-text="Copy" data-tooltip-text-active="Copied!"><i class="fas fa-clipboard" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="upgrade" role="tabpanel" aria-labelledby="upgrade-tab">
+                            <p class="mb-3">To upgrade Kelly Eltons Dev Environment, run the following command from the command line or from PowerShell:</p>
+                            <div class="input-group">
+                                <span class="input-group-text bg-theme-light text-theme pe-0">&gt;</span>
+                                <input type="text" id="id-kellyeltondevenvironment-10011-upgrade" class="form-control bg-theme-light user-select-all border-start-0 ps-1" aria-label="Upgrade Kelly Eltons Dev Environment command" value="choco upgrade kellyelton.devenvironment" readonly="readonly">
+                                <button data-clipboard-target="#id-kellyeltondevenvironment-10011-upgrade" class="btn btn-primary btn-copy tt tt-top" type="button" data-bs-toggle="button" data-tooltip-text="Copy" data-tooltip-text-active="Copied!"><i class="fas fa-clipboard" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="uninstall" role="tabpanel" aria-labelledby="uninstall-tab">
+                            <p class="mb-3">To uninstall Kelly Eltons Dev Environment, run the following command from the command line or from PowerShell:</p>
+                            <div class="input-group">
+                                <span class="input-group-text bg-theme-light text-theme pe-0">&gt;</span>
+                                <input type="text" id="id-kellyeltondevenvironment-10011-uninstall" class="form-control bg-theme-light user-select-all border-start-0 ps-1" aria-label="Uninstall Kelly Eltons Dev Environment command" value="choco uninstall kellyelton.devenvironment" readonly="readonly">
+                                <button data-clipboard-target="#id-kellyeltondevenvironment-10011-uninstall" class="btn btn-primary btn-copy tt tt-top" type="button" data-bs-toggle="button" data-tooltip-text="Copy" data-tooltip-text-active="Copied!"><i class="fas fa-clipboard" aria-hidden="true"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="tab-pane fade" id="organization" role="tabpanel" aria-labelledby="organization-tab">
+                    <p class="small fw-bold">NOTE: This applies to both open source and commercial editions of Chocolatey.</p>
+                    
+                    <h4>1. Ensure you are set for organizational deployment</h4>
+                    <p>Please see the <a href="https://docs.chocolatey.org/en-us/guides/organizations/organizational-deployment-guide">organizational deployment guide</a></p>
+                    
+                    <a class="h4 collapsed d-block" data-bs-toggle="collapse" href="#install-step2" role="button" aria-expanded="false" aria-controls="install-step2" title="Install Step 2">2. Get the package into your environment</a>
+                    <div class="collapse" id="install-step2">
+                        <div class="p-3">
+                            
+                            <a class="h5 collapsed d-block" data-bs-toggle="collapse" href="#install-step2-option1" role="button" aria-expanded="false" aria-controls="install-step2-option1" title="Install Step 2 Option 1">Option 1: Cached Package (Unreliable, Requires Internet - Same As Community)</a>
+                            <div class="collapse" id="install-step2-option1">
+                                <ul>
+                                    <li>
+                                        Open Source or Commercial:
+                                        <ul>
+                                            <li>Proxy Repository - 
+Create a proxy nuget repository on Nexus, Artifactory Pro, or a proxy 
+Chocolatey repository on ProGet. Point your upstream to <strong>https://community.chocolatey.org/api/v2</strong>.
+ Packages cache on first access automatically. Make sure your choco 
+clients are using your proxy repository as a source and NOT the default 
+community repository. See <a href="https://docs.chocolatey.org/en-us/choco/commands/sources">source command</a> for more information.</li>
+                                            <li>You can also just download the package and push it to a repository <a class="btn btn-secondary btn-sm" href="https://community.chocolatey.org/api/v2/package/kellyelton.devenvironment/1.0.0.11" title="Download the raw nupkg file." download=""><i class="fas fa-download" alt="Download"></i> Download</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                            
+                            <a class="h5 mt-3 collapsed d-block" data-bs-toggle="collapse" href="#install-step2-option2" role="button" aria-expanded="false" aria-controls="install-step2-option1" title="Install Step 2 Option 2">Option 2: Internalized Package (Reliable, Scalable)</a>
+                            <div class="collapse" id="install-step2-option2">
+                                <ul>
+                                    <li>
+                                        Open Source
+                                        <ul>
+                                            <li>Download the Package <a class="btn btn-secondary btn-sm" href="https://community.chocolatey.org/api/v2/package/kellyelton.devenvironment/1.0.0.11" title="Download the raw nupkg file." download=""><i class="fas fa-download" alt="Download"></i> Download</a></li>
+                                            <li><a href="https://docs.chocolatey.org/en-us/guides/create/recompile-packages">Follow manual internalization instructions</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        Package Internalizer (C4B)
+                                        <ul>
+                                            <li>Run <code>choco download kellyelton.devenvironment --internalize  --source=https://community.chocolatey.org/api/v2</code> <a href="https://docs.chocolatey.org/en-us/choco/commands/download">(additional options)</a></li>
+                                            <li>Run <code>choco push --source="'http://internal/odata/repo'"</code> for package and dependencies</li>
+                                            <li><a href="https://docs.chocolatey.org/en-us/guides/organizations/automate-package-internalization">Automate package internalization</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <h4 class="mt-4">3. Enter your internal repository url</h4>
+                    <input class="form-control w-50" id="stepThreeUrl" type="text" placeholder="http://internal/odata/repo">
+                    <p><small>(this should look similar to <a href="https://community.chocolatey.org/api/v2">https://community.chocolatey.org/api/v2</a>)</small></p>
+                    
+                    <h4 class="mt-4">4. Choose your deployment method:</h4>
+                    <ul class="nav nav-tabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="generic-tab" data-bs-toggle="tab" href="#generic" role="tab" aria-controls="generic" aria-selected="false">Generic</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="ansible-tab" data-bs-toggle="tab" href="#ansible" role="tab" aria-controls="ansible" aria-selected="false">Ansible</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="chef-tab" data-bs-toggle="tab" href="#chef" role="tab" aria-controls="chef" aria-selected="false">Chef</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="otter-tab" data-bs-toggle="tab" href="#otter" role="tab" aria-controls="otter" aria-selected="false">Otter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="psdsc-tab" data-bs-toggle="tab" href="#psdsc" role="tab" aria-controls="psdsc" aria-selected="false">PS DSC</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="puppet-tab" data-bs-toggle="tab" href="#puppet" role="tab" aria-controls="puppet" aria-selected="false">Puppet</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="salt-tab" data-bs-toggle="tab" href="#salt" role="tab" aria-controls="salt" aria-selected="false">Salt</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content stepThree p-3">
+                        <div class="tab-pane fade show active" id="generic" role="tabpanel" aria-labelledby="generic-tab"><p class="step-three-danger text-danger fw-bold small">You must enter your internal repository url in Step 3 before proceeding.</p>
+<div class="code-toolbar"><pre class="border py-3 line-numbers py-2 language-powershell"><code class="language-powershell">choco upgrade kellyelton<span class="token punctuation">.</span>devenvironment <span class="token operator">-</span>y <span class="token operator">--</span>source=<span class="token string">"'<span class="stepThreeUrl">http://internal/odata/repo</span>'"</span> <span class="token namespace">[other options]</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div>
+                            <p class="mt-3">See <a href="https://docs.chocolatey.org/en-us/choco/commands/upgrade#options-and-switches">options you can pass to upgrade.</a></p>
+                            <p>See <a href="https://docs.chocolatey.org/en-us/choco/commands/#scripting-integration-best-practices-style-guide">best practices for scripting.</a></p>
+                            <p>Add this to a PowerShell script or use a 
+Batch script with tools and in places where you are calling directly to 
+Chocolatey. If you are integrating, keep in mind enhanced exit codes.</p>
+                            <p>If you do use a PowerShell script, use the following to ensure bad exit codes are shown as failures:</p>
+<div class="code-toolbar"><pre class="line-numbers border py-3 py-2 language-powershell"><code class="language-powershell">choco upgrade kellyelton<span class="token punctuation">.</span>devenvironment <span class="token operator">-</span>y <span class="token operator">--</span>source=<span class="token string">"'<span class="stepThreeUrl">http://internal/odata/repo</span>'"</span>
+<span class="token variable">$exitCode</span> = <span class="token variable">$LASTEXITCODE</span>
+
+<span class="token function">Write-Verbose</span> <span class="token string">"Exit code was <span class="token variable">$exitCode</span>"</span>
+<span class="token variable">$validExitCodes</span> = @<span class="token punctuation">(</span>0<span class="token punctuation">,</span> 1605<span class="token punctuation">,</span> 1614<span class="token punctuation">,</span> 1641<span class="token punctuation">,</span> 3010<span class="token punctuation">)</span>
+<span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token variable">$validExitCodes</span> <span class="token operator">-contains</span> <span class="token variable">$exitCode</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+  <span class="token keyword">Exit</span> 0
+<span class="token punctuation">}</span>
+
+<span class="token keyword">Exit</span> <span class="token variable">$exitCode</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></div>
+                        </div>
+                        <div class="tab-pane fade" id="ansible" role="tabpanel" aria-labelledby="ansible-tab"><p class="step-three-danger text-danger fw-bold small">You must enter your internal repository url in Step 3 before proceeding.</p>
+<div class="code-toolbar"><pre class="line-numbers border py-3 py-2 language-yaml"><code class="language-yaml"><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Ensure kellyelton.devenvironment installed
+  <span class="token key atrule">win_chocolatey</span><span class="token punctuation">:</span>
+    <span class="token key atrule">name</span><span class="token punctuation">:</span> kellyelton.devenvironment
+    <span class="token key atrule">state</span><span class="token punctuation">:</span> present
+    <span class="token key atrule">version</span><span class="token punctuation">:</span> 1.0.0.11
+    <span class="token key atrule">source</span><span class="token punctuation">:</span> <span class="stepThreeUrl">http://internal/odata/repo</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></div>
+                            <p>See docs at <a href="https://docs.ansible.com/ansible/latest/modules/win_chocolatey_module.html" target="_blank" rel="noreferrer">https://docs.ansible.com/ansible/latest/modules/win_chocolatey_module.html</a>.</p>
+                        </div>
+                        <div class="tab-pane fade" id="chef" role="tabpanel" aria-labelledby="chef-tab"><p class="step-three-danger text-danger fw-bold small">You must enter your internal repository url in Step 3 before proceeding.</p>
+<div class="code-toolbar"><pre class="line-numbers border py-3 py-2 language-ruby"><code class="language-ruby">chocolatey_package <span class="token string">'kellyelton.devenvironment'</span> <span class="token keyword">do</span>
+  action    <span class="token symbol">:install</span>
+  version  <span class="token string">'1.0.0.11'</span>
+  source   <span class="token string">'<span class="stepThreeUrl">http://internal/odata/repo</span>'</span>
+<span class="token keyword">end</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></div>
+                            <p>See docs at <a href="https://docs.chef.io/resource_chocolatey_package.html" target="_blank" rel="noreferrer">https://docs.chef.io/resource_chocolatey_package.html</a>.</p>
+                        </div>
+                        <div class="tab-pane fade" id="otter" role="tabpanel" aria-labelledby="otter-tab"><p class="step-three-danger text-danger fw-bold small">You must enter your internal repository url in Step 3 before proceeding.</p>
+<div class="code-toolbar"><pre class="line-numbers border py-3 py-2 language-powershell"><code class="language-powershell">Chocolatey::Ensure<span class="token operator">-</span>Package
+<span class="token punctuation">(</span>
+    Name: kellyelton<span class="token punctuation">.</span>devenvironment<span class="token punctuation">,</span>
+    Version: 1<span class="token punctuation">.</span>0<span class="token punctuation">.</span>0<span class="token punctuation">.</span>11<span class="token punctuation">,</span>
+    Source: <span class="stepThreeUrl">http://internal/odata/repo</span>
+<span class="token punctuation">)</span><span class="token punctuation">;</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></div>
+                            <p>Requires Otter Chocolatey Extension. See docs at <a href="https://inedo.com/den/otter/chocolatey" target="_blank" rel="noreferrer">https://inedo.com/den/otter/chocolatey</a>.</p>
+                        </div>
+                        <div class="tab-pane fade" id="psdsc" role="tabpanel" aria-labelledby="psdsc-tab"><p class="step-three-danger text-danger fw-bold small">You must enter your internal repository url in Step 3 before proceeding.</p>
+<div class="code-toolbar"><pre class="line-numbers border py-3 py-2 language-powershell"><code class="language-powershell">cChocoPackageInstaller kellyelton<span class="token punctuation">.</span>devenvironment
+<span class="token punctuation">{</span>
+   Name     = <span class="token string">'kellyelton.devenvironment'</span>
+   Ensure   = <span class="token string">'Present'</span>
+   Version  = <span class="token string">'1.0.0.11'</span>
+   Source   = <span class="token string">'<span class="stepThreeUrl">http://internal/odata/repo</span>'</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre></div>
+                            <p>Requires cChoco DSC Resource. See docs at <a href="https://github.com/chocolatey/cChoco" target="_blank" rel="noreferrer">https://github.com/chocolatey/cChoco</a>.</p>
+                        </div>
+                        <div class="tab-pane fade" id="puppet" role="tabpanel" aria-labelledby="puppet-tab"><p class="step-three-danger text-danger fw-bold small">You must enter your internal repository url in Step 3 before proceeding.</p>
+<div class="code-toolbar"><pre class="line-numbers border py-3 py-2 language-puppet"><code class="language-puppet">package <span class="token punctuation">{</span> <span class="token string">'kellyelton.devenvironment'</span><span class="token punctuation">:</span>
+  <span class="token attr-name">provider</span> <span class="token operator">=&gt;</span> <span class="token string">'chocolatey'</span><span class="token punctuation">,</span>
+  <span class="token attr-name">ensure</span>   <span class="token operator">=&gt;</span> <span class="token string">'1.0.0.11'</span><span class="token punctuation">,</span>
+  <span class="token attr-name">source</span>   <span class="token operator">=&gt;</span> <span class="token string">'<span class="stepThreeUrl">http://internal/odata/repo</span>'</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre></div>
+                            <p>Requires Puppet Chocolatey Provider module. See docs at <a href="https://forge.puppet.com/puppetlabs/chocolatey" target="_blank" rel="noreferrer">https://forge.puppet.com/puppetlabs/chocolatey</a>.</p>
+                        </div>
+                        <div class="tab-pane fade" id="salt" role="tabpanel" aria-labelledby="salt-tab"><p class="step-three-danger text-danger fw-bold small">You must enter your internal repository url in Step 3 before proceeding.</p>
+<div class="code-toolbar"><pre class="line-numbers border py-3 py-2 language-powershell"><code class="language-powershell">salt <span class="token string">'*'</span> chocolatey<span class="token punctuation">.</span>install kellyelton<span class="token punctuation">.</span>devenvironment version=<span class="token string">"1.0.0.11"</span> source=<span class="token string">"<span class="stepThreeUrl">http://internal/odata/repo</span>"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre></div>
+                            <p>See docs at <a href="https://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.chocolatey.html" target="_blank" rel="noreferrer">https://docs.saltstack.com/en/latest/ref/modules/all/salt.modules.chocolatey.html</a>.</p>
+                        </div>
+                    </div>
+                    
+                    <h4 class="mt-4">5. If applicable - Chocolatey configuration/installation</h4>
+                    <p>See <a href="https://docs.chocolatey.org/en-us/features/integrations#chocolatey-integration-implementation-with-common-configuration-managers">infrastructure management matrix</a> for Chocolatey configuration elements and examples.</p>
+                </div>
+            </div>
+    
+        <div class="callout callout-danger">
+            This package is exempt from moderation. While it is likely safe for you, there is more risk involved.
+        </div>
+    <div class="mb-4 pb-4">
+        <a class="h2 btn-collapse d-block mb-n5" data-bs-toggle="collapse" href="#description" role="button" aria-expanded="true" aria-controls="description" title="Nuspec reference: description">Description</a>
+        <div class="collapse show mb-n4" id="description">
+            <span class="pt-5 d-block"></span>
+            <hr>
+            <p>Apps I install for development</p>
+<p>VisualStudio2013Pro<br>
+Msysgit<br>
+TortoiseGit<br>
+Notepad++<br>
+Linqpad4<br>
+PoshGit<br>
+TortoiseSvn<br>
+Putty.Install<br>
+WinSCP<br>
+Nsis<br>
+Nuget.CommandLine<br>
+7zip<br>
+Chrome<br>
+Clover<br>
+VirtuaWin<br>
+MySqlWorkbench<br>
+Vim<br>
+Paint.Net<br>
+LastPass<br>
+ConEmu<br>
+Fiddler<br>
+Snoop<br>
+IIS</p>
+
+        </div>
+    </div>
+    
+    <div class="mb-4 pb-4">
+        <a class="h2 btn-collapse d-block mb-n5 collapsed" data-bs-toggle="collapse" href="#files" role="button" aria-expanded="false" aria-controls="files" title="Nuspec reference: files, optional - will default to all files next to nuspec">Files</a>
+        <div class="collapse mb-n4 " id="files">
+            <span class="pt-5 d-block"></span>
+            <hr>
+                    <div class="mb-1">
+                                <button type="button" class="btn btn-sm btn-secondary btn-show-hide me-2" data-bs-toggle="collapse" data-bs-target=".file-path-dummy-txt-900612242" role="button" aria-expanded="false">Show</button>
+                        <span class="file-name">content\dummy.txt</span>
+                        <div class="file-path-dummy-txt-900612242 collapse ">
+                            <pre class="highlight-delay"><code class="">Nothing here...</code></pre>
+                        </div>
+                    </div>
+                    <div class="mb-1">
+                                <button type="button" class="btn btn-sm btn-secondary btn-show-hide me-2" data-bs-toggle="collapse" data-bs-target=".file-path-chocolateyinstall-ps1-1418075089" role="button" aria-expanded="false">Show</button>
+                        <span class="file-name">tools\chocolateyInstall.ps1</span>
+                        <div class="file-path-chocolateyinstall-ps1-1418075089 collapse ">
+                            <pre class="highlight-delay"><code class="">$packageName = 'kellyelton.devenvironment'
+
+function installsilentlyexe($url, $name) {
+  echo "Installing $name"
+  Install-ChocolateyPackage $name 'exe' '/SILENT' $url
+}
+function installsilentlymsi($url, $name) {
+  echo "Installing $name"
+  Install-ChocolateyPackage $name 'exe' '/quite' $url
+}
+function installclover(){
+	
+}
+try {
+	Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\Clover\clover.exe"
+	Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe"
+	Install-ChocolateyPinnedTaskBarItem "${env:SystemRoot}\system32\WindowsPowerShell\v1.0\powershell.exe"
+	Install-ChocolateyPinnedTaskBarItem "${env:windir}\system32\mstsc.exe"
+	Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe"
+	Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\LINQPad4\LINQPad.exe"
+	Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\Notepad++\notepad++.exe"
+	#Install-ChocolateyPinnedTaskBarItem "${env:ProgramFiles(x86)}\vim\vim74\gvim.exe"
+	#Install-ChocolateyPinnedTaskBarItem "C:\Chocolatey\lib\winscp.5.1.7\tools\WinSCP.exe"
+    choco windowsfeatures IIS-WebServer
+    choco windowsfeatures IIS-WebServerRole
+    choco windowsfeatures IIS-CommonHttpFeatures
+    choco windowsfeatures IIS-HttpErrors
+    choco windowsfeatures IIS-HttpRedirect
+    choco windowsfeatures IIS-ApplicationDeployment
+    choco windowsfeatures IIS-NetFxExtensibility
+    choco windowsfeatures IIS-NetFxExtensibility45
+    choco windowsfeatures IIS-HealthAndDiagnostics
+    choco windowsfeatures IIS-Security
+    choco windowsfeatures IIS-RequestFiltering
+    choco windowsfeatures IIS-Performance
+    choco windowsfeatures IIS-WebServerManagementTools
+    choco windowsfeatures IIS-ManagementScriptingTools
+    choco windowsfeatures IIS-WindowsAuthentication
+    choco windowsfeatures IIS-StaticContent
+    choco windowsfeatures IIS-DefaultDocument
+    choco windowsfeatures IIS-ApplicationInit
+    choco windowsfeatures IIS-WebSockets
+    choco windowsfeatures IIS-ASPNET
+    choco windowsfeatures IIS-ASPNET45
+    choco windowsfeatures IIS-ASP
+    choco windowsfeatures IIS-CGI
+    choco windowsfeatures IIS-ISAPIExtensions
+    choco windowsfeatures IIS-ISAPIFilter
+    choco windowsfeatures IIS-ManagementConsole
+    choco windowsfeatures IIS-ManagementService
+    Write-ChocolateySuccess $packageName
+} catch {
+  #Write-ChocolateyFailure $packageName "$($_.Exception.Message)"
+    throw
+}</code></pre>
+                        </div>
+                    </div>
+        </div>
+    </div>
+    
+    <div class="mb-4 pb-4">
+        <a class="h2 btn-collapse d-block mb-n5 collapsed" data-bs-toggle="collapse" href="#virus" role="button" aria-expanded="false" aria-controls="virus" title="Virus Scan Results">Virus Scan Results</a>
+        <div class="collapse mb-n4 " id="virus">
+            <span class="pt-5 d-block"></span>
+                <hr>
+                    <p class="fw-bold"><a href="https://community.chocolatey.org/users/account/LogOn">Log in</a> or click on link to see number of positives.</p>
+                <ul class="list-unstyled">
+                        <li class="d-flex align-items-center">
+                            <a title="full sha256: c0ddf9f851c3e96a82b03cb0d2396db1157ff1bf55ce1689796ed3ed83b6e6fd" href="https://www.virustotal.com/file/c0ddf9f851c3e96a82b03cb0d2396db1157ff1bf55ce1689796ed3ed83b6e6fd/analysis/">kellyelton.devenvironment.1.0.0.11.nupkg (c0ddf9f851c3)</a>
+                                - ## /  56                        </li>
+                </ul>
+                <div class="callout callout-warning">
+                    <p>In cases where actual malware is found, the 
+packages are subject to removal. Software sometimes has false positives.
+ Moderators do not necessarily validate the safety of the underlying 
+software, only that a package retrieves software from the official 
+distribution point and/or validate embedded software against official 
+distribution point (where distribution rights allow redistribution).</p>
+                    <p>Chocolatey Pro provides <a href="https://docs.chocolatey.org/en-us/features/virus-check">runtime protection</a> from possible malware.</p>
+                </div>
+        </div>
+    </div>
+    
+    <div class="mb-4 pb-4">
+        <a class="h2 btn-collapse d-block mb-n5 collapsed" data-bs-toggle="collapse" href="#versionhistory" role="button" aria-expanded="false" aria-controls="versionhistory" title="Version History">Version History</a>
+        <div class="collapse mb-n4 " id="versionhistory">
+            <span class="pt-5 d-block"></span>
+            <div class="table-responsive">
+                <table class="table table-bordered table-striped mt-3">
+                    <thead>
+                        <tr>
+                            <th scope="col">Version</th>
+                            <th scope="col">Downloads</th>
+                            <th scope="col">Last Updated</th>
+                            <th scope="col" last="">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+
+
+    <tr class="versionTableRow align-middle recommended " style="display: table-row">
+        <td class="version" title="Latest Version">
+                <span>Kelly Eltons Dev Environment 1.0.0.11</span>
+        </td>
+        <td>795</td>
+        <td>Saturday, January 31, 2015</td>
+    
+                <td><span class="fas fa-ban text-secondary"></span> Exempted</td>
+    
+    </tr>
+
+    <tr class="versionTableRow align-middle " style="display: table-row">
+        <td class="version">
+                <a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.10">Kelly Eltons Dev Environment 1.0.0.10</a>
+        </td>
+        <td>623</td>
+        <td>Tuesday, May 6, 2014</td>
+    
+                <td><span class="fas fa-question text-secondary"></span> Unknown</td>
+    
+    </tr>
+
+    <tr class="versionTableRow align-middle " style="display: table-row">
+        <td class="version">
+                <a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.9">Kelly Eltons Dev Environment 1.0.0.9</a>
+        </td>
+        <td>466</td>
+        <td>Tuesday, October 29, 2013</td>
+    
+                <td><span class="fas fa-question text-secondary"></span> Unknown</td>
+    
+    </tr>
+
+    <tr class="versionTableRow align-middle " style="display: table-row">
+        <td class="version">
+                <a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.8">Kelly Eltons Dev Environment 1.0.0.8</a>
+        </td>
+        <td>380</td>
+        <td>Tuesday, October 29, 2013</td>
+    
+                <td><span class="fas fa-question text-secondary"></span> Unknown</td>
+    
+    </tr>
+
+    <tr class="versionTableRow align-middle " style="display: table-row">
+        <td class="version">
+                <a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.7">Kelly Eltons Dev Environment 1.0.0.7</a>
+        </td>
+        <td>392</td>
+        <td>Tuesday, October 29, 2013</td>
+    
+                <td><span class="fas fa-question text-secondary"></span> Unknown</td>
+    
+    </tr>
+
+    <tr class="versionTableRow align-middle " style="display: table-row">
+        <td class="version">
+                <a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.6">Kelly Eltons Dev Environment 1.0.0.6</a>
+        </td>
+        <td>426</td>
+        <td>Tuesday, October 29, 2013</td>
+    
+                <td><span class="fas fa-question text-secondary"></span> Unknown</td>
+    
+    </tr>
+
+    <tr class="versionTableRow align-middle " style="display: table-row">
+        <td class="version">
+                <a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.5">Kelly Eltons Dev Environment 1.0.0.5</a>
+        </td>
+        <td>395</td>
+        <td>Tuesday, October 29, 2013</td>
+    
+                <td><span class="fas fa-question text-secondary"></span> Unknown</td>
+    
+    </tr>
+
+    <tr class="versionTableRow align-middle " style="display: table-row">
+        <td class="version">
+                <a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.4">Kelly Eltons Dev Environment 1.0.0.4</a>
+        </td>
+        <td>414</td>
+        <td>Monday, October 28, 2013</td>
+    
+                <td><span class="fas fa-question text-secondary"></span> Unknown</td>
+    
+    </tr>
+
+    <tr class="versionTableRow align-middle " style="display: table-row">
+        <td class="version">
+                <a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.3">Kelly Eltons Dev Environment 1.0.0.3</a>
+        </td>
+        <td>437</td>
+        <td>Sunday, February 10, 2013</td>
+    
+                <td><span class="fas fa-question text-secondary"></span> Unknown</td>
+    
+    </tr>
+
+    <tr class="versionTableRow align-middle versionTableRowMore" style="display: none">
+        <td class="version">
+                <a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.2">Kelly Eltons Dev Environment 1.0.0.2</a>
+        </td>
+        <td>447</td>
+        <td>Saturday, February 9, 2013</td>
+    
+                <td><span class="fas fa-question text-secondary"></span> Unknown</td>
+    
+    </tr>
+
+    <tr class="versionTableRow align-middle versionTableRowMore" style="display: none">
+        <td class="version">
+                <a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.1">Kelly Eltons Dev Environment 1.0.0.1</a>
+        </td>
+        <td>440</td>
+        <td>Saturday, February 9, 2013</td>
+    
+                <td><span class="fas fa-question text-secondary"></span> Unknown</td>
+    
+    </tr>
+
+    <tr class="versionTableRow align-middle versionTableRowMore" style="display: none">
+        <td class="version">
+                <a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/1.0.0.0">Kelly Eltons Dev Environment 1.0.0.0</a>
+        </td>
+        <td>430</td>
+        <td>Saturday, February 9, 2013</td>
+    
+                <td><span class="fas fa-question text-secondary"></span> Unknown</td>
+    
+    </tr>
+                    </tbody>
+                </table>
+                    <button type="button" class="btn btn-sm btn-show-hide btn-secondary" onclick="if($(this).is(':contains(&quot;Hide&quot;)')){$('.versionTableRowMore').hide();}else{$('.versionTableRowMore').show();}">Show Additional Versions</button>
+            </div>
+        </div>
+    </div>
+    
+        <div class="mb-4 pb-4">
+            <a class="h2 btn-collapse mb-n5 d-block collapsed" data-bs-toggle="collapse" href="#copyright" role="button" aria-expanded="false" aria-controls="copyright" title="Nuspec reference: copyright">Copyright</a>
+            <div class="collapse mb-n4" id="copyright">
+                <span class="pt-5 d-block"></span>
+                <hr>
+                <p class="mb-0">2014</p>
+            </div>
+        </div>
+        <div class="mb-4 pb-4">
+            <a class="h2 btn-collapse d-block mb-n5 collapsed" data-bs-toggle="collapse" href="#releasenotes" role="button" aria-expanded="false" aria-controls="releasenotes" title="Nuspec reference: releaseNotes">Release Notes</a>
+            <div class="collapse mb-n4" id="releasenotes">
+                <span class="pt-5 d-block"></span>
+                <hr>
+                <p>Fixed some dependencies and pinning.</p>
+
+            </div>
+        </div>
+    <div class="mb-4 pb-4">
+        <a class="h2 btn-collapse d-block mb-n5 collapsed" data-bs-toggle="collapse" href="#dependencies" role="button" aria-expanded="false" aria-controls="dependencies" title="Nuspec reference: dependencies">Dependencies</a>
+        <div class="collapse mb-n4 " id="dependencies">
+            <span class="pt-5 d-block"></span>
+            <hr>
+                <ul id="dependencySets" class="list-unstyled">
+            <li>
+                <ul class="dependencySet list-unstyled">
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;VisualStudio2013Professional&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/VisualStudio2013Professional">VisualStudio2013Professional</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;notepadplusplus&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/notepadplusplus">notepadplusplus</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;msysgit&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/msysgit">msysgit</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;TortoiseGit&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/TortoiseGit">TortoiseGit</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;linqpad4&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/linqpad4">linqpad4</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;poshgit&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/poshgit">poshgit</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;tortoisesvn&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/tortoisesvn">tortoisesvn</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;putty.install&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/putty.install">putty.install</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;winscp&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/winscp">winscp</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;nsis&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/nsis">nsis</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;NuGet.CommandLine&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/NuGet.CommandLine">NuGet.CommandLine</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;7zip.install&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/7zip.install">7zip.install</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;GoogleChrome&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/GoogleChrome">GoogleChrome</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;Clover&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/Clover">Clover</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;virtuawin&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/virtuawin">virtuawin</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;mysql.workbench&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/mysql.workbench">mysql.workbench</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;vim&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/vim">vim</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;paint.net&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/paint.net">paint.net</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;lastpass&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/lastpass">lastpass</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;ConEmu&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/ConEmu">ConEmu</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;fiddler&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/fiddler">fiddler</a>
+                            <span></span>
+                            </span>
+                        </li>
+                        <li>
+                            <span title="Nuspec reference: &lt;dependency id=&quot;snoop&quot; /&gt;">
+                                <a href="https://community.chocolatey.org/packages/snoop">snoop</a>
+                            <span></span>
+                            </span>
+                        </li>
+                </ul>
+            </li>
+    </ul>
+
+        </div>
+    </div>
+    
+    <div class="mb-4 pb-4">
+        <a class="h2 btn-collapse d-block mb-n5" data-bs-toggle="collapse" href="#discussion" role="button" aria-expanded="true" aria-controls="discussion" title="&gt;Discussion for the Kelly Eltons Dev Environment Package">Discussion for the Kelly Eltons Dev Environment Package</a>
+        <div class="collapse show" id="discussion">
+            <span class="pt-5 d-block"></span>
+            <hr>
+            <h3>Ground Rules:</h3>
+            <ul>
+                <li>This discussion is only about Kelly Eltons Dev 
+Environment and the Kelly Eltons Dev Environment package. If you have 
+feedback for Chocolatey, please contact the <a href="https://groups.google.com/group/chocolatey">Google Group</a>.</li>
+                <li>This discussion will carry over multiple versions. 
+If you have a comment about a particular version, please note that in 
+your comments.</li>
+                <li>
+                    The maintainers of this Chocolatey Package will be 
+notified about new comments that are posted to this Disqus thread, 
+however, it is NOT a guarantee that you
+                    will get a response. If you do not hear back from 
+the maintainers after posting a message below, please follow up by using
+ the link
+                    on the left side of this page or follow this link to
+ <a href="https://community.chocolatey.org/packages/kellyelton.devenvironment/ContactOwners">contact maintainers</a>.
+                    If you still hear nothing back, please follow the <a href="https://docs.chocolatey.org/en-us/community-repository/users/package-triage-process">package triage process</a>.
+                </li>
+                <li>Tell us what you love about the package or Kelly Eltons Dev Environment, or tell us what needs improvement.</li>
+                <li>Share your experiences with the package, or extra configuration or gotchas that you've found.</li>
+                <li>If you use a url, the comment will be flagged for 
+moderation until you've been whitelisted. Disqus moderated comments are 
+approved on a weekly schedule if not sooner. It could take between 1-5 
+days for your comment to show up.</li>
+            </ul>
+            <a name="disqus"></a>
+            <div id="disqus_thread"><iframe id="dsq-app7114" name="dsq-app7114" allowtransparency="true" scrolling="no" tabindex="0" title="Disqus" style="width: 1px !important; min-width: 100% !important; border: medium none !important; overflow: hidden !important; height: 749px !important;" src="samplehtml_files/a_002.html" horizontalscrolling="no" verticalscrolling="no" width="100%" frameborder="0"></iframe></div>
+            
+        </div>
+    </div>
+</div>
+</div>
+</section>
+
+
+    </main>
+    <footer class="flex-shrink-0">
+        <section id="mc_embed_signup" class="bg-theme-primary border-top py-3">
+    <div class="container-fluid">
+        <form action="//chocolatey.us8.list-manage.com/subscribe/post?u=86a6d80146a0da7f2223712e4&amp;id=73b018498d" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate="">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-auto text-center text-md-start">
+                    <h3 class="mb-0">Signup for the Newsletter!</h3>
+                </div>
+                <div class="col-md-3">
+                    <input type="email" title="Email Address for Newsletter" class="form-control email mt-2 mt-md-0" id="mce-EMAIL" placeholder="Your e-mail address" name="EMAIL" required="">
+                </div>
+                <div style="position: absolute; left: -5000px;">
+                    <input title="Invisible Field" type="text" name="b_86a6d80146a0da7f2223712e4_73b018498d" tabindex="-1">
+                </div>
+                <div class="col-md-auto">
+                    <button type="submit" class="btn btn-theme mt-2 mt-md-0 w-100" id="mc-embedded-subscribe"><strong>Subscribe</strong></button>
+                </div>
+            </div>
+            <p class="mb-0 mt-1 text-center"><i>Be the first to know about upcoming features, security releases, and news about Chocolatey.</i></p>
+        </form>
+    </div>
+</section>
+        <section class="bg-theme-primary-light fw-bold border-top py-5 text-center text-md-start">
+    <div class="container">
+        <div class="row row-divider row-md-divider-none ">
+            <div class="col-md-3 pb-3 pb-md-0">
+                <h4>Overview</h4>
+                <ul class="list-unstyled mb-0">
+                    <li><a href="https://community.chocolatey.org/courses">Getting Started Guide</a></li>
+                    <li><a href="https://docs.chocolatey.org/en-us/information/security">Security</a></li>
+                    <li><a href="https://chocolatey.org/privacy">Privacy Policy</a></li>
+                    <li><a href="https://chocolatey.org/partner">Partner</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <h4>Product</h4>
+                <ul class="list-unstyled mb-0">
+                    <li><a href="https://chocolatey.org/contact/trial">C4B Trial</a></li>
+                    <li><a href="https://chocolatey.org/pricing">Pricing</a></li>
+                    <li><a href="https://chocolatey.org/support">Support</a></li>
+                    <li><a href="https://community.chocolatey.org/packages">Community Packages</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 py-3 py-md-0">
+                <h4>Learn</h4>
+                <ul class="list-unstyled mb-0">
+                    <li><a href="https://docs.chocolatey.org/en-us/">Docs</a></li>
+                    <li><a href="https://community.chocolatey.org/courses">Courses</a></li>
+                    <li><a href="https://community.chocolatey.org/sitemap">Sitemap</a></li>
+                    <li class="d-flex justify-content-center justify-content-md-start">
+                        <a class="me-2" href="https://blog.chocolatey.org/">Blog</a>
+                        <a href="https://feeds.feedburner.com/ChocolateyBlog" rel="alternate" type="application/rss+xml" target="_blank" aria-label="Connect with Chocolatey on pur Blog RSS feed">
+                            <div class="bg-rss circle circle-sm" aria-hidden="true">
+                                <i class="fas fa-rss"></i>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-3 pt-3 pt-md-0">
+                <h4>Connect</h4>
+                <ul class="list-unstyled mb-0">
+                    <li><a href="https://chocolatey.org/contact/">Contact Us</a></li>
+                    <li><a href="https://chocolatey.org/support">Support</a></li>
+                    <li><a href="http://eepurl.com/4qUJH">Newsletter</a></li>
+                    <li><a href="http://cafepress.com/chocolatey">Shop</a></li>
+                    <li><a href="https://chocolatey.org/bugs">Report a Bug</a></li>
+                    <li><a href="https://status.chocolatey.org/">Status</a></li>
+                    <li class="pt-3">
+                        
+<ul class="list-unstyled list-inline mb-0">
+    <li class="list-inline-item">
+        <a href="https://twitter.com/chocolateynuget" target="_blank" rel="noreferrer" aria-label="Connect with Chocolatey on Twitter">
+            <div class="bg-twitter circle" aria-hidden="true">
+                <i class="fab fa-twitter"></i>
+            </div>
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="https://www.linkedin.com/company/chocolatey-software/" target="_blank" rel="noreferrer" aria-label="Connect with Chocolatey on LinkedIn">
+            <div class="bg-linkedin circle" aria-hidden="true">
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="https://github.com/chocolatey" target="_blank" rel="noreferrer" aria-label="Connect with Chocolatey on GitHub">
+            <div class="bg-github circle" aria-hidden="true">
+                <i class="fab fa-github"></i>
+            </div>
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="https://www.youtube.com/chocolateysoftware" target="_blank" rel="noreferrer" aria-label="Connect with Chocolatey on YouTube">
+            <div class="bg-youtube circle" aria-hidden="true">
+                <i class="fab fa-youtube"></i>
+            </div>
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="https://www.twitch.tv/chocolateysoftware" target="_blank" rel="noreferrer" aria-label="Connect with Chocolatey on Twitch">
+            <div class="bg-twitch circle" aria-hidden="true">
+                <i class="fab fa-twitch"></i>
+            </div>
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="https://facebook.com/ChocolateySoftware" target="_blank" rel="noreferrer" aria-label="Connect with Chocolatey on Facebook">
+            <div class="bg-facebook circle" aria-hidden="true">
+                <i class="fab fa-facebook-f"></i>
+            </div>
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="https://gitter.im/chocolatey/chocolatey.org" target="_blank" rel="noreferrer" aria-label="Connect with Chocolatey on Gitter">
+            <div class="bg-gitter circle" aria-hidden="true">
+                <i class="fab fa-gitter"></i>
+            </div>
+        </a>
+    </li>
+    <li class="list-inline-item">
+        <a href="https://groups.google.com/forum/#!forum/chocolatey" target="_blank" rel="noreferrer" aria-label="Connect with Chocolatey on Google Groups">
+            <div class="bg-google circle" aria-hidden="true">
+                <i class="fab fa-google"></i>
+            </div>
+        </a>
+    </li>
+</ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+        <section class="bg-theme-light border-top text-center px-3 pt-3">
+    <span class="small">
+        <span>© 2021 Chocolatey Software, Inc.</span><br>
+        <span class="text-bg-theme-light">Deployed from 446b793f71. You are on web.2. Page generated 19 Jul 2021 12:21:06 +00:00.</span>
+    </span>
+</section>
+        
+    </footer>
+    <div id="cookieNoticeAlert" class="alert alert-primary alert-dismissible alert-dismissible-center alert-btn-center fade show d-none" role="alert">
+    <p class="mb-0"><strong>chocolatey.org uses cookies to enhance the user experience of the site.</strong></p>
+    <button type="button" class="btn btn-theme btn-sm d-none d-md-inline-block" data-bs-dismiss="alert" aria-label="Close">I accept</button>
+    <button type="button" class="btn btn-theme d-md-none" data-bs-dismiss="alert" aria-label="Close">I accept</button>
+</div>
+
+    
+
+
+    <script type="text/javascript" src="samplehtml_files/polyfill.js"></script>
+    
+<script src="samplehtml_files/main" type="text/javascript"></script>
+<script src="samplehtml_files/packages" type="text/javascript"></script>
+
+
+    
+    <script language="javascript" type="text/javascript">
+        ((window.gitter = {}).chat = {}).options = {
+            room: 'chocolatey/chocolatey.org'
+        };
+    </script>
+    <script src="samplehtml_files/sidecar.js" async="" defer="defer"></script>
+    <script type="text/javascript" language="javascript">
+        var disqus_shortname = 'chocolatey';
+        var disqus_url = 'https://community.chocolatey.org/packages/kellyelton.devenvironment';
+        var commentItem;
+        function disqus_config() {
+            this.callbacks.onNewComment = [function (comment) {
+            var commentViewModel = { Id: comment.id, Text: comment.text };
+
+            // take the data and post it via json
+            $.post('https://community.chocolatey.org/packages/kellyelton.devenvironment/notify-comment', commentViewModel, function (data) {
+                // At the minute, it is fire and forget
+            });
+            } ];
+        }
+
+        (function () {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+    <noscript><img src="https://ws.zoominfo.com/pixel/KPKpTJOFOv5SuV7X3eGx" width="1" height="1" style="display: none;" /></noscript>
+
+
+<iframe style="display: none;"></iframe><aside class="gitter-chat-embed is-collapsed"><div class="gitter-chat-embed-action-bar"><a class="gitter-chat-embed-action-bar-item gitter-chat-embed-action-bar-item-pop-out" aria-label="Open Chat in Gitter.im" href="https://gitter.im/chocolatey/chocolatey.org" target="_blank" rel="noopener"></a><button class="gitter-chat-embed-action-bar-item gitter-chat-embed-action-bar-item-collapse-chat" aria-label="Collapse Gitter Chat"></button></div><div class="gitter-chat-embed-loading-wrapper">
+        <div class="gitter-chat-embed-loading-indicator gitter-icon"></div>
+      </div></aside><a href="https://gitter.im/chocolatey/chocolatey.org" class="gitter-open-chat-button">Open Chat</a></body></html>
